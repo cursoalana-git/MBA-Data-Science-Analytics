@@ -1,0 +1,758 @@
+{
+  "ID_EXECUCAO": "20261006_162318",
+  "SECAO": "14 - Cobertura final, nulos e limitações",
+  "MANIFESTO_SECAO13": "manifesto_secao13_20261006_162318.json",
+  "CELULAS": [
+    {
+      "CELULA": "14.1.1 Granularidade, chaves e herança",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "14.1.2 Empresa trimestral × anual",
+      "REGRAS": "5/5",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "14.1.3 Ativo × ativo e ativo × empresa",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "14.1.4 Identidades nas tabelas",
+      "REGRAS": "3/3",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "14.2 Cobertura dos campos publicáveis",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "14.3 Nulos por motivo",
+      "REGRAS": "3/3",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "14.4 Limitações consolidadas",
+      "REGRAS": "3/3",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS_FINAIS": [
+    {
+      "DATAFRAME": "df_dim_empresa_final",
+      "CHAVE": "CODIGO_CVM",
+      "QTD_LINHAS": 489,
+      "QTD_COLUNAS": 31,
+      "SECAO_REGISTRO": 8,
+      "HASH": "9d60ed608a77c661469fad0a11d1e2535b796361e13055f2b58860d81e636307"
+    },
+    {
+      "DATAFRAME": "df_dim_ativo_final",
+      "CHAVE": "ID_ATIVO",
+      "QTD_LINHAS": 806,
+      "QTD_COLUNAS": 32,
+      "SECAO_REGISTRO": 8,
+      "HASH": "7f0bc92e783d40d31a2fa394c3b4c49bf91a90a6fc7abba3e32677b330106db0"
+    },
+    {
+      "DATAFRAME": "df_fato_empresa_trimestral_final",
+      "CHAVE": "CODIGO_CVM + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 18851,
+      "QTD_COLUNAS": 76,
+      "SECAO_REGISTRO": 9,
+      "HASH": "220c0b453ceee2a23e169b99f002afd608fd7fd9779958b1b8f8c3b7441ec3d1"
+    },
+    {
+      "DATAFRAME": "df_fato_empresa_anual_final",
+      "CHAVE": "CODIGO_CVM + ANO_FISCAL",
+      "QTD_LINHAS": 4579,
+      "QTD_COLUNAS": 89,
+      "SECAO_REGISTRO": 13,
+      "HASH": "3c0cb37689a7e47af83bd11ca6e3cf0b4bb821d2f4b765167050c6695a5d9caf"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_trimestral_final",
+      "CHAVE": "ID_ATIVO + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 24159,
+      "QTD_COLUNAS": 37,
+      "SECAO_REGISTRO": 12,
+      "HASH": "5db088a9408d8e8fbe3c5abd5f1d4bf7ff4fb0ddcf1b5349fd35c3db874122d0"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_anual_final",
+      "CHAVE": "ID_ATIVO + ANO_FISCAL",
+      "QTD_LINHAS": 5981,
+      "QTD_COLUNAS": 75,
+      "SECAO_REGISTRO": 13,
+      "HASH": "83d4133d29cefe79b717ce3c982c94a87a660f17cf593ce52fb3b2375e3e1fba"
+    }
+  ],
+  "PARAMETROS": {
+    "TOLERANCIA_RECONCILIACAO_RELATIVA": 0.01,
+    "TOLERANCIA_RECONCILIACAO_ABSOLUTA": 1.0,
+    "LIMIAR_QUASE_ZERO_PER_SHARE": 0.01
+  },
+  "RESUMO": {
+    "RECONCILIACAO": {
+      "RELACOES_SEM_PAR": 0,
+      "EMPRESA_TRIMESTRAL_ANUAL_DIVERGENTES": 0,
+      "ATIVO_DIVERGENTES": 0,
+      "IDENTIDADES_CONFERIDAS": 41,
+      "IDENTIDADES_DIVERGENTES": 0
+    },
+    "NULOS_POR_CATEGORIA": {
+      "NAO_APLICAVEL": 12438,
+      "JANELA_INICIAL": 20341,
+      "PERDA_CONTROLADA": 4071,
+      "LACUNA_FONTE": 17230,
+      "PROPAGACAO": 32878,
+      "SEM_MOTIVO": 0,
+      "TOTAL_NULOS": 86958
+    },
+    "LIMITACOES_POR_TIPO": {
+      "LEITURA_COM_FLAG": 31,
+      "LIMITACAO_DOCUMENTADA": 22,
+      "ENCAMINHADA_E_TRATADA": 9,
+      "NULO_COM_MOTIVO": 8,
+      "DECISAO_REGISTRADA": 7,
+      "TEXTO_DO_TRABALHO": 2
+    }
+  },
+  "COBERTURA_POR_TABELA": [
+    {
+      "TABELA": "DIM_EMPRESA",
+      "QTD_LINHAS": 489,
+      "QTD_LINHAS_UNIVERSO": 431,
+      "QTD_CAMPOS_PUBLICAVEIS": 21,
+      "QTD_CAMPOS_100_PCT": 16,
+      "PCT_MEDIO": 91.44025708442886,
+      "PCT_MEDIO_UNIVERSO": 92.36548447685338,
+      "PCT_MINIMO": 28.22085889570552,
+      "CAMPO_MENOR_COBERTURA": "DATA_CANCELAMENTO_CVM"
+    },
+    {
+      "TABELA": "DIM_ATIVO",
+      "QTD_LINHAS": 806,
+      "QTD_LINHAS_UNIVERSO": 696,
+      "QTD_CAMPOS_PUBLICAVEIS": 15,
+      "QTD_CAMPOS_100_PCT": 9,
+      "PCT_MEDIO": 78.21339950372209,
+      "PCT_MEDIO_UNIVERSO": 78.04597701149424,
+      "PCT_MINIMO": 9.057071960297765,
+      "CAMPO_MENOR_COBERTURA": "AUD_ID_ATIVO_ANTERIOR"
+    },
+    {
+      "TABELA": "FATO_EMPRESA_TRIMESTRAL",
+      "QTD_LINHAS": 18851,
+      "QTD_LINHAS_UNIVERSO": 17094,
+      "QTD_CAMPOS_PUBLICAVEIS": 40,
+      "QTD_CAMPOS_100_PCT": 10,
+      "PCT_MEDIO": 97.36870723038565,
+      "PCT_MEDIO_UNIVERSO": 97.58482508482508,
+      "PCT_MINIMO": 73.23749403214683,
+      "CAMPO_MENOR_COBERTURA": "DIVIDA_LONGO_PRAZO_SOBRE_CAPITAL_DE_GIRO"
+    },
+    {
+      "TABELA": "FATO_EMPRESA_ANUAL",
+      "QTD_LINHAS": 4579,
+      "QTD_LINHAS_UNIVERSO": 4118,
+      "QTD_CAMPOS_PUBLICAVEIS": 54,
+      "QTD_CAMPOS_100_PCT": 18,
+      "PCT_MEDIO": 97.30492667815227,
+      "PCT_MEDIO_UNIVERSO": 98.0195348335222,
+      "PCT_MINIMO": 73.07272330203101,
+      "CAMPO_MENOR_COBERTURA": "DIVIDA_LONGO_PRAZO_SOBRE_CAPITAL_DE_GIRO"
+    },
+    {
+      "TABELA": "FATO_ATIVO_TRIMESTRAL",
+      "QTD_LINHAS": 24159,
+      "QTD_LINHAS_UNIVERSO": 24159,
+      "QTD_CAMPOS_PUBLICAVEIS": 14,
+      "QTD_CAMPOS_100_PCT": 8,
+      "PCT_MEDIO": 90.3165339151928,
+      "PCT_MEDIO_UNIVERSO": 90.3165339151928,
+      "PCT_MINIMO": 51.89370420961132,
+      "CAMPO_MENOR_COBERTURA": "PRECO_SOBRE_LUCRO_12_MESES"
+    },
+    {
+      "TABELA": "FATO_ATIVO_ANUAL",
+      "QTD_LINHAS": 5981,
+      "QTD_LINHAS_UNIVERSO": 5981,
+      "QTD_CAMPOS_PUBLICAVEIS": 23,
+      "QTD_CAMPOS_100_PCT": 9,
+      "PCT_MEDIO": 82.41678358279479,
+      "PCT_MEDIO_UNIVERSO": 82.41678358279479,
+      "PCT_MINIMO": 11.118542049824445,
+      "CAMPO_MENOR_COBERTURA": "CRESCIMENTO_LPA_10_ANOS"
+    }
+  ],
+  "DECISOES": {
+    "ORDEM": "reconciliação entre tabelas antes da cobertura: cobertura só se mede sobre valores conferidos",
+    "GRAO_TRIMESTRAL": "um registro por entidade × exercício (DATA_INICIO_EXERCICIO) × trimestre; rótulo ano × trimestre repetido só com mudança de exercício registrada na 9.1.2",
+    "TOLERANCIAS": "reconciliação em R$ mil com TOLERANCIA_RECONCILIACAO_*; por ação com LIMIAR_QUASE_ZERO_PER_SHARE; identidades com tolerância de ponto flutuante (mesma conta)",
+    "NULOS": "motivo pela primeira regra que se aplica: motivo gravado, flag, janela inicial, divisor zero, campo-base nulo, conta ausente; categorias NAO_APLICAVEL, JANELA_INICIAL, PERDA_CONTROLADA, LACUNA_FONTE, PROPAGACAO",
+    "CORRECOES_NA_ORIGEM": [
+      "9.1.2 (3.2): ITR com início do exercício errado na fonte usa o início do exercício que o contém",
+      "9.2.2 (função): acumulado ausente = acumulado anterior + linha de 3 meses (identidade exata)",
+      "9.2.2 (4.1): 3.11.01 zerada com lucro na 3.11 tratada na linha do documento, antes de desacumular",
+      "11.2.2: comparação da volta do preço em float numpy; regra de ao menos um salto persistente"
+    ]
+  },
+  "LIMITACOES": [
+    {
+      "ORIGEM": "Seção 8",
+      "TIPO": "ENCAMINHADA_E_TRATADA",
+      "ITEM": "troca de ticker na mesma classe sem ligação registrada",
+      "QTD_REGISTRADA": "3",
+      "DESTINO": "Seção 11: continuidade da série de preço"
+    },
+    {
+      "ORIGEM": "Seção 8",
+      "TIPO": "ENCAMINHADA_E_TRATADA",
+      "ITEM": "classe × ano dentro da janela da classe sem pregão",
+      "QTD_REGISTRADA": "85",
+      "DESTINO": "Seção 11: confirmar pela QA por classe (FRE)"
+    },
+    {
+      "ORIGEM": "Seção 8",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "classe × ano com preço via unit (mesmo preço para ON e PN)",
+      "QTD_REGISTRADA": "39",
+      "DESTINO": "Seções 10 a 13: flag de aproximação"
+    },
+    {
+      "ORIGEM": "Seção 8",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "classe × ano via unit com composição de ano posterior",
+      "QTD_REGISTRADA": "38",
+      "DESTINO": "Seção 14: limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 8",
+      "TIPO": "ENCAMINHADA_E_TRATADA",
+      "ITEM": "empresa × ano do universo sem ativo elegível para a carteira",
+      "QTD_REGISTRADA": "5",
+      "DESTINO": "Seção 10: fora da carteira no ano"
+    },
+    {
+      "ORIGEM": "Seção 8",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "código de emissor antigo negociado sem ligação a empresa",
+      "QTD_REGISTRADA": "19",
+      "DESTINO": "limitação: financeiras, holdings e empresas fora da base"
+    },
+    {
+      "ORIGEM": "Seção 8",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "ligação investigativa na 3.8 (registrada, não aplicada)",
+      "QTD_REGISTRADA": "2",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 8",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "pregões de ação com ticker fora do padrão B3 (não contam como negociação)",
+      "QTD_REGISTRADA": "4051",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 8",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "ticker negociado e não declarado no FCA (universo, 2018+)",
+      "QTD_REGISTRADA": "410",
+      "DESTINO": "informativo: COTAHIST é a fonte do ativo"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "ENCAMINHADA_E_TRATADA",
+      "ITEM": "empresa com dois exercícios terminados no mesmo ano (mudança de exercício)",
+      "QTD_REGISTRADA": "1",
+      "DESTINO": "Seção 10: escolher um exercício por ANO_FISCAL"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "ENCAMINHADA_E_TRATADA",
+      "ITEM": "Q4 da DRE sem base (fluxos nulos)",
+      "QTD_REGISTRADA": "42",
+      "DESTINO": "Seção 10: anual vem direto da DFP"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "ENCAMINHADA_E_TRATADA",
+      "ITEM": "Q4 da DFC sem base (CFO nulo)",
+      "QTD_REGISTRADA": "44",
+      "DESTINO": "Seção 10: anual vem direto da DFP"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "linhas excluídas por entrega fora da vigência CVM",
+      "QTD_REGISTRADA": "244",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "trimestres com base de ativo instável (índices 12M mantidos)",
+      "QTD_REGISTRADA": "56",
+      "DESTINO": "leitura cautelosa; Seção 14"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "trimestres com receita negativa anulada (RL e LB)",
+      "QTD_REGISTRADA": "100",
+      "DESTINO": "limitação documentada; Seção 14"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "trimestres com PL quase zero (valor mantido)",
+      "QTD_REGISTRADA": "269",
+      "DESTINO": "Seções 10 a 13: leitura cautelosa de IE, DLP/PL e múltiplos"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "empresas com PL negativo em algum trimestre",
+      "QTD_REGISTRADA": "112",
+      "DESTINO": "Seções 10 a 13: múltiplos e Graham com a flag"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "zeros isolados e caixa negativo anulados",
+      "QTD_REGISTRADA": "131",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "DECISAO_REGISTRADA",
+      "ITEM": "tolerâncias de reconciliação marcadas [PROVISORIO] no painel",
+      "QTD_REGISTRADA": "2",
+      "DESTINO": "congeladas neste manifesto; revisar status no painel 0.2"
+    },
+    {
+      "ORIGEM": "Seção 9",
+      "TIPO": "DECISAO_REGISTRADA",
+      "ITEM": "correção por PENÚLTIMO não aplicada (risco de look-ahead)",
+      "QTD_REGISTRADA": "0",
+      "DESTINO": "decisão registrada; AUD_FLAG_PATCH_PENULTIMO = False"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "ENCAMINHADA_E_TRATADA",
+      "ITEM": "campos da 3.7 pendentes de QA e preço (VALOR_PATRIMONIAL_POR_ACAO, VALOR_MERCADO_EMPRESA, BOOK_TO_MARKET)",
+      "QTD_REGISTRADA": "3",
+      "DESTINO": "seção do ativo anual: acrescentar e reauditar esta tabela"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "exercício descartado por haver outro de 12 meses no mesmo ano (Cosan 2013)",
+      "QTD_REGISTRADA": "1",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "exercícios diferentes de 12 meses (deltas nulos)",
+      "QTD_REGISTRADA": "6",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "NULO_COM_MOTIVO",
+      "ITEM": "primeiro ano sem AT0 (sem comparativo na DFP)",
+      "QTD_REGISTRADA": "9",
+      "DESTINO": "ROA, CFOA, ACC e GA nulos no ano"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "janela de 10 anos incompleta (AD10 < 10)",
+      "QTD_REGISTRADA": "3155",
+      "DESTINO": "Graham: ler AL10 com AD10"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "capitalizações de reservas (não contam como emissão)",
+      "QTD_REGISTRADA": "436",
+      "DESTINO": "evidência de que a 5.04.01 inclui capitalizações"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "LLc com 3.11.01 zerada e não controladores (nulo)",
+      "QTD_REGISTRADA": "14",
+      "DESTINO": "AL10 conta o ano como indisponível"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "anos com ativo atípico ou base de ativo instável (valores mantidos)",
+      "QTD_REGISTRADA": "22",
+      "DESTINO": "leitura cautelosa de ROA, CFOA, ACC, GA e LEV"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "empresas com PL negativo em algum ano",
+      "QTD_REGISTRADA": "102",
+      "DESTINO": "Graham e múltiplos com a flag"
+    },
+    {
+      "ORIGEM": "Seção 10",
+      "TIPO": "ENCAMINHADA_E_TRATADA",
+      "ITEM": "SEM_DADO na emissão (aguarda evidência do FRE)",
+      "QTD_REGISTRADA": "0",
+      "DESTINO": "seção de quantidade de ações"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "ENCAMINHADA_E_TRATADA",
+      "ITEM": "pregões com preço suspeito (preço mantido)",
+      "QTD_REGISTRADA": "10232",
+      "DESTINO": "Seção 12: preferir pregão não suspeito no preço de entrega"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "pregões abaixo do piso de preço",
+      "QTD_REGISTRADA": "8914",
+      "DESTINO": "Seções 12 e 13: múltiplos com a flag"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "NULO_COM_MOTIVO",
+      "ITEM": "QA anulada (catálogo, valor nominal, indeterminada ou zero)",
+      "QTD_REGISTRADA": "161",
+      "DESTINO": "VPA, VM e B/M nulos no ano"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "saltos de QA sem evento (emissão, recompra ou cancelamento; QA mantida)",
+      "QTD_REGISTRADA": "2191",
+      "DESTINO": "evidência auxiliar de emissão (a fonte principal é a DMPL)"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "anos com lacuna no índice de eventos",
+      "QTD_REGISTRADA": "341",
+      "DESTINO": "Seção 13: LPA médio e crescimento com a flag"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "DECISAO_REGISTRADA",
+      "ITEM": "LPA não verificado (sem lucro ou QA para conferir)",
+      "QTD_REGISTRADA": "24945",
+      "DESTINO": "mantido como declarado"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "LPA divergente (entre a faixa e 10×; mantido)",
+      "QTD_REGISTRADA": "1314",
+      "DESTINO": "P/L com a flag"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "LPA com escala divergente longa (mantido, só flag)",
+      "QTD_REGISTRADA": "168",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "NULO_COM_MOTIVO",
+      "ITEM": "LPA anulado",
+      "QTD_REGISTRADA": "3574",
+      "DESTINO": "P/L e LPA médio nulos"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "ativo × ano sem fonte de dividendos (NA)",
+      "QTD_REGISTRADA": "1869",
+      "DESTINO": "Graham G4: streak interrompido como indisponível, nunca como 'não pagou'"
+    },
+    {
+      "ORIGEM": "Seção 11",
+      "TIPO": "TEXTO_DO_TRABALHO",
+      "ITEM": "proporção sem fonte de dividendos no primeiro ano / no último ano completo",
+      "QTD_REGISTRADA": "51% / 9%",
+      "DESTINO": "trabalho escrito: viés de sobrevivência da fonte (deslistados fora do Yahoo)"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "ativos da amostra sem trimestre na grade",
+      "QTD_REGISTRADA": "3",
+      "DESTINO": "limitação documentada (empresa fora da fato ou sem trimestre no período negociado)"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "NULO_COM_MOTIVO",
+      "ITEM": "trimestres sem pregão na tolerância (preço nulo)",
+      "QTD_REGISTRADA": "2287",
+      "DESTINO": "P/L12 nulo; Seção 14 (cobertura)"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "preço de entrega de pregão suspeito (único na tolerância)",
+      "QTD_REGISTRADA": "90",
+      "DESTINO": "múltiplos com a flag"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "preço de entrega abaixo do piso",
+      "QTD_REGISTRADA": "137",
+      "DESTINO": "múltiplos com a flag"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "sem negociação nos 6 meses anteriores à entrega",
+      "QTD_REGISTRADA": "1112",
+      "DESTINO": "informativa; não filtra"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "Q4 derivado do anual (aproximação)",
+      "QTD_REGISTRADA": "3703",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "NULO_COM_MOTIVO",
+      "ITEM": "Q4 anulado por evento acima de LIMIAR_LPA no ano",
+      "QTD_REGISTRADA": "74",
+      "DESTINO": "LPA12 nulo nos 4 trimestres da janela"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "Q4 mantido com evento pequeno no ano",
+      "QTD_REGISTRADA": "97",
+      "DESTINO": "leitura com a flag; Seção 13 alinha o evento ao ano fiscal"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "LPA × preço atípico mantido (NAO_VERIFICADO)",
+      "QTD_REGISTRADA": "77",
+      "DESTINO": "leitura com a flag (recuperação judicial e similares)"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "LPA anulado pelo preço (uma ordem de grandeza além do limiar)",
+      "QTD_REGISTRADA": "53",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "LPA lido de classe aproximada",
+      "QTD_REGISTRADA": "205",
+      "DESTINO": "leitura com a flag"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "LPA com divergência longa (mantido)",
+      "QTD_REGISTRADA": "326",
+      "DESTINO": "P/L com a flag"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "LPA12 quase zero (P/L12 extremo mantido)",
+      "QTD_REGISTRADA": "101",
+      "DESTINO": "P/L12 com a flag"
+    },
+    {
+      "ORIGEM": "Seção 12",
+      "TIPO": "DECISAO_REGISTRADA",
+      "ITEM": "unit sem métrica por ação",
+      "QTD_REGISTRADA": "453",
+      "DESTINO": "decisão registrada; preço mantido"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "ativos da amostra sem exercício na grade anual",
+      "QTD_REGISTRADA": "32",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "QA incerta (corrigida, imputada, defasada, posterior ou com evento antes do fim)",
+      "QTD_REGISTRADA": "1034",
+      "DESTINO": "leitura com a flag; Seção 14"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "DECISAO_REGISTRADA",
+      "ITEM": "QA de FRE entregue depois da DFP (primeiro ano e IPO)",
+      "QTD_REGISTRADA": "359",
+      "DESTINO": "decisão registrada (opção B)"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "NULO_COM_MOTIVO",
+      "ITEM": "QA sem FRE na janela",
+      "QTD_REGISTRADA": "204",
+      "DESTINO": "VPA, VM e B/M nulos; Seção 14"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "NULO_COM_MOTIVO",
+      "ITEM": "empresa × ano com VM nulo (sem classe, sem preço, sem QA, evento ou atípico)",
+      "QTD_REGISTRADA": "1033",
+      "DESTINO": "motivo em AUD_MOTIVO_VM_AUSENTE"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "VM e VPA anulados por VM / ativo atípico",
+      "QTD_REGISTRADA": "6",
+      "DESTINO": "limitação documentada (QA em escala errada ou empresa sem operação)"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "múltiplos com salto de preço antes da entrega (flag)",
+      "QTD_REGISTRADA": "363",
+      "DESTINO": "leitura com a flag"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "múltiplos anulados por salto de preço uma ordem de grandeza além do limiar",
+      "QTD_REGISTRADA": "49",
+      "DESTINO": "limitação documentada (grupamento sem FRE posterior)"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "LPA × preço atípico mantido (NAO_VERIFICADO)",
+      "QTD_REGISTRADA": "48",
+      "DESTINO": "leitura com a flag"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "LPA3 com algum LPA sinalizado na média",
+      "QTD_REGISTRADA": "85",
+      "DESTINO": "leitura com a flag"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "streak de dividendos censurado",
+      "QTD_REGISTRADA": "2726",
+      "DESTINO": "Graham G4: limite inferior; série começa em 2011"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "TEXTO_DO_TRABALHO",
+      "ITEM": "ativo × ano sem fonte de dividendos",
+      "QTD_REGISTRADA": "1869",
+      "DESTINO": "trabalho escrito: viés de sobrevivência da fonte"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "eventos do FRE com tamanho divergente da QA (não entram no índice)",
+      "QTD_REGISTRADA": "115",
+      "DESTINO": "LPA3 dessas empresas com base possivelmente mista"
+    },
+    {
+      "ORIGEM": "Seção 13",
+      "TIPO": "DECISAO_REGISTRADA",
+      "ITEM": "FATO_EMPRESA_ANUAL republicada com VPA, VM e B/M",
+      "QTD_REGISTRADA": "4579",
+      "DESTINO": "versão da Seção 10 preservada em df_fato_empresa_anual_final_secao10"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "rótulo ano × trimestre repetido por mudança de exercício (linhas)",
+      "QTD_REGISTRADA": "12",
+      "DESTINO": "leitura com a chave empresa × data de fim"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "NULO_COM_MOTIVO",
+      "ITEM": "trimestre de exercício acima de 12 meses (rótulo nulo)",
+      "QTD_REGISTRADA": "4",
+      "DESTINO": "nulo com motivo (14.3)"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "empresa da DIM_EMPRESA sem linha na FATO_EMPRESA_ANUAL",
+      "QTD_REGISTRADA": "68",
+      "DESTINO": "limitação documentada (cobertura entre tabelas)"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "ativo da DIM_ATIVO sem linha na FATO_ATIVO_ANUAL",
+      "QTD_REGISTRADA": "142",
+      "DESTINO": "limitação documentada (cobertura entre tabelas)"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "empresa × ano sem nenhum ativo na FATO_ATIVO_ANUAL",
+      "QTD_REGISTRADA": "332",
+      "DESTINO": "limitação documentada (cobertura entre tabelas)"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "empresa × trimestre sem nenhum ativo na FATO_ATIVO_TRIMESTRAL",
+      "QTD_REGISTRADA": "1452",
+      "DESTINO": "limitação documentada (cobertura entre tabelas)"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "empresa × ano com classe só via unit (QA não recomposta pelos ativos)",
+      "QTD_REGISTRADA": "143",
+      "DESTINO": "limitação documentada (units)"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "LEITURA_COM_FLAG",
+      "ITEM": "valores fora da tolerância na reconciliação trimestral × anual (14.1.2)",
+      "QTD_REGISTRADA": "0",
+      "DESTINO": "evidência para fechar TOLERANCIA_RECONCILIACAO_* no painel 0.2"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "LIMITACAO_DOCUMENTADA",
+      "ITEM": "nulos por lacuna fonte (14.3)",
+      "QTD_REGISTRADA": "17230",
+      "DESTINO": "limitação documentada (fonte sem o dado)"
+    },
+    {
+      "ORIGEM": "Seção 14",
+      "TIPO": "DECISAO_REGISTRADA",
+      "ITEM": "nulos por perda controlada (14.3)",
+      "QTD_REGISTRADA": "4071",
+      "DESTINO": "decisão registrada (bloqueio metodológico)"
+    }
+  ]
+}

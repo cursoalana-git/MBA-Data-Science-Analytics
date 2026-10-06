@@ -1,0 +1,143 @@
+{
+  "ID_EXECUCAO": "20261004_124449",
+  "SECAO": "3 - TABELAS AUXILIARES NORMATIVAS",
+  "FLAG_APROVADO": true,
+  "QTD_TABELAS": 6,
+  "TABELAS": {
+    "PLANO_CONTAS": {
+      "CELULA_ORIGEM": "3.1",
+      "ARQUIVO": "aux\\aux_plano_contas_cvm.csv",
+      "HASH_SHA256": "0e97ada37fdc81e1e7e97cfaad5df43280b0a4084e491b1151af9e714caf5435",
+      "QTD_BYTES": 61530,
+      "QTD_LINHAS": 529,
+      "COLUNAS": [
+        "TIPO_DEMONSTRACAO",
+        "DEMONSTRATIVO",
+        "ORDEM_NO_DEMONSTRATIVO",
+        "CD_CONTA",
+        "DS_CONTA",
+        "DS_CONTA_PADRAO",
+        "NIVEL_CONTA",
+        "RAIZ_CONTA",
+        "CD_CONTA_PAI",
+        "FLAG_CODIGO_VALIDO",
+        "NOME_ABA_ORIGEM"
+      ],
+      "CHAVE_NEGOCIO": [
+        "TIPO_DEMONSTRACAO",
+        "DEMONSTRATIVO",
+        "CD_CONTA"
+      ]
+    },
+    "CONTAS_BASE": {
+      "CELULA_ORIGEM": "3.2",
+      "ARQUIVO": "aux\\aux_contas_base_projeto.csv",
+      "HASH_SHA256": "7ff964cfbd5981492b6257cc248e6f3c85981dcc48b6dd094fb57d6726a494e9",
+      "QTD_BYTES": 5389,
+      "QTD_LINHAS": 35,
+      "COLUNAS": [
+        "SIGLA",
+        "CAMPO_DESTINO",
+        "TIPO_DEMONSTRACAO",
+        "DEMONSTRATIVO",
+        "CD_CONTA",
+        "DS_CONTA",
+        "NIVEL_CONTA",
+        "NATUREZA",
+        "GRANULARIDADE",
+        "UNIDADE_ESPERADA",
+        "USO",
+        "ORIGEM_CODIGO",
+        "PALAVRA_CHAVE",
+        "FLAG_CONTA_NO_PLANO",
+        "FLAG_DESCRICAO_CONFERE"
+      ],
+      "CHAVE_NEGOCIO": [
+        "SIGLA",
+        "TIPO_DEMONSTRACAO",
+        "CD_CONTA"
+      ]
+    },
+    "DE_PARA_SETORIAL": {
+      "CELULA_ORIGEM": "3.3",
+      "ARQUIVO": "aux\\aux_de_para_setorial.csv",
+      "HASH_SHA256": "656ce0c3c612fa10c03e8045d62c60720ab49eb73a136d4d5276ea09a426a417",
+      "QTD_BYTES": 2557,
+      "QTD_LINHAS": 41,
+      "COLUNAS": [
+        "SETOR_ATIVIDADE_SIMPLIFICADO",
+        "SETOR",
+        "SUBSETOR",
+        "FLAG_SETOR_EXCLUIDO",
+        "FLAG_SERVICO_PUBLICO"
+      ],
+      "CHAVE_NEGOCIO": [
+        "SETOR_ATIVIDADE_SIMPLIFICADO"
+      ]
+    },
+    "SINONIMOS_SETOR": {
+      "CELULA_ORIGEM": "3.3",
+      "ARQUIVO": "aux\\aux_sinonimos_setor.csv",
+      "HASH_SHA256": "908db4fb59ee65944e850ccf1e6184f8702de056a230f6f4c3d743a16749afd2",
+      "QTD_BYTES": 206,
+      "QTD_LINHAS": 2,
+      "COLUNAS": [
+        "SETOR_ATIVIDADE_ORIGEM",
+        "SETOR_ATIVIDADE_SIMPLIFICADO"
+      ],
+      "CHAVE_NEGOCIO": [
+        "SETOR_ATIVIDADE_ORIGEM"
+      ]
+    },
+    "TICKERS_ANTIGOS": {
+      "CELULA_ORIGEM": "3.4",
+      "ARQUIVO": "aux\\aux_tickers_antigos.csv",
+      "HASH_SHA256": "9cd19cbf6aab92ea87e1269f9bd59f0734b86dd3c41896f2ce41bd4ea16f5a03",
+      "QTD_BYTES": 2718,
+      "QTD_LINHAS": 33,
+      "COLUNAS": [
+        "CODIGO_ANTIGO",
+        "CODIGO_ATUAL",
+        "TIPO_LIGACAO",
+        "STATUS",
+        "OBSERVACAO",
+        "FLAG_APLICAR_CONTINUIDADE",
+        "FLAG_MESMA_RAIZ",
+        "CODIGO_FINAL",
+        "QTD_SALTOS"
+      ],
+      "CHAVE_NEGOCIO": [
+        "CODIGO_ANTIGO"
+      ]
+    },
+    "CATALOGO_EXCECOES": {
+      "CELULA_ORIGEM": "3.5",
+      "ARQUIVO": "aux\\aux_catalogo_excecoes.csv",
+      "HASH_SHA256": "25474b43862b763f9005abaa610a4c8622b124c08526bf64939b7e42f4d1cccf",
+      "QTD_BYTES": 2164,
+      "QTD_LINHAS": 7,
+      "COLUNAS": [
+        "ID_EXCECAO",
+        "TIPO_EXCECAO",
+        "FONTE",
+        "CAMPO",
+        "TIPO_IDENTIFICADOR",
+        "IDENTIFICADOR",
+        "NOME_REFERENCIA",
+        "VALOR_OBSERVADO",
+        "TRATAMENTO",
+        "VALOR_CORRIGIDO",
+        "DATA_FIM_APLICACAO_EXCLUSIVA",
+        "DATA_REFERENCIA_APLICACAO",
+        "STATUS",
+        "SECAO_APLICACAO",
+        "EVIDENCIA",
+        "OBSERVACAO",
+        "IDENTIFICADOR_NORMALIZADO"
+      ],
+      "CHAVE_NEGOCIO": [
+        "ID_EXCECAO"
+      ]
+    }
+  }
+}

@@ -1,0 +1,530 @@
+﻿TIPO_DEMONSTRACAO;DEMONSTRATIVO;ORDEM_NO_DEMONSTRATIVO;CD_CONTA;DS_CONTA;DS_CONTA_PADRAO;NIVEL_CONTA;RAIZ_CONTA;CD_CONTA_PAI;FLAG_CODIGO_VALIDO;NOME_ABA_ORIGEM
+IND;BPA;1;1;Ativo Total;ATIVO TOTAL;1;1;;True;DF Ind. - Ativo
+IND;BPA;2;1.01;Ativo Circulante;ATIVO CIRCULANTE;2;1;1;True;DF Ind. - Ativo
+IND;BPA;3;1.01.01;Caixa e Equivalentes de Caixa;CAIXA E EQUIVALENTES DE CAIXA;3;1;1.01;True;DF Ind. - Ativo
+IND;BPA;4;1.01.02;Aplicações Financeiras;APLICACOES FINANCEIRAS;3;1;1.01;True;DF Ind. - Ativo
+IND;BPA;5;1.01.02.01;Aplicações Financeiras Avaliadas a Valor Justo;APLICACOES FINANCEIRAS AVALIADAS A VALOR JUSTO;4;1;1.01.02;True;DF Ind. - Ativo
+IND;BPA;6;1.01.02.01.01;Títulos para Negociação;TITULOS PARA NEGOCIACAO;5;1;1.01.02.01;True;DF Ind. - Ativo
+IND;BPA;7;1.01.02.01.02;Títulos Disponíveis para Venda;TITULOS DISPONIVEIS PARA VENDA;5;1;1.01.02.01;True;DF Ind. - Ativo
+IND;BPA;8;1.01.02.02;Aplicações Financeiras Avaliadas ao Custo Amortizado;APLICACOES FINANCEIRAS AVALIADAS AO CUSTO AMORTIZADO;4;1;1.01.02;True;DF Ind. - Ativo
+IND;BPA;9;1.01.02.02.01;Títulos Mantidos até o Vencimento;TITULOS MANTIDOS ATE O VENCIMENTO;5;1;1.01.02.02;True;DF Ind. - Ativo
+IND;BPA;10;1.01.03;Contas a Receber;CONTAS A RECEBER;3;1;1.01;True;DF Ind. - Ativo
+IND;BPA;11;1.01.03.01;Clientes;CLIENTES;4;1;1.01.03;True;DF Ind. - Ativo
+IND;BPA;12;1.01.03.02;Outras Contas a Receber;OUTRAS CONTAS A RECEBER;4;1;1.01.03;True;DF Ind. - Ativo
+IND;BPA;13;1.01.04;Estoques;ESTOQUES;3;1;1.01;True;DF Ind. - Ativo
+IND;BPA;14;1.01.05;Ativos Biológicos;ATIVOS BIOLOGICOS;3;1;1.01;True;DF Ind. - Ativo
+IND;BPA;15;1.01.06;Tributos a Recuperar;TRIBUTOS A RECUPERAR;3;1;1.01;True;DF Ind. - Ativo
+IND;BPA;16;1.01.06.01;Tributos Correntes a Recuperar;TRIBUTOS CORRENTES A RECUPERAR;4;1;1.01.06;True;DF Ind. - Ativo
+IND;BPA;17;1.01.07;Despesas Antecipadas;DESPESAS ANTECIPADAS;3;1;1.01;True;DF Ind. - Ativo
+IND;BPA;18;1.01.08;Outros Ativos Circulantes;OUTROS ATIVOS CIRCULANTES;3;1;1.01;True;DF Ind. - Ativo
+IND;BPA;19;1.01.08.01;Ativos Não-Correntes a Venda;ATIVOS NAO-CORRENTES A VENDA;4;1;1.01.08;True;DF Ind. - Ativo
+IND;BPA;20;1.01.08.02;Ativos de Operações Descontinuadas;ATIVOS DE OPERACOES DESCONTINUADAS;4;1;1.01.08;True;DF Ind. - Ativo
+IND;BPA;21;1.01.08.03;Outros;OUTROS;4;1;1.01.08;True;DF Ind. - Ativo
+IND;BPA;22;1.02;Ativo Não Circulante;ATIVO NAO CIRCULANTE;2;1;1;True;DF Ind. - Ativo
+IND;BPA;23;1.02.01;Ativo Realizável a Longo Prazo;ATIVO REALIZAVEL A LONGO PRAZO;3;1;1.02;True;DF Ind. - Ativo
+IND;BPA;24;1.02.01.01;Aplicações Financeiras Avaliadas a Valor Justo;APLICACOES FINANCEIRAS AVALIADAS A VALOR JUSTO;4;1;1.02.01;True;DF Ind. - Ativo
+IND;BPA;25;1.02.01.01.01;Títulos para Negociação;TITULOS PARA NEGOCIACAO;5;1;1.02.01.01;True;DF Ind. - Ativo
+IND;BPA;26;1.02.01.01.02;Títulos Disponíveis para Venda;TITULOS DISPONIVEIS PARA VENDA;5;1;1.02.01.01;True;DF Ind. - Ativo
+IND;BPA;27;1.02.01.02;Aplicações Financeiras Avaliadas ao Custo Amortizado;APLICACOES FINANCEIRAS AVALIADAS AO CUSTO AMORTIZADO;4;1;1.02.01;True;DF Ind. - Ativo
+IND;BPA;28;1.02.01.02.01;Títulos Mantidos até o Vencimento;TITULOS MANTIDOS ATE O VENCIMENTO;5;1;1.02.01.02;True;DF Ind. - Ativo
+IND;BPA;29;1.02.01.03;Contas a Receber;CONTAS A RECEBER;4;1;1.02.01;True;DF Ind. - Ativo
+IND;BPA;30;1.02.01.03.01;Clientes;CLIENTES;5;1;1.02.01.03;True;DF Ind. - Ativo
+IND;BPA;31;1.02.01.03.02;Outras Contas a Receber;OUTRAS CONTAS A RECEBER;5;1;1.02.01.03;True;DF Ind. - Ativo
+IND;BPA;32;1.02.01.04;Estoques;ESTOQUES;4;1;1.02.01;True;DF Ind. - Ativo
+IND;BPA;33;1.02.01.05;Ativos Biológicos;ATIVOS BIOLOGICOS;4;1;1.02.01;True;DF Ind. - Ativo
+IND;BPA;34;1.02.01.06;Tributos Diferidos;TRIBUTOS DIFERIDOS;4;1;1.02.01;True;DF Ind. - Ativo
+IND;BPA;35;1.02.01.06.01;Imposto de Renda e Contribuição Social Diferidos;IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL DIFERIDOS;5;1;1.02.01.06;True;DF Ind. - Ativo
+IND;BPA;36;1.02.01.07;Despesas Antecipadas;DESPESAS ANTECIPADAS;4;1;1.02.01;True;DF Ind. - Ativo
+IND;BPA;37;1.02.01.08;Créditos com Partes Relacionadas;CREDITOS COM PARTES RELACIONADAS;4;1;1.02.01;True;DF Ind. - Ativo
+IND;BPA;38;1.02.01.08.01;Créditos com Coligadas;CREDITOS COM COLIGADAS;5;1;1.02.01.08;True;DF Ind. - Ativo
+IND;BPA;39;1.02.01.08.02;Créditos com Controladas;CREDITOS COM CONTROLADAS;5;1;1.02.01.08;True;DF Ind. - Ativo
+IND;BPA;40;1.02.01.08.03;Créditos com Controladores;CREDITOS COM CONTROLADORES;5;1;1.02.01.08;True;DF Ind. - Ativo
+IND;BPA;41;1.02.01.08.04;Créditos com Outras Partes Relacionadas;CREDITOS COM OUTRAS PARTES RELACIONADAS;5;1;1.02.01.08;True;DF Ind. - Ativo
+IND;BPA;42;1.02.01.09;Outros Ativos Não Circulantes;OUTROS ATIVOS NAO CIRCULANTES;4;1;1.02.01;True;DF Ind. - Ativo
+IND;BPA;43;1.02.01.09.01;Ativos Não-Correntes a Venda;ATIVOS NAO-CORRENTES A VENDA;5;1;1.02.01.09;True;DF Ind. - Ativo
+IND;BPA;44;1.02.01.09.02;Ativos de Operações Descontinuadas;ATIVOS DE OPERACOES DESCONTINUADAS;5;1;1.02.01.09;True;DF Ind. - Ativo
+IND;BPA;45;1.02.02;Investimentos;INVESTIMENTOS;3;1;1.02;True;DF Ind. - Ativo
+IND;BPA;46;1.02.02.01;Participações Societárias;PARTICIPACOES SOCIETARIAS;4;1;1.02.02;True;DF Ind. - Ativo
+IND;BPA;47;1.02.02.01.01;Participações em Coligadas;PARTICIPACOES EM COLIGADAS;5;1;1.02.02.01;True;DF Ind. - Ativo
+IND;BPA;48;1.02.02.01.02;Participações em Controladas;PARTICIPACOES EM CONTROLADAS;5;1;1.02.02.01;True;DF Ind. - Ativo
+IND;BPA;49;1.02.02.01.03;Participações em Controladas em Conjunto;PARTICIPACOES EM CONTROLADAS EM CONJUNTO;5;1;1.02.02.01;True;DF Ind. - Ativo
+IND;BPA;50;1.02.02.01.04;Outras Participações Societárias;OUTRAS PARTICIPACOES SOCIETARIAS;5;1;1.02.02.01;True;DF Ind. - Ativo
+IND;BPA;51;1.02.02.02;Propriedades para Investimento;PROPRIEDADES PARA INVESTIMENTO;4;1;1.02.02;True;DF Ind. - Ativo
+IND;BPA;52;1.02.03;Imobilizado;IMOBILIZADO;3;1;1.02;True;DF Ind. - Ativo
+IND;BPA;53;1.02.03.01;Imobilizado em Operação;IMOBILIZADO EM OPERACAO;4;1;1.02.03;True;DF Ind. - Ativo
+IND;BPA;54;1.02.03.02;Imobilizado Arrendado;IMOBILIZADO ARRENDADO;4;1;1.02.03;True;DF Ind. - Ativo
+IND;BPA;55;1.02.03.03;Imobilizado em Andamento;IMOBILIZADO EM ANDAMENTO;4;1;1.02.03;True;DF Ind. - Ativo
+IND;BPA;56;1.02.04;Intangível;INTANGIVEL;3;1;1.02;True;DF Ind. - Ativo
+IND;BPA;57;1.02.04.01;Intangíveis;INTANGIVEIS;4;1;1.02.04;True;DF Ind. - Ativo
+IND;BPA;58;1.02.04.01.01;Contrato de Concessão;CONTRATO DE CONCESSAO;5;1;1.02.04.01;True;DF Ind. - Ativo
+IND;BPA;59;1.02.05;Diferido;DIFERIDO;3;1;1.02;True;DF Ind. - Ativo
+IND;BPP;1;2;Passivo Total;PASSIVO TOTAL;1;2;;True;DF Ind. - Passivo
+IND;BPP;2;2.01;Passivo Circulante;PASSIVO CIRCULANTE;2;2;2;True;DF Ind. - Passivo
+IND;BPP;3;2.01.01;Obrigações Sociais e Trabalhistas;OBRIGACOES SOCIAIS E TRABALHISTAS;3;2;2.01;True;DF Ind. - Passivo
+IND;BPP;4;2.01.01.01;Obrigações Sociais;OBRIGACOES SOCIAIS;4;2;2.01.01;True;DF Ind. - Passivo
+IND;BPP;5;2.01.01.02;Obrigações Trabalhistas;OBRIGACOES TRABALHISTAS;4;2;2.01.01;True;DF Ind. - Passivo
+IND;BPP;6;2.01.02;Fornecedores;FORNECEDORES;3;2;2.01;True;DF Ind. - Passivo
+IND;BPP;7;2.01.02.01;Fornecedores Nacionais;FORNECEDORES NACIONAIS;4;2;2.01.02;True;DF Ind. - Passivo
+IND;BPP;8;2.01.02.02;Fornecedores Estrangeiros;FORNECEDORES ESTRANGEIROS;4;2;2.01.02;True;DF Ind. - Passivo
+IND;BPP;9;2.01.03;Obrigações Fiscais;OBRIGACOES FISCAIS;3;2;2.01;True;DF Ind. - Passivo
+IND;BPP;10;2.01.03.01;Obrigações Fiscais Federais;OBRIGACOES FISCAIS FEDERAIS;4;2;2.01.03;True;DF Ind. - Passivo
+IND;BPP;11;2.01.03.01.01;Imposto de Renda e Contribuição Social a Pagar;IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL A PAGAR;5;2;2.01.03.01;True;DF Ind. - Passivo
+IND;BPP;12;2.01.03.02;Obrigações Fiscais Estaduais;OBRIGACOES FISCAIS ESTADUAIS;4;2;2.01.03;True;DF Ind. - Passivo
+IND;BPP;13;2.01.03.03;Obrigações Fiscais Municipais;OBRIGACOES FISCAIS MUNICIPAIS;4;2;2.01.03;True;DF Ind. - Passivo
+IND;BPP;14;2.01.04;Empréstimos e Financiamentos;EMPRESTIMOS E FINANCIAMENTOS;3;2;2.01;True;DF Ind. - Passivo
+IND;BPP;15;2.01.04.01;Empréstimos e Financiamentos;EMPRESTIMOS E FINANCIAMENTOS;4;2;2.01.04;True;DF Ind. - Passivo
+IND;BPP;16;2.01.04.01.01;Em Moeda Nacional;EM MOEDA NACIONAL;5;2;2.01.04.01;True;DF Ind. - Passivo
+IND;BPP;17;2.01.04.01.02;Em Moeda Estrangeira;EM MOEDA ESTRANGEIRA;5;2;2.01.04.01;True;DF Ind. - Passivo
+IND;BPP;18;2.01.04.02;Debêntures;DEBENTURES;4;2;2.01.04;True;DF Ind. - Passivo
+IND;BPP;19;2.01.04.03;Financiamento por Arrendamento Financeiro;FINANCIAMENTO POR ARRENDAMENTO FINANCEIRO;4;2;2.01.04;True;DF Ind. - Passivo
+IND;BPP;20;2.01.05;Outras Obrigações;OUTRAS OBRIGACOES;3;2;2.01;True;DF Ind. - Passivo
+IND;BPP;21;2.01.05.01;Passivos com Partes Relacionadas;PASSIVOS COM PARTES RELACIONADAS;4;2;2.01.05;True;DF Ind. - Passivo
+IND;BPP;22;2.01.05.01.01;Débitos com Coligadas;DEBITOS COM COLIGADAS;5;2;2.01.05.01;True;DF Ind. - Passivo
+IND;BPP;23;2.01.05.01.02;Débitos com Controladas;DEBITOS COM CONTROLADAS;5;2;2.01.05.01;True;DF Ind. - Passivo
+IND;BPP;24;2.01.05.01.03;Débitos com Controladores;DEBITOS COM CONTROLADORES;5;2;2.01.05.01;True;DF Ind. - Passivo
+IND;BPP;25;2.01.05.01.04;Débitos com Outras Partes Relacionadas;DEBITOS COM OUTRAS PARTES RELACIONADAS;5;2;2.01.05.01;True;DF Ind. - Passivo
+IND;BPP;26;2.01.05.02;Outros;OUTROS;4;2;2.01.05;True;DF Ind. - Passivo
+IND;BPP;27;2.01.05.02.01;Dividendos e JCP a Pagar;DIVIDENDOS E JCP A PAGAR;5;2;2.01.05.02;True;DF Ind. - Passivo
+IND;BPP;28;2.01.05.02.02;Dividendo Mínimo Obrigatório a Pagar;DIVIDENDO MINIMO OBRIGATORIO A PAGAR;5;2;2.01.05.02;True;DF Ind. - Passivo
+IND;BPP;29;2.01.05.02.03;Obrigações por Pagamentos Baseados em Ações;OBRIGACOES POR PAGAMENTOS BASEADOS EM ACOES;5;2;2.01.05.02;True;DF Ind. - Passivo
+IND;BPP;30;2.01.06;Provisões;PROVISOES;3;2;2.01;True;DF Ind. - Passivo
+IND;BPP;31;2.01.06.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;PROVISOES FISCAIS PREVIDENCIARIAS TRABALHISTAS E CIVEIS;4;2;2.01.06;True;DF Ind. - Passivo
+IND;BPP;32;2.01.06.01.01;Provisões Fiscais;PROVISOES FISCAIS;5;2;2.01.06.01;True;DF Ind. - Passivo
+IND;BPP;33;2.01.06.01.02;Provisões Previdenciárias e Trabalhistas;PROVISOES PREVIDENCIARIAS E TRABALHISTAS;5;2;2.01.06.01;True;DF Ind. - Passivo
+IND;BPP;34;2.01.06.01.03;Provisões para Benefícios a Empregados;PROVISOES PARA BENEFICIOS A EMPREGADOS;5;2;2.01.06.01;True;DF Ind. - Passivo
+IND;BPP;35;2.01.06.01.04;Provisões Cíveis;PROVISOES CIVEIS;5;2;2.01.06.01;True;DF Ind. - Passivo
+IND;BPP;36;2.01.06.02;Outras Provisões;OUTRAS PROVISOES;4;2;2.01.06;True;DF Ind. - Passivo
+IND;BPP;37;2.01.06.02.01;Provisões para Garantias;PROVISOES PARA GARANTIAS;5;2;2.01.06.02;True;DF Ind. - Passivo
+IND;BPP;38;2.01.06.02.02;Provisões para Reestruturação;PROVISOES PARA REESTRUTURACAO;5;2;2.01.06.02;True;DF Ind. - Passivo
+IND;BPP;39;2.01.06.02.03;Provisões para Passivos Ambientais e de Desativação;PROVISOES PARA PASSIVOS AMBIENTAIS E DE DESATIVACAO;5;2;2.01.06.02;True;DF Ind. - Passivo
+IND;BPP;40;2.01.07;Passivos sobre Ativos Não-Correntes a Venda e Descontinuados;PASSIVOS SOBRE ATIVOS NAO-CORRENTES A VENDA E DESCONTINUADOS;3;2;2.01;True;DF Ind. - Passivo
+IND;BPP;41;2.01.07.01;Passivos sobre Ativos Não-Correntes a Venda;PASSIVOS SOBRE ATIVOS NAO-CORRENTES A VENDA;4;2;2.01.07;True;DF Ind. - Passivo
+IND;BPP;42;2.01.07.02;Passivos sobre Ativos de Operações Descontinuadas;PASSIVOS SOBRE ATIVOS DE OPERACOES DESCONTINUADAS;4;2;2.01.07;True;DF Ind. - Passivo
+IND;BPP;43;2.02;Passivo Não Circulante;PASSIVO NAO CIRCULANTE;2;2;2;True;DF Ind. - Passivo
+IND;BPP;44;2.02.01;Empréstimos e Financiamentos;EMPRESTIMOS E FINANCIAMENTOS;3;2;2.02;True;DF Ind. - Passivo
+IND;BPP;45;2.02.01.01;Empréstimos e Financiamentos;EMPRESTIMOS E FINANCIAMENTOS;4;2;2.02.01;True;DF Ind. - Passivo
+IND;BPP;46;2.02.01.01.01;Em Moeda Nacional;EM MOEDA NACIONAL;5;2;2.02.01.01;True;DF Ind. - Passivo
+IND;BPP;47;2.02.01.01.02;Em Moeda Estrangeira;EM MOEDA ESTRANGEIRA;5;2;2.02.01.01;True;DF Ind. - Passivo
+IND;BPP;48;2.02.01.02;Debêntures;DEBENTURES;4;2;2.02.01;True;DF Ind. - Passivo
+IND;BPP;49;2.02.01.03;Financiamento por Arrendamento Financeiro;FINANCIAMENTO POR ARRENDAMENTO FINANCEIRO;4;2;2.02.01;True;DF Ind. - Passivo
+IND;BPP;50;2.02.02;Outras Obrigações;OUTRAS OBRIGACOES;3;2;2.02;True;DF Ind. - Passivo
+IND;BPP;51;2.02.02.01;Passivos com Partes Relacionadas;PASSIVOS COM PARTES RELACIONADAS;4;2;2.02.02;True;DF Ind. - Passivo
+IND;BPP;52;2.02.02.01.01;Débitos com Coligadas;DEBITOS COM COLIGADAS;5;2;2.02.02.01;True;DF Ind. - Passivo
+IND;BPP;53;2.02.02.01.02;Débitos com Controladas;DEBITOS COM CONTROLADAS;5;2;2.02.02.01;True;DF Ind. - Passivo
+IND;BPP;54;2.02.02.01.03;Débitos com Controladores;DEBITOS COM CONTROLADORES;5;2;2.02.02.01;True;DF Ind. - Passivo
+IND;BPP;55;2.02.02.01.04;Débitos com Outras Partes Relacionadas;DEBITOS COM OUTRAS PARTES RELACIONADAS;5;2;2.02.02.01;True;DF Ind. - Passivo
+IND;BPP;56;2.02.02.02;Outros;OUTROS;4;2;2.02.02;True;DF Ind. - Passivo
+IND;BPP;57;2.02.02.02.01;Obrigações por Pagamentos Baseados em Ações;OBRIGACOES POR PAGAMENTOS BASEADOS EM ACOES;5;2;2.02.02.02;True;DF Ind. - Passivo
+IND;BPP;58;2.02.02.02.02;Adiantamento para Futuro Aumento de Capital;ADIANTAMENTO PARA FUTURO AUMENTO DE CAPITAL;5;2;2.02.02.02;True;DF Ind. - Passivo
+IND;BPP;59;2.02.03;Tributos Diferidos;TRIBUTOS DIFERIDOS;3;2;2.02;True;DF Ind. - Passivo
+IND;BPP;60;2.02.03.01;Imposto de Renda e Contribuição Social Diferidos;IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL DIFERIDOS;4;2;2.02.03;True;DF Ind. - Passivo
+IND;BPP;61;2.02.04;Provisões;PROVISOES;3;2;2.02;True;DF Ind. - Passivo
+IND;BPP;62;2.02.04.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;PROVISOES FISCAIS PREVIDENCIARIAS TRABALHISTAS E CIVEIS;4;2;2.02.04;True;DF Ind. - Passivo
+IND;BPP;63;2.02.04.01.01;Provisões Fiscais;PROVISOES FISCAIS;5;2;2.02.04.01;True;DF Ind. - Passivo
+IND;BPP;64;2.02.04.01.02;Provisões Previdenciárias e Trabalhistas;PROVISOES PREVIDENCIARIAS E TRABALHISTAS;5;2;2.02.04.01;True;DF Ind. - Passivo
+IND;BPP;65;2.02.04.01.03;Provisões para Benefícios a Empregados;PROVISOES PARA BENEFICIOS A EMPREGADOS;5;2;2.02.04.01;True;DF Ind. - Passivo
+IND;BPP;66;2.02.04.01.04;Provisões Cíveis;PROVISOES CIVEIS;5;2;2.02.04.01;True;DF Ind. - Passivo
+IND;BPP;67;2.02.04.02;Outras Provisões;OUTRAS PROVISOES;4;2;2.02.04;True;DF Ind. - Passivo
+IND;BPP;68;2.02.04.02.01;Provisões para Garantias;PROVISOES PARA GARANTIAS;5;2;2.02.04.02;True;DF Ind. - Passivo
+IND;BPP;69;2.02.04.02.02;Provisões para Reestruturação;PROVISOES PARA REESTRUTURACAO;5;2;2.02.04.02;True;DF Ind. - Passivo
+IND;BPP;70;2.02.04.02.03;Provisões para Passivos Ambientais e de Desativação;PROVISOES PARA PASSIVOS AMBIENTAIS E DE DESATIVACAO;5;2;2.02.04.02;True;DF Ind. - Passivo
+IND;BPP;71;2.02.05;Passivos sobre Ativos Não-Correntes a Venda e Descontinuados;PASSIVOS SOBRE ATIVOS NAO-CORRENTES A VENDA E DESCONTINUADOS;3;2;2.02;True;DF Ind. - Passivo
+IND;BPP;72;2.02.05.01;Passivos sobre Ativos Não-Correntes a Venda;PASSIVOS SOBRE ATIVOS NAO-CORRENTES A VENDA;4;2;2.02.05;True;DF Ind. - Passivo
+IND;BPP;73;2.02.05.02;Passivos sobre Ativos de Operações Descontinuadas;PASSIVOS SOBRE ATIVOS DE OPERACOES DESCONTINUADAS;4;2;2.02.05;True;DF Ind. - Passivo
+IND;BPP;74;2.02.06;Lucros e Receitas a Apropriar;LUCROS E RECEITAS A APROPRIAR;3;2;2.02;True;DF Ind. - Passivo
+IND;BPP;75;2.02.06.01;Lucros a Apropriar;LUCROS A APROPRIAR;4;2;2.02.06;True;DF Ind. - Passivo
+IND;BPP;76;2.02.06.02;Receitas a Apropriar;RECEITAS A APROPRIAR;4;2;2.02.06;True;DF Ind. - Passivo
+IND;BPP;77;2.02.06.03;Subvenções de Investimento a Apropriar;SUBVENCOES DE INVESTIMENTO A APROPRIAR;4;2;2.02.06;True;DF Ind. - Passivo
+IND;BPP;78;2.03;Patrimônio Líquido;PATRIMONIO LIQUIDO;2;2;2;True;DF Ind. - Passivo
+IND;BPP;79;2.03.01;Capital Social Realizado;CAPITAL SOCIAL REALIZADO;3;2;2.03;True;DF Ind. - Passivo
+IND;BPP;80;2.03.02;Reservas de Capital;RESERVAS DE CAPITAL;3;2;2.03;True;DF Ind. - Passivo
+IND;BPP;81;2.03.02.01;Ágio na Emissão de Ações;AGIO NA EMISSAO DE ACOES;4;2;2.03.02;True;DF Ind. - Passivo
+IND;BPP;82;2.03.02.02;Reserva Especial de Ágio na Incorporação;RESERVA ESPECIAL DE AGIO NA INCORPORACAO;4;2;2.03.02;True;DF Ind. - Passivo
+IND;BPP;83;2.03.02.03;Alienação de Bônus de Subscrição;ALIENACAO DE BONUS DE SUBSCRICAO;4;2;2.03.02;True;DF Ind. - Passivo
+IND;BPP;84;2.03.02.04;Opções Outorgadas;OPCOES OUTORGADAS;4;2;2.03.02;True;DF Ind. - Passivo
+IND;BPP;85;2.03.02.05;Ações em Tesouraria;ACOES EM TESOURARIA;4;2;2.03.02;True;DF Ind. - Passivo
+IND;BPP;86;2.03.02.06;Adiantamento para Futuro Aumento de Capital;ADIANTAMENTO PARA FUTURO AUMENTO DE CAPITAL;4;2;2.03.02;True;DF Ind. - Passivo
+IND;BPP;87;2.03.03;Reservas de Reavaliação;RESERVAS DE REAVALIACAO;3;2;2.03;True;DF Ind. - Passivo
+IND;BPP;88;2.03.04;Reservas de Lucros;RESERVAS DE LUCROS;3;2;2.03;True;DF Ind. - Passivo
+IND;BPP;89;2.03.04.01;Reserva Legal;RESERVA LEGAL;4;2;2.03.04;True;DF Ind. - Passivo
+IND;BPP;90;2.03.04.02;Reserva Estatutária;RESERVA ESTATUTARIA;4;2;2.03.04;True;DF Ind. - Passivo
+IND;BPP;91;2.03.04.03;Reserva para Contingências;RESERVA PARA CONTINGENCIAS;4;2;2.03.04;True;DF Ind. - Passivo
+IND;BPP;92;2.03.04.04;Reserva de Lucros a Realizar;RESERVA DE LUCROS A REALIZAR;4;2;2.03.04;True;DF Ind. - Passivo
+IND;BPP;93;2.03.04.05;Reserva de Retenção de Lucros;RESERVA DE RETENCAO DE LUCROS;4;2;2.03.04;True;DF Ind. - Passivo
+IND;BPP;94;2.03.04.06;Reserva Especial para Dividendos Não Distribuídos;RESERVA ESPECIAL PARA DIVIDENDOS NAO DISTRIBUIDOS;4;2;2.03.04;True;DF Ind. - Passivo
+IND;BPP;95;2.03.04.07;Reserva de Incentivos Fiscais;RESERVA DE INCENTIVOS FISCAIS;4;2;2.03.04;True;DF Ind. - Passivo
+IND;BPP;96;2.03.04.08;Dividendo Adicional Proposto;DIVIDENDO ADICIONAL PROPOSTO;4;2;2.03.04;True;DF Ind. - Passivo
+IND;BPP;97;2.03.04.09;Ações em Tesouraria;ACOES EM TESOURARIA;4;2;2.03.04;True;DF Ind. - Passivo
+IND;BPP;98;2.03.05;Lucros/Prejuízos Acumulados;LUCROS/PREJUIZOS ACUMULADOS;3;2;2.03;True;DF Ind. - Passivo
+IND;BPP;99;2.03.06;Ajustes de Avaliação Patrimonial;AJUSTES DE AVALIACAO PATRIMONIAL;3;2;2.03;True;DF Ind. - Passivo
+IND;BPP;100;2.03.07;Ajustes Acumulados de Conversão;AJUSTES ACUMULADOS DE CONVERSAO;3;2;2.03;True;DF Ind. - Passivo
+IND;BPP;101;2.03.08;Outros Resultados Abrangentes;OUTROS RESULTADOS ABRANGENTES;3;2;2.03;True;DF Ind. - Passivo
+IND;DRE;1;3.01;Receita de Venda de Bens e/ou Serviços;RECEITA DE VENDA DE BENS E/OU SERVICOS;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;2;3.02;Custo dos Bens e/ou Serviços Vendidos;CUSTO DOS BENS E/OU SERVICOS VENDIDOS;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;3;3.03;Resultado Bruto;RESULTADO BRUTO;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;4;3.04;Despesas/Receitas Operacionais;DESPESAS/RECEITAS OPERACIONAIS;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;5;3.04.01;Despesas com Vendas;DESPESAS COM VENDAS;3;3;3.04;True;DF Ind. - Resultado Período
+IND;DRE;6;3.04.02;Despesas Gerais e Administrativas;DESPESAS GERAIS E ADMINISTRATIVAS;3;3;3.04;True;DF Ind. - Resultado Período
+IND;DRE;7;3.04.03;Perdas pela Não Recuperabilidade de Ativos;PERDAS PELA NAO RECUPERABILIDADE DE ATIVOS;3;3;3.04;True;DF Ind. - Resultado Período
+IND;DRE;8;3.04.04;Outras Receitas Operacionais;OUTRAS RECEITAS OPERACIONAIS;3;3;3.04;True;DF Ind. - Resultado Período
+IND;DRE;9;3.04.05;Outras Despesas Operacionais;OUTRAS DESPESAS OPERACIONAIS;3;3;3.04;True;DF Ind. - Resultado Período
+IND;DRE;10;3.04.06;Resultado de Equivalência Patrimonial;RESULTADO DE EQUIVALENCIA PATRIMONIAL;3;3;3.04;True;DF Ind. - Resultado Período
+IND;DRE;11;3.05;Resultado Antes do Resultado Financeiro e dos Tributos;RESULTADO ANTES DO RESULTADO FINANCEIRO E DOS TRIBUTOS;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;12;3.06;Resultado Financeiro;RESULTADO FINANCEIRO;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;13;3.06.01;Receitas Financeiras;RECEITAS FINANCEIRAS;3;3;3.06;True;DF Ind. - Resultado Período
+IND;DRE;14;3.06.02;Despesas Financeiras;DESPESAS FINANCEIRAS;3;3;3.06;True;DF Ind. - Resultado Período
+IND;DRE;15;3.07;Resultado Antes dos Tributos sobre o Lucro;RESULTADO ANTES DOS TRIBUTOS SOBRE O LUCRO;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;16;3.08;Imposto de Renda e Contribuição Social sobre o Lucro;IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL SOBRE O LUCRO;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;17;3.08.01;Corrente;CORRENTE;3;3;3.08;True;DF Ind. - Resultado Período
+IND;DRE;18;3.08.02;Diferido;DIFERIDO;3;3;3.08;True;DF Ind. - Resultado Período
+IND;DRE;19;3.09;Resultado Líquido das Operações Continuadas;RESULTADO LIQUIDO DAS OPERACOES CONTINUADAS;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;20;3.10;Resultado Líquido de Operações Descontinuadas;RESULTADO LIQUIDO DE OPERACOES DESCONTINUADAS;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;21;3.10.01;Lucro/Prejuízo Líquido das Operações Descontinuadas;LUCRO/PREJUIZO LIQUIDO DAS OPERACOES DESCONTINUADAS;3;3;3.10;True;DF Ind. - Resultado Período
+IND;DRE;22;3.10.02;Ganhos/Perdas Líquidas sobre Ativos de Operações Descontinuadas;GANHOS/PERDAS LIQUIDAS SOBRE ATIVOS DE OPERACOES DESCONTINUADAS;3;3;3.10;True;DF Ind. - Resultado Período
+IND;DRE;23;3.11;Lucro/Prejuízo do Período;LUCRO/PREJUIZO DO PERIODO;2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;24;3.99;Lucro por Ação - (Reais / Ação);LUCRO POR ACAO - (REAIS / ACAO);2;3;3;True;DF Ind. - Resultado Período
+IND;DRE;25;3.99.01;Lucro Básico por Ação;LUCRO BASICO POR ACAO;3;3;3.99;True;DF Ind. - Resultado Período
+IND;DRE;26;3.99.02;Lucro Diluído por Ação;LUCRO DILUIDO POR ACAO;3;3;3.99;True;DF Ind. - Resultado Período
+IND;DRA;1;4.01;Lucro Líquido do Período;LUCRO LIQUIDO DO PERIODO;2;4;4;True;DF Ind. - Resultado Abrangente
+IND;DRA;2;4.02;Outros Resultados Abrangentes;OUTROS RESULTADOS ABRANGENTES;2;4;4;True;DF Ind. - Resultado Abrangente
+IND;DRA;3;4.03;Resultado Abrangente do Período;RESULTADO ABRANGENTE DO PERIODO;2;4;4;True;DF Ind. - Resultado Abrangente
+IND;DFC;1;6.01;Caixa Líquido Atividades Operacionais;CAIXA LIQUIDO ATIVIDADES OPERACIONAIS;2;6;6;True;DF Ind. - Fluxo de Caixa
+IND;DFC;2;6.01.01;Caixa Gerado nas Operações;CAIXA GERADO NAS OPERACOES;3;6;6.01;True;DF Ind. - Fluxo de Caixa
+IND;DFC;3;6.01.02;Variações nos Ativos e Passivos;VARIACOES NOS ATIVOS E PASSIVOS;3;6;6.01;True;DF Ind. - Fluxo de Caixa
+IND;DFC;4;6.01.03;Outros;OUTROS;3;6;6.01;True;DF Ind. - Fluxo de Caixa
+IND;DFC;5;6.02;Caixa Líquido Atividades de Investimento;CAIXA LIQUIDO ATIVIDADES DE INVESTIMENTO;2;6;6;True;DF Ind. - Fluxo de Caixa
+IND;DFC;6;6.03;Caixa Líquido Atividades de Financiamento;CAIXA LIQUIDO ATIVIDADES DE FINANCIAMENTO;2;6;6;True;DF Ind. - Fluxo de Caixa
+IND;DFC;7;6.04;Variação Cambial s/ Caixa e Equivalentes;VARIACAO CAMBIAL S/ CAIXA E EQUIVALENTES;2;6;6;True;DF Ind. - Fluxo de Caixa
+IND;DFC;8;6.05;Aumento (Redução) de Caixa e Equivalentes;AUMENTO (REDUCAO) DE CAIXA E EQUIVALENTES;2;6;6;True;DF Ind. - Fluxo de Caixa
+IND;DFC;9;6.05.01;Saldo Inicial de Caixa e Equivalentes;SALDO INICIAL DE CAIXA E EQUIVALENTES;3;6;6.05;True;DF Ind. - Fluxo de Caixa
+IND;DFC;10;6.05.02;Saldo Final de Caixa e Equivalentes;SALDO FINAL DE CAIXA E EQUIVALENTES;3;6;6.05;True;DF Ind. - Fluxo de Caixa
+IND;DMPL;1;5.01;Saldos Iniciais;SALDOS INICIAIS;2;5;5;True;DF Ind. - DMPL - 31122016
+IND;DMPL;2;5.02;Ajustes de Exercícios Anteriores;AJUSTES DE EXERCICIOS ANTERIORES;2;5;5;True;DF Ind. - DMPL - 31122016
+IND;DMPL;3;5.03;Saldos Iniciais Ajustados;SALDOS INICIAIS AJUSTADOS;2;5;5;True;DF Ind. - DMPL - 31122016
+IND;DMPL;4;5.04;Transações de Capital com os Sócios;TRANSACOES DE CAPITAL COM OS SOCIOS;2;5;5;True;DF Ind. - DMPL - 31122016
+IND;DMPL;5;5.04.01;Aumentos de Capital;AUMENTOS DE CAPITAL;3;5;5.04;True;DF Ind. - DMPL - 31122016
+IND;DMPL;6;5.04.02;Gastos com Emissão de Ações;GASTOS COM EMISSAO DE ACOES;3;5;5.04;True;DF Ind. - DMPL - 31122016
+IND;DMPL;7;5.04.03;Opções Outorgadas Reconhecidas;OPCOES OUTORGADAS RECONHECIDAS;3;5;5.04;True;DF Ind. - DMPL - 31122016
+IND;DMPL;8;5.04.04;Ações em Tesouraria Adquiridas;ACOES EM TESOURARIA ADQUIRIDAS;3;5;5.04;True;DF Ind. - DMPL - 31122016
+IND;DMPL;9;5.04.05;Ações em Tesouraria Vendidas;ACOES EM TESOURARIA VENDIDAS;3;5;5.04;True;DF Ind. - DMPL - 31122016
+IND;DMPL;10;5.04.06;Dividendos;DIVIDENDOS;3;5;5.04;True;DF Ind. - DMPL - 31122016
+IND;DMPL;11;5.04.07;Juros sobre Capital Próprio;JUROS SOBRE CAPITAL PROPRIO;3;5;5.04;True;DF Ind. - DMPL - 31122016
+IND;DMPL;12;5.05;Resultado Abrangente Total;RESULTADO ABRANGENTE TOTAL;2;5;5;True;DF Ind. - DMPL - 31122016
+IND;DMPL;13;5.05.01;Lucro Líquido do Período;LUCRO LIQUIDO DO PERIODO;3;5;5.05;True;DF Ind. - DMPL - 31122016
+IND;DMPL;14;5.05.02;Outros Resultados Abrangentes;OUTROS RESULTADOS ABRANGENTES;3;5;5.05;True;DF Ind. - DMPL - 31122016
+IND;DMPL;15;5.05.02.01;Ajustes de Instrumentos Financeiros;AJUSTES DE INSTRUMENTOS FINANCEIROS;4;5;5.05.02;True;DF Ind. - DMPL - 31122016
+IND;DMPL;16;5.05.02.02;Tributos s/ Ajustes Instrumentos Financeiros;TRIBUTOS S/ AJUSTES INSTRUMENTOS FINANCEIROS;4;5;5.05.02;True;DF Ind. - DMPL - 31122016
+IND;DMPL;17;5.05.02.03;Equiv. Patrim. s/Result. Abrang. Controladas e Coligadas;EQUIV. PATRIM. S/RESULT. ABRANG. CONTROLADAS E COLIGADAS;4;5;5.05.02;True;DF Ind. - DMPL - 31122016
+IND;DMPL;18;5.05.02.04;Ajustes de Conversão do Período;AJUSTES DE CONVERSAO DO PERIODO;4;5;5.05.02;True;DF Ind. - DMPL - 31122016
+IND;DMPL;19;5.05.02.05;Tributos s/ Ajustes de Conversão do Período;TRIBUTOS S/ AJUSTES DE CONVERSAO DO PERIODO;4;5;5.05.02;True;DF Ind. - DMPL - 31122016
+IND;DMPL;20;5.05.03;Reclassificações para o Resultado;RECLASSIFICACOES PARA O RESULTADO;3;5;5.05;True;DF Ind. - DMPL - 31122016
+IND;DMPL;21;5.05.03.01;Ajustes de Instrumentos Financeiros;AJUSTES DE INSTRUMENTOS FINANCEIROS;4;5;5.05.03;True;DF Ind. - DMPL - 31122016
+IND;DMPL;22;5.06;Mutações Internas do Patrimônio Líquido;MUTACOES INTERNAS DO PATRIMONIO LIQUIDO;2;5;5;True;DF Ind. - DMPL - 31122016
+IND;DMPL;23;5.06.01;Constituição de Reservas;CONSTITUICAO DE RESERVAS;3;5;5.06;True;DF Ind. - DMPL - 31122016
+IND;DMPL;24;5.06.02;Realização da Reserva Reavaliação;REALIZACAO DA RESERVA REAVALIACAO;3;5;5.06;True;DF Ind. - DMPL - 31122016
+IND;DMPL;25;5.06.03;Tributos sobre a Realização da Reserva de Reavaliação;TRIBUTOS SOBRE A REALIZACAO DA RESERVA DE REAVALIACAO;3;5;5.06;True;DF Ind. - DMPL - 31122016
+IND;DMPL;26;5.07;Saldos Finais;SALDOS FINAIS;2;5;5;True;DF Ind. - DMPL - 31122016
+IND;DVA;1;7.01;Receitas;RECEITAS;2;7;7;True;DF Ind. - Valor Adicionado
+IND;DVA;2;7.01.01;Vendas de Mercadorias, Produtos e Serviços;VENDAS DE MERCADORIAS, PRODUTOS E SERVICOS;3;7;7.01;True;DF Ind. - Valor Adicionado
+IND;DVA;3;7.01.02;Outras Receitas;OUTRAS RECEITAS;3;7;7.01;True;DF Ind. - Valor Adicionado
+IND;DVA;4;7.01.03;Receitas refs. à Construção de Ativos Próprios;RECEITAS REFS. A CONSTRUCAO DE ATIVOS PROPRIOS;3;7;7.01;True;DF Ind. - Valor Adicionado
+IND;DVA;5;7.01.04;Provisão/Reversão de Créds. Liquidação Duvidosa;PROVISAO/REVERSAO DE CREDS. LIQUIDACAO DUVIDOSA;3;7;7.01;True;DF Ind. - Valor Adicionado
+IND;DVA;6;7.02;Insumos Adquiridos de Terceiros;INSUMOS ADQUIRIDOS DE TERCEIROS;2;7;7;True;DF Ind. - Valor Adicionado
+IND;DVA;7;7.02.01;Custos Prods., Mercs. e Servs. Vendidos;CUSTOS PRODS., MERCS. E SERVS. VENDIDOS;3;7;7.02;True;DF Ind. - Valor Adicionado
+IND;DVA;8;7.02.02;Materiais, Energia, Servs. de Terceiros e Outros;MATERIAIS, ENERGIA, SERVS. DE TERCEIROS E OUTROS;3;7;7.02;True;DF Ind. - Valor Adicionado
+IND;DVA;9;7.02.03;Perda/Recuperação de Valores Ativos;PERDA/RECUPERACAO DE VALORES ATIVOS;3;7;7.02;True;DF Ind. - Valor Adicionado
+IND;DVA;10;7.02.04;Outros;OUTROS;3;7;7.02;True;DF Ind. - Valor Adicionado
+IND;DVA;11;7.03;Valor Adicionado Bruto;VALOR ADICIONADO BRUTO;2;7;7;True;DF Ind. - Valor Adicionado
+IND;DVA;12;7.04;Retenções;RETENCOES;2;7;7;True;DF Ind. - Valor Adicionado
+IND;DVA;13;7.04.01;Depreciação, Amortização e Exaustão;DEPRECIACAO, AMORTIZACAO E EXAUSTAO;3;7;7.04;True;DF Ind. - Valor Adicionado
+IND;DVA;14;7.04.02;Outras;OUTRAS;3;7;7.04;True;DF Ind. - Valor Adicionado
+IND;DVA;15;7.05;Valor Adicionado Líquido Produzido;VALOR ADICIONADO LIQUIDO PRODUZIDO;2;7;7;True;DF Ind. - Valor Adicionado
+IND;DVA;16;7.06;Vlr Adicionado Recebido em Transferência;VLR ADICIONADO RECEBIDO EM TRANSFERENCIA;2;7;7;True;DF Ind. - Valor Adicionado
+IND;DVA;17;7.06.01;Resultado de Equivalência Patrimonial;RESULTADO DE EQUIVALENCIA PATRIMONIAL;3;7;7.06;True;DF Ind. - Valor Adicionado
+IND;DVA;18;7.06.02;Receitas Financeiras;RECEITAS FINANCEIRAS;3;7;7.06;True;DF Ind. - Valor Adicionado
+IND;DVA;19;7.06.03;Outros;OUTROS;3;7;7.06;True;DF Ind. - Valor Adicionado
+IND;DVA;20;7.07;Valor Adicionado Total a Distribuir;VALOR ADICIONADO TOTAL A DISTRIBUIR;2;7;7;True;DF Ind. - Valor Adicionado
+IND;DVA;21;7.08;Distribuição do Valor Adicionado;DISTRIBUICAO DO VALOR ADICIONADO;2;7;7;True;DF Ind. - Valor Adicionado
+IND;DVA;22;7.08.01;Pessoal;PESSOAL;3;7;7.08;True;DF Ind. - Valor Adicionado
+IND;DVA;23;7.08.01.01;Remuneração Direta;REMUNERACAO DIRETA;4;7;7.08.01;True;DF Ind. - Valor Adicionado
+IND;DVA;24;7.08.01.02;Benefícios;BENEFICIOS;4;7;7.08.01;True;DF Ind. - Valor Adicionado
+IND;DVA;25;7.08.01.03;F.G.T.S.;F.G.T.S.;4;7;7.08.01;True;DF Ind. - Valor Adicionado
+IND;DVA;26;7.08.01.04;Outros;OUTROS;4;7;7.08.01;True;DF Ind. - Valor Adicionado
+IND;DVA;27;7.08.02;Impostos, Taxas e Contribuições;IMPOSTOS, TAXAS E CONTRIBUICOES;3;7;7.08;True;DF Ind. - Valor Adicionado
+IND;DVA;28;7.08.02.01;Federais;FEDERAIS;4;7;7.08.02;True;DF Ind. - Valor Adicionado
+IND;DVA;29;7.08.02.02;Estaduais;ESTADUAIS;4;7;7.08.02;True;DF Ind. - Valor Adicionado
+IND;DVA;30;7.08.02.03;Municipais;MUNICIPAIS;4;7;7.08.02;True;DF Ind. - Valor Adicionado
+IND;DVA;31;7.08.03;Remuneração de Capitais de Terceiros;REMUNERACAO DE CAPITAIS DE TERCEIROS;3;7;7.08;True;DF Ind. - Valor Adicionado
+IND;DVA;32;7.08.03.01;Juros;JUROS;4;7;7.08.03;True;DF Ind. - Valor Adicionado
+IND;DVA;33;7.08.03.02;Aluguéis;ALUGUEIS;4;7;7.08.03;True;DF Ind. - Valor Adicionado
+IND;DVA;34;7.08.03.03;Outras;OUTRAS;4;7;7.08.03;True;DF Ind. - Valor Adicionado
+IND;DVA;35;7.08.04;Remuneração de Capitais Próprios;REMUNERACAO DE CAPITAIS PROPRIOS;3;7;7.08;True;DF Ind. - Valor Adicionado
+IND;DVA;36;7.08.04.01;Juros sobre o Capital Próprio;JUROS SOBRE O CAPITAL PROPRIO;4;7;7.08.04;True;DF Ind. - Valor Adicionado
+IND;DVA;37;7.08.04.02;Dividendos;DIVIDENDOS;4;7;7.08.04;True;DF Ind. - Valor Adicionado
+IND;DVA;38;7.08.04.03;Lucros Retidos / Prejuízo do Período;LUCROS RETIDOS / PREJUIZO DO PERIODO;4;7;7.08.04;True;DF Ind. - Valor Adicionado
+IND;DVA;39;7.08.05;Outros;OUTROS;3;7;7.08;True;DF Ind. - Valor Adicionado
+CON;BPA;1;1;Ativo Total;ATIVO TOTAL;1;1;;True;DF Cons. - Ativo
+CON;BPA;2;1.01;Ativo Circulante;ATIVO CIRCULANTE;2;1;1;True;DF Cons. - Ativo
+CON;BPA;3;1.01.01;Caixa e Equivalentes de Caixa;CAIXA E EQUIVALENTES DE CAIXA;3;1;1.01;True;DF Cons. - Ativo
+CON;BPA;4;1.01.02;Aplicações Financeiras;APLICACOES FINANCEIRAS;3;1;1.01;True;DF Cons. - Ativo
+CON;BPA;5;1.01.02.01;Aplicações Financeiras Avaliadas a Valor Justo;APLICACOES FINANCEIRAS AVALIADAS A VALOR JUSTO;4;1;1.01.02;True;DF Cons. - Ativo
+CON;BPA;6;1.01.02.01.01;Títulos para Negociação;TITULOS PARA NEGOCIACAO;5;1;1.01.02.01;True;DF Cons. - Ativo
+CON;BPA;7;1.01.02.01.02;Títulos Disponíveis para Venda;TITULOS DISPONIVEIS PARA VENDA;5;1;1.01.02.01;True;DF Cons. - Ativo
+CON;BPA;8;1.01.02.02;Aplicações Financeiras Avaliadas ao Custo Amortizado;APLICACOES FINANCEIRAS AVALIADAS AO CUSTO AMORTIZADO;4;1;1.01.02;True;DF Cons. - Ativo
+CON;BPA;9;1.01.02.02.01;Títulos Mantidos até o Vencimento;TITULOS MANTIDOS ATE O VENCIMENTO;5;1;1.01.02.02;True;DF Cons. - Ativo
+CON;BPA;10;1.01.03;Contas a Receber;CONTAS A RECEBER;3;1;1.01;True;DF Cons. - Ativo
+CON;BPA;11;1.01.03.01;Clientes;CLIENTES;4;1;1.01.03;True;DF Cons. - Ativo
+CON;BPA;12;1.01.03.02;Outras Contas a Receber;OUTRAS CONTAS A RECEBER;4;1;1.01.03;True;DF Cons. - Ativo
+CON;BPA;13;1.01.04;Estoques;ESTOQUES;3;1;1.01;True;DF Cons. - Ativo
+CON;BPA;14;1.01.05;Ativos Biológicos;ATIVOS BIOLOGICOS;3;1;1.01;True;DF Cons. - Ativo
+CON;BPA;15;1.01.06;Tributos a Recuperar;TRIBUTOS A RECUPERAR;3;1;1.01;True;DF Cons. - Ativo
+CON;BPA;16;1.01.06.01;Tributos Correntes a Recuperar;TRIBUTOS CORRENTES A RECUPERAR;4;1;1.01.06;True;DF Cons. - Ativo
+CON;BPA;17;1.01.07;Despesas Antecipadas;DESPESAS ANTECIPADAS;3;1;1.01;True;DF Cons. - Ativo
+CON;BPA;18;1.01.08;Outros Ativos Circulantes;OUTROS ATIVOS CIRCULANTES;3;1;1.01;True;DF Cons. - Ativo
+CON;BPA;19;1.01.08.01;Ativos Não-Correntes a Venda;ATIVOS NAO-CORRENTES A VENDA;4;1;1.01.08;True;DF Cons. - Ativo
+CON;BPA;20;1.01.08.02;Ativos de Operações Descontinuadas;ATIVOS DE OPERACOES DESCONTINUADAS;4;1;1.01.08;True;DF Cons. - Ativo
+CON;BPA;21;1.01.08.03;Outros;OUTROS;4;1;1.01.08;True;DF Cons. - Ativo
+CON;BPA;22;1.02;Ativo Não Circulante;ATIVO NAO CIRCULANTE;2;1;1;True;DF Cons. - Ativo
+CON;BPA;23;1.02.01;Ativo Realizável a Longo Prazo;ATIVO REALIZAVEL A LONGO PRAZO;3;1;1.02;True;DF Cons. - Ativo
+CON;BPA;24;1.02.01.01;Aplicações Financeiras Avaliadas a Valor Justo;APLICACOES FINANCEIRAS AVALIADAS A VALOR JUSTO;4;1;1.02.01;True;DF Cons. - Ativo
+CON;BPA;25;1.02.01.01.01;Títulos para Negociação;TITULOS PARA NEGOCIACAO;5;1;1.02.01.01;True;DF Cons. - Ativo
+CON;BPA;26;1.02.01.01.02;Títulos Disponíveis para Venda;TITULOS DISPONIVEIS PARA VENDA;5;1;1.02.01.01;True;DF Cons. - Ativo
+CON;BPA;27;1.02.01.02;Aplicações Financeiras Avaliadas ao Custo Amortizado;APLICACOES FINANCEIRAS AVALIADAS AO CUSTO AMORTIZADO;4;1;1.02.01;True;DF Cons. - Ativo
+CON;BPA;28;1.02.01.02.01;Títulos Mantidos até o Vencimento;TITULOS MANTIDOS ATE O VENCIMENTO;5;1;1.02.01.02;True;DF Cons. - Ativo
+CON;BPA;29;1.02.01.03;Contas a Receber;CONTAS A RECEBER;4;1;1.02.01;True;DF Cons. - Ativo
+CON;BPA;30;1.02.01.03.01;Clientes;CLIENTES;5;1;1.02.01.03;True;DF Cons. - Ativo
+CON;BPA;31;1.02.01.03.02;Outras Contas a Receber;OUTRAS CONTAS A RECEBER;5;1;1.02.01.03;True;DF Cons. - Ativo
+CON;BPA;32;1.02.01.04;Estoques;ESTOQUES;4;1;1.02.01;True;DF Cons. - Ativo
+CON;BPA;33;1.02.01.05;Ativos Biológicos;ATIVOS BIOLOGICOS;4;1;1.02.01;True;DF Cons. - Ativo
+CON;BPA;34;1.02.01.06;Tributos Diferidos;TRIBUTOS DIFERIDOS;4;1;1.02.01;True;DF Cons. - Ativo
+CON;BPA;35;1.02.01.06.01;Imposto de Renda e Contribuição Social Diferidos;IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL DIFERIDOS;5;1;1.02.01.06;True;DF Cons. - Ativo
+CON;BPA;36;1.02.01.07;Despesas Antecipadas;DESPESAS ANTECIPADAS;4;1;1.02.01;True;DF Cons. - Ativo
+CON;BPA;37;1.02.01.08;Créditos com Partes Relacionadas;CREDITOS COM PARTES RELACIONADAS;4;1;1.02.01;True;DF Cons. - Ativo
+CON;BPA;38;1.02.01.08.01;Créditos com Coligadas;CREDITOS COM COLIGADAS;5;1;1.02.01.08;True;DF Cons. - Ativo
+CON;BPA;39;1.02.01.08.03;Créditos com Controladores;CREDITOS COM CONTROLADORES;5;1;1.02.01.08;True;DF Cons. - Ativo
+CON;BPA;40;1.02.01.08.04;Créditos com Outras Partes Relacionadas;CREDITOS COM OUTRAS PARTES RELACIONADAS;5;1;1.02.01.08;True;DF Cons. - Ativo
+CON;BPA;41;1.02.01.09;Outros Ativos Não Circulantes;OUTROS ATIVOS NAO CIRCULANTES;4;1;1.02.01;True;DF Cons. - Ativo
+CON;BPA;42;1.02.01.09.01;Ativos Não-Correntes a Venda;ATIVOS NAO-CORRENTES A VENDA;5;1;1.02.01.09;True;DF Cons. - Ativo
+CON;BPA;43;1.02.01.09.02;Ativos de Operações Descontinuadas;ATIVOS DE OPERACOES DESCONTINUADAS;5;1;1.02.01.09;True;DF Cons. - Ativo
+CON;BPA;44;1.02.02;Investimentos;INVESTIMENTOS;3;1;1.02;True;DF Cons. - Ativo
+CON;BPA;45;1.02.02.01;Participações Societárias;PARTICIPACOES SOCIETARIAS;4;1;1.02.02;True;DF Cons. - Ativo
+CON;BPA;46;1.02.02.01.01;Participações em Coligadas;PARTICIPACOES EM COLIGADAS;5;1;1.02.02.01;True;DF Cons. - Ativo
+CON;BPA;47;1.02.02.01.04;Outras Participações Societárias;OUTRAS PARTICIPACOES SOCIETARIAS;5;1;1.02.02.01;True;DF Cons. - Ativo
+CON;BPA;48;1.02.02.02;Propriedades para Investimento;PROPRIEDADES PARA INVESTIMENTO;4;1;1.02.02;True;DF Cons. - Ativo
+CON;BPA;49;1.02.03;Imobilizado;IMOBILIZADO;3;1;1.02;True;DF Cons. - Ativo
+CON;BPA;50;1.02.03.01;Imobilizado em Operação;IMOBILIZADO EM OPERACAO;4;1;1.02.03;True;DF Cons. - Ativo
+CON;BPA;51;1.02.03.02;Imobilizado Arrendado;IMOBILIZADO ARRENDADO;4;1;1.02.03;True;DF Cons. - Ativo
+CON;BPA;52;1.02.03.03;Imobilizado em Andamento;IMOBILIZADO EM ANDAMENTO;4;1;1.02.03;True;DF Cons. - Ativo
+CON;BPA;53;1.02.04;Intangível;INTANGIVEL;3;1;1.02;True;DF Cons. - Ativo
+CON;BPA;54;1.02.04.01;Intangíveis;INTANGIVEIS;4;1;1.02.04;True;DF Cons. - Ativo
+CON;BPA;55;1.02.04.01.01;Contrato de Concessão;CONTRATO DE CONCESSAO;5;1;1.02.04.01;True;DF Cons. - Ativo
+CON;BPA;56;1.02.04.02;Goodwill;GOODWILL;4;1;1.02.04;True;DF Cons. - Ativo
+CON;BPP;1;2;Passivo Total;PASSIVO TOTAL;1;2;;True;DF Cons. - Passivo
+CON;BPP;2;2.01;Passivo Circulante;PASSIVO CIRCULANTE;2;2;2;True;DF Cons. - Passivo
+CON;BPP;3;2.01.01;Obrigações Sociais e Trabalhistas;OBRIGACOES SOCIAIS E TRABALHISTAS;3;2;2.01;True;DF Cons. - Passivo
+CON;BPP;4;2.01.01.01;Obrigações Sociais;OBRIGACOES SOCIAIS;4;2;2.01.01;True;DF Cons. - Passivo
+CON;BPP;5;2.01.01.02;Obrigações Trabalhistas;OBRIGACOES TRABALHISTAS;4;2;2.01.01;True;DF Cons. - Passivo
+CON;BPP;6;2.01.02;Fornecedores;FORNECEDORES;3;2;2.01;True;DF Cons. - Passivo
+CON;BPP;7;2.01.02.01;Fornecedores Nacionais;FORNECEDORES NACIONAIS;4;2;2.01.02;True;DF Cons. - Passivo
+CON;BPP;8;2.01.02.02;Fornecedores Estrangeiros;FORNECEDORES ESTRANGEIROS;4;2;2.01.02;True;DF Cons. - Passivo
+CON;BPP;9;2.01.03;Obrigações Fiscais;OBRIGACOES FISCAIS;3;2;2.01;True;DF Cons. - Passivo
+CON;BPP;10;2.01.03.01;Obrigações Fiscais Federais;OBRIGACOES FISCAIS FEDERAIS;4;2;2.01.03;True;DF Cons. - Passivo
+CON;BPP;11;2.01.03.01.01;Imposto de Renda e Contribuição Social a Pagar;IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL A PAGAR;5;2;2.01.03.01;True;DF Cons. - Passivo
+CON;BPP;12;2.01.03.02;Obrigações Fiscais Estaduais;OBRIGACOES FISCAIS ESTADUAIS;4;2;2.01.03;True;DF Cons. - Passivo
+CON;BPP;13;2.01.03.03;Obrigações Fiscais Municipais;OBRIGACOES FISCAIS MUNICIPAIS;4;2;2.01.03;True;DF Cons. - Passivo
+CON;BPP;14;2.01.04;Empréstimos e Financiamentos;EMPRESTIMOS E FINANCIAMENTOS;3;2;2.01;True;DF Cons. - Passivo
+CON;BPP;15;2.01.04.01;Empréstimos e Financiamentos;EMPRESTIMOS E FINANCIAMENTOS;4;2;2.01.04;True;DF Cons. - Passivo
+CON;BPP;16;2.01.04.01.01;Em Moeda Nacional;EM MOEDA NACIONAL;5;2;2.01.04.01;True;DF Cons. - Passivo
+CON;BPP;17;2.01.04.01.02;Em Moeda Estrangeira;EM MOEDA ESTRANGEIRA;5;2;2.01.04.01;True;DF Cons. - Passivo
+CON;BPP;18;2.01.04.02;Debêntures;DEBENTURES;4;2;2.01.04;True;DF Cons. - Passivo
+CON;BPP;19;2.01.04.03;Financiamento por Arrendamento Financeiro;FINANCIAMENTO POR ARRENDAMENTO FINANCEIRO;4;2;2.01.04;True;DF Cons. - Passivo
+CON;BPP;20;2.01.05;Outras Obrigações;OUTRAS OBRIGACOES;3;2;2.01;True;DF Cons. - Passivo
+CON;BPP;21;2.01.05.01;Passivos com Partes Relacionadas;PASSIVOS COM PARTES RELACIONADAS;4;2;2.01.05;True;DF Cons. - Passivo
+CON;BPP;22;2.01.05.01.01;Débitos com Coligadas;DEBITOS COM COLIGADAS;5;2;2.01.05.01;True;DF Cons. - Passivo
+CON;BPP;23;2.01.05.01.03;Débitos com Controladores;DEBITOS COM CONTROLADORES;5;2;2.01.05.01;True;DF Cons. - Passivo
+CON;BPP;24;2.01.05.01.04;Débitos com Outras Partes Relacionadas;DEBITOS COM OUTRAS PARTES RELACIONADAS;5;2;2.01.05.01;True;DF Cons. - Passivo
+CON;BPP;25;2.01.05.02;Outros;OUTROS;4;2;2.01.05;True;DF Cons. - Passivo
+CON;BPP;26;2.01.05.02.01;Dividendos e JCP a Pagar;DIVIDENDOS E JCP A PAGAR;5;2;2.01.05.02;True;DF Cons. - Passivo
+CON;BPP;27;2.01.05.02.02;Dividendo Mínimo Obrigatório a Pagar;DIVIDENDO MINIMO OBRIGATORIO A PAGAR;5;2;2.01.05.02;True;DF Cons. - Passivo
+CON;BPP;28;2.01.05.02.03;Obrigações por Pagamentos Baseados em Ações;OBRIGACOES POR PAGAMENTOS BASEADOS EM ACOES;5;2;2.01.05.02;True;DF Cons. - Passivo
+CON;BPP;29;2.01.06;Provisões;PROVISOES;3;2;2.01;True;DF Cons. - Passivo
+CON;BPP;30;2.01.06.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;PROVISOES FISCAIS PREVIDENCIARIAS TRABALHISTAS E CIVEIS;4;2;2.01.06;True;DF Cons. - Passivo
+CON;BPP;31;2.01.06.01.01;Provisões Fiscais;PROVISOES FISCAIS;5;2;2.01.06.01;True;DF Cons. - Passivo
+CON;BPP;32;2.01.06.01.02;Provisões Previdenciárias e Trabalhistas;PROVISOES PREVIDENCIARIAS E TRABALHISTAS;5;2;2.01.06.01;True;DF Cons. - Passivo
+CON;BPP;33;2.01.06.01.03;Provisões para Benefícios a Empregados;PROVISOES PARA BENEFICIOS A EMPREGADOS;5;2;2.01.06.01;True;DF Cons. - Passivo
+CON;BPP;34;2.01.06.01.04;Provisões Cíveis;PROVISOES CIVEIS;5;2;2.01.06.01;True;DF Cons. - Passivo
+CON;BPP;35;2.01.06.02;Outras Provisões;OUTRAS PROVISOES;4;2;2.01.06;True;DF Cons. - Passivo
+CON;BPP;36;2.01.06.02.01;Provisões para Garantias;PROVISOES PARA GARANTIAS;5;2;2.01.06.02;True;DF Cons. - Passivo
+CON;BPP;37;2.01.06.02.02;Provisões para Reestruturação;PROVISOES PARA REESTRUTURACAO;5;2;2.01.06.02;True;DF Cons. - Passivo
+CON;BPP;38;2.01.06.02.03;Provisões para Passivos Ambientais e de Desativação;PROVISOES PARA PASSIVOS AMBIENTAIS E DE DESATIVACAO;5;2;2.01.06.02;True;DF Cons. - Passivo
+CON;BPP;39;2.01.07;Passivos sobre Ativos Não-Correntes a Venda e Descontinuados;PASSIVOS SOBRE ATIVOS NAO-CORRENTES A VENDA E DESCONTINUADOS;3;2;2.01;True;DF Cons. - Passivo
+CON;BPP;40;2.01.07.01;Passivos sobre Ativos Não-Correntes a Venda;PASSIVOS SOBRE ATIVOS NAO-CORRENTES A VENDA;4;2;2.01.07;True;DF Cons. - Passivo
+CON;BPP;41;2.01.07.02;Passivos sobre Ativos de Operações Descontinuadas;PASSIVOS SOBRE ATIVOS DE OPERACOES DESCONTINUADAS;4;2;2.01.07;True;DF Cons. - Passivo
+CON;BPP;42;2.02;Passivo Não Circulante;PASSIVO NAO CIRCULANTE;2;2;2;True;DF Cons. - Passivo
+CON;BPP;43;2.02.01;Empréstimos e Financiamentos;EMPRESTIMOS E FINANCIAMENTOS;3;2;2.02;True;DF Cons. - Passivo
+CON;BPP;44;2.02.01.01;Empréstimos e Financiamentos;EMPRESTIMOS E FINANCIAMENTOS;4;2;2.02.01;True;DF Cons. - Passivo
+CON;BPP;45;2.02.01.01.01;Em Moeda Nacional;EM MOEDA NACIONAL;5;2;2.02.01.01;True;DF Cons. - Passivo
+CON;BPP;46;2.02.01.01.02;Em Moeda Estrangeira;EM MOEDA ESTRANGEIRA;5;2;2.02.01.01;True;DF Cons. - Passivo
+CON;BPP;47;2.02.01.02;Debêntures;DEBENTURES;4;2;2.02.01;True;DF Cons. - Passivo
+CON;BPP;48;2.02.01.03;Financiamento por Arrendamento Financeiro;FINANCIAMENTO POR ARRENDAMENTO FINANCEIRO;4;2;2.02.01;True;DF Cons. - Passivo
+CON;BPP;49;2.02.02;Outras Obrigações;OUTRAS OBRIGACOES;3;2;2.02;True;DF Cons. - Passivo
+CON;BPP;50;2.02.02.01;Passivos com Partes Relacionadas;PASSIVOS COM PARTES RELACIONADAS;4;2;2.02.02;True;DF Cons. - Passivo
+CON;BPP;51;2.02.02.01.01;Débitos com Coligadas;DEBITOS COM COLIGADAS;5;2;2.02.02.01;True;DF Cons. - Passivo
+CON;BPP;52;2.02.02.01.03;Débitos com Controladores;DEBITOS COM CONTROLADORES;5;2;2.02.02.01;True;DF Cons. - Passivo
+CON;BPP;53;2.02.02.01.04;Débitos com Outras Partes Relacionadas;DEBITOS COM OUTRAS PARTES RELACIONADAS;5;2;2.02.02.01;True;DF Cons. - Passivo
+CON;BPP;54;2.02.02.02;Outros;OUTROS;4;2;2.02.02;True;DF Cons. - Passivo
+CON;BPP;55;2.02.02.02.01;Obrigações por Pagamentos Baseados em Ações;OBRIGACOES POR PAGAMENTOS BASEADOS EM ACOES;5;2;2.02.02.02;True;DF Cons. - Passivo
+CON;BPP;56;2.02.02.02.02;Adiantamento para Futuro Aumento de Capital;ADIANTAMENTO PARA FUTURO AUMENTO DE CAPITAL;5;2;2.02.02.02;True;DF Cons. - Passivo
+CON;BPP;57;2.02.03;Tributos Diferidos;TRIBUTOS DIFERIDOS;3;2;2.02;True;DF Cons. - Passivo
+CON;BPP;58;2.02.03.01;Imposto de Renda e Contribuição Social Diferidos;IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL DIFERIDOS;4;2;2.02.03;True;DF Cons. - Passivo
+CON;BPP;59;2.02.04;Provisões;PROVISOES;3;2;2.02;True;DF Cons. - Passivo
+CON;BPP;60;2.02.04.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;PROVISOES FISCAIS PREVIDENCIARIAS TRABALHISTAS E CIVEIS;4;2;2.02.04;True;DF Cons. - Passivo
+CON;BPP;61;2.02.04.01.01;Provisões Fiscais;PROVISOES FISCAIS;5;2;2.02.04.01;True;DF Cons. - Passivo
+CON;BPP;62;2.02.04.01.02;Provisões Previdenciárias e Trabalhistas;PROVISOES PREVIDENCIARIAS E TRABALHISTAS;5;2;2.02.04.01;True;DF Cons. - Passivo
+CON;BPP;63;2.02.04.01.03;Provisões para Benefícios a Empregados;PROVISOES PARA BENEFICIOS A EMPREGADOS;5;2;2.02.04.01;True;DF Cons. - Passivo
+CON;BPP;64;2.02.04.01.04;Provisões Cíveis;PROVISOES CIVEIS;5;2;2.02.04.01;True;DF Cons. - Passivo
+CON;BPP;65;2.02.04.02;Outras Provisões;OUTRAS PROVISOES;4;2;2.02.04;True;DF Cons. - Passivo
+CON;BPP;66;2.02.04.02.01;Provisões para Garantias;PROVISOES PARA GARANTIAS;5;2;2.02.04.02;True;DF Cons. - Passivo
+CON;BPP;67;2.02.04.02.02;Provisões para Reestruturação;PROVISOES PARA REESTRUTURACAO;5;2;2.02.04.02;True;DF Cons. - Passivo
+CON;BPP;68;2.02.04.02.03;Provisões para Passivos Ambientais e de Desativação;PROVISOES PARA PASSIVOS AMBIENTAIS E DE DESATIVACAO;5;2;2.02.04.02;True;DF Cons. - Passivo
+CON;BPP;69;2.02.05;Passivos sobre Ativos Não-Correntes a Venda e Descontinuados;PASSIVOS SOBRE ATIVOS NAO-CORRENTES A VENDA E DESCONTINUADOS;3;2;2.02;True;DF Cons. - Passivo
+CON;BPP;70;2.02.05.01;Passivos sobre Ativos Não-Correntes a Venda;PASSIVOS SOBRE ATIVOS NAO-CORRENTES A VENDA;4;2;2.02.05;True;DF Cons. - Passivo
+CON;BPP;71;2.02.05.02;Passivos sobre Ativos de Operações Descontinuadas;PASSIVOS SOBRE ATIVOS DE OPERACOES DESCONTINUADAS;4;2;2.02.05;True;DF Cons. - Passivo
+CON;BPP;72;2.02.06;Lucros e Receitas a Apropriar;LUCROS E RECEITAS A APROPRIAR;3;2;2.02;True;DF Cons. - Passivo
+CON;BPP;73;2.02.06.01;Lucros a Apropriar;LUCROS A APROPRIAR;4;2;2.02.06;True;DF Cons. - Passivo
+CON;BPP;74;2.02.06.02;Receitas a Apropriar;RECEITAS A APROPRIAR;4;2;2.02.06;True;DF Cons. - Passivo
+CON;BPP;75;2.02.06.03;Subvenções de Investimento a Apropriar;SUBVENCOES DE INVESTIMENTO A APROPRIAR;4;2;2.02.06;True;DF Cons. - Passivo
+CON;BPP;76;2.03;Patrimônio Líquido Consolidado;PATRIMONIO LIQUIDO CONSOLIDADO;2;2;2;True;DF Cons. - Passivo
+CON;BPP;77;2.03.01;Capital Social Realizado;CAPITAL SOCIAL REALIZADO;3;2;2.03;True;DF Cons. - Passivo
+CON;BPP;78;2.03.02;Reservas de Capital;RESERVAS DE CAPITAL;3;2;2.03;True;DF Cons. - Passivo
+CON;BPP;79;2.03.02.01;Ágio na Emissão de Ações;AGIO NA EMISSAO DE ACOES;4;2;2.03.02;True;DF Cons. - Passivo
+CON;BPP;80;2.03.02.02;Reserva Especial de Ágio na Incorporação;RESERVA ESPECIAL DE AGIO NA INCORPORACAO;4;2;2.03.02;True;DF Cons. - Passivo
+CON;BPP;81;2.03.02.03;Alienação de Bônus de Subscrição;ALIENACAO DE BONUS DE SUBSCRICAO;4;2;2.03.02;True;DF Cons. - Passivo
+CON;BPP;82;2.03.02.04;Opções Outorgadas;OPCOES OUTORGADAS;4;2;2.03.02;True;DF Cons. - Passivo
+CON;BPP;83;2.03.02.05;Ações em Tesouraria;ACOES EM TESOURARIA;4;2;2.03.02;True;DF Cons. - Passivo
+CON;BPP;84;2.03.02.06;Adiantamento para Futuro Aumento de Capital;ADIANTAMENTO PARA FUTURO AUMENTO DE CAPITAL;4;2;2.03.02;True;DF Cons. - Passivo
+CON;BPP;85;2.03.03;Reservas de Reavaliação;RESERVAS DE REAVALIACAO;3;2;2.03;True;DF Cons. - Passivo
+CON;BPP;86;2.03.04;Reservas de Lucros;RESERVAS DE LUCROS;3;2;2.03;True;DF Cons. - Passivo
+CON;BPP;87;2.03.04.01;Reserva Legal;RESERVA LEGAL;4;2;2.03.04;True;DF Cons. - Passivo
+CON;BPP;88;2.03.04.02;Reserva Estatutária;RESERVA ESTATUTARIA;4;2;2.03.04;True;DF Cons. - Passivo
+CON;BPP;89;2.03.04.03;Reserva para Contingências;RESERVA PARA CONTINGENCIAS;4;2;2.03.04;True;DF Cons. - Passivo
+CON;BPP;90;2.03.04.04;Reserva de Lucros a Realizar;RESERVA DE LUCROS A REALIZAR;4;2;2.03.04;True;DF Cons. - Passivo
+CON;BPP;91;2.03.04.05;Reserva de Retenção de Lucros;RESERVA DE RETENCAO DE LUCROS;4;2;2.03.04;True;DF Cons. - Passivo
+CON;BPP;92;2.03.04.06;Reserva Especial para Dividendos Não Distribuídos;RESERVA ESPECIAL PARA DIVIDENDOS NAO DISTRIBUIDOS;4;2;2.03.04;True;DF Cons. - Passivo
+CON;BPP;93;2.03.04.07;Reserva de Incentivos Fiscais;RESERVA DE INCENTIVOS FISCAIS;4;2;2.03.04;True;DF Cons. - Passivo
+CON;BPP;94;2.03.04.08;Dividendo Adicional Proposto;DIVIDENDO ADICIONAL PROPOSTO;4;2;2.03.04;True;DF Cons. - Passivo
+CON;BPP;95;2.03.04.09;Ações em Tesouraria;ACOES EM TESOURARIA;4;2;2.03.04;True;DF Cons. - Passivo
+CON;BPP;96;2.03.05;Lucros/Prejuízos Acumulados;LUCROS/PREJUIZOS ACUMULADOS;3;2;2.03;True;DF Cons. - Passivo
+CON;BPP;97;2.03.06;Ajustes de Avaliação Patrimonial;AJUSTES DE AVALIACAO PATRIMONIAL;3;2;2.03;True;DF Cons. - Passivo
+CON;BPP;98;2.03.07;Ajustes Acumulados de Conversão;AJUSTES ACUMULADOS DE CONVERSAO;3;2;2.03;True;DF Cons. - Passivo
+CON;BPP;99;2.03.08;Outros Resultados Abrangentes;OUTROS RESULTADOS ABRANGENTES;3;2;2.03;True;DF Cons. - Passivo
+CON;BPP;100;2.03.09;Participação dos Acionistas Não Controladores;PARTICIPACAO DOS ACIONISTAS NAO CONTROLADORES;3;2;2.03;True;DF Cons. - Passivo
+CON;DRE;1;3.01;Receita de Venda de Bens e/ou Serviços;RECEITA DE VENDA DE BENS E/OU SERVICOS;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;2;3.02;Custo dos Bens e/ou Serviços Vendidos;CUSTO DOS BENS E/OU SERVICOS VENDIDOS;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;3;3.03;Resultado Bruto;RESULTADO BRUTO;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;4;3.04;Despesas/Receitas Operacionais;DESPESAS/RECEITAS OPERACIONAIS;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;5;3.04.01;Despesas com Vendas;DESPESAS COM VENDAS;3;3;3.04;True;DF Cons. - Resultado Período
+CON;DRE;6;3.04.02;Despesas Gerais e Administrativas;DESPESAS GERAIS E ADMINISTRATIVAS;3;3;3.04;True;DF Cons. - Resultado Período
+CON;DRE;7;3.04.03;Perdas pela Não Recuperabilidade de Ativos;PERDAS PELA NAO RECUPERABILIDADE DE ATIVOS;3;3;3.04;True;DF Cons. - Resultado Período
+CON;DRE;8;3.04.04;Outras Receitas Operacionais;OUTRAS RECEITAS OPERACIONAIS;3;3;3.04;True;DF Cons. - Resultado Período
+CON;DRE;9;3.04.05;Outras Despesas Operacionais;OUTRAS DESPESAS OPERACIONAIS;3;3;3.04;True;DF Cons. - Resultado Período
+CON;DRE;10;3.04.06;Resultado de Equivalência Patrimonial;RESULTADO DE EQUIVALENCIA PATRIMONIAL;3;3;3.04;True;DF Cons. - Resultado Período
+CON;DRE;11;3.05;Resultado Antes do Resultado Financeiro e dos Tributos;RESULTADO ANTES DO RESULTADO FINANCEIRO E DOS TRIBUTOS;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;12;3.06;Resultado Financeiro;RESULTADO FINANCEIRO;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;13;3.06.01;Receitas Financeiras;RECEITAS FINANCEIRAS;3;3;3.06;True;DF Cons. - Resultado Período
+CON;DRE;14;3.06.02;Despesas Financeiras;DESPESAS FINANCEIRAS;3;3;3.06;True;DF Cons. - Resultado Período
+CON;DRE;15;3.07;Resultado Antes dos Tributos sobre o Lucro;RESULTADO ANTES DOS TRIBUTOS SOBRE O LUCRO;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;16;3.08;Imposto de Renda e Contribuição Social sobre o Lucro;IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL SOBRE O LUCRO;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;17;3.08.01;Corrente;CORRENTE;3;3;3.08;True;DF Cons. - Resultado Período
+CON;DRE;18;3.08.02;Diferido;DIFERIDO;3;3;3.08;True;DF Cons. - Resultado Período
+CON;DRE;19;3.09;Resultado Líquido das Operações Continuadas;RESULTADO LIQUIDO DAS OPERACOES CONTINUADAS;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;20;3.10;Resultado Líquido de Operações Descontinuadas;RESULTADO LIQUIDO DE OPERACOES DESCONTINUADAS;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;21;3.10.01;Lucro/Prejuízo Líquido das Operações Descontinuadas;LUCRO/PREJUIZO LIQUIDO DAS OPERACOES DESCONTINUADAS;3;3;3.10;True;DF Cons. - Resultado Período
+CON;DRE;22;3.10.02;Ganhos/Perdas Líquidas sobre Ativos de Operações Descontinuadas;GANHOS/PERDAS LIQUIDAS SOBRE ATIVOS DE OPERACOES DESCONTINUADAS;3;3;3.10;True;DF Cons. - Resultado Período
+CON;DRE;23;3.11;Lucro/Prejuízo Consolidado do Período;LUCRO/PREJUIZO CONSOLIDADO DO PERIODO;2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;24;3.11.01;Atribuído a Sócios da Empresa Controladora;ATRIBUIDO A SOCIOS DA EMPRESA CONTROLADORA;3;3;3.11;True;DF Cons. - Resultado Período
+CON;DRE;25;3.11.02;Atribuído a Sócios Não Controladores;ATRIBUIDO A SOCIOS NAO CONTROLADORES;3;3;3.11;True;DF Cons. - Resultado Período
+CON;DRE;26;3.99;Lucro por Ação - (Reais / Ação);LUCRO POR ACAO - (REAIS / ACAO);2;3;3;True;DF Cons. - Resultado Período
+CON;DRE;27;3.99.01;Lucro Básico por Ação;LUCRO BASICO POR ACAO;3;3;3.99;True;DF Cons. - Resultado Período
+CON;DRE;28;3.99.02;Lucro Diluído por Ação;LUCRO DILUIDO POR ACAO;3;3;3.99;True;DF Cons. - Resultado Período
+CON;DRA;1;4.01;Lucro Líquido Consolidado do Período;LUCRO LIQUIDO CONSOLIDADO DO PERIODO;2;4;4;True;DF Cons. - Resultado Abrangente
+CON;DRA;2;4.02;Outros Resultados Abrangentes;OUTROS RESULTADOS ABRANGENTES;2;4;4;True;DF Cons. - Resultado Abrangente
+CON;DRA;3;4.03;Resultado Abrangente Consolidado do Período;RESULTADO ABRANGENTE CONSOLIDADO DO PERIODO;2;4;4;True;DF Cons. - Resultado Abrangente
+CON;DRA;4;4.03.01;Atribuído a Sócios da Empresa Controladora;ATRIBUIDO A SOCIOS DA EMPRESA CONTROLADORA;3;4;4.03;True;DF Cons. - Resultado Abrangente
+CON;DRA;5;4.03.02;Atribuído a Sócios Não Controladores;ATRIBUIDO A SOCIOS NAO CONTROLADORES;3;4;4.03;True;DF Cons. - Resultado Abrangente
+CON;DFC;1;6.01;Caixa Líquido Atividades Operacionais;CAIXA LIQUIDO ATIVIDADES OPERACIONAIS;2;6;6;True;DF Cons. - Fluxo de Caixa
+CON;DFC;2;6.01.01;Caixa Gerado nas Operações;CAIXA GERADO NAS OPERACOES;3;6;6.01;True;DF Cons. - Fluxo de Caixa
+CON;DFC;3;6.01.02;Variações nos Ativos e Passivos;VARIACOES NOS ATIVOS E PASSIVOS;3;6;6.01;True;DF Cons. - Fluxo de Caixa
+CON;DFC;4;6.01.03;Outros;OUTROS;3;6;6.01;True;DF Cons. - Fluxo de Caixa
+CON;DFC;5;6.02;Caixa Líquido Atividades de Investimento;CAIXA LIQUIDO ATIVIDADES DE INVESTIMENTO;2;6;6;True;DF Cons. - Fluxo de Caixa
+CON;DFC;6;6.03;Caixa Líquido Atividades de Financiamento;CAIXA LIQUIDO ATIVIDADES DE FINANCIAMENTO;2;6;6;True;DF Cons. - Fluxo de Caixa
+CON;DFC;7;6.04;Variação Cambial s/ Caixa e Equivalentes;VARIACAO CAMBIAL S/ CAIXA E EQUIVALENTES;2;6;6;True;DF Cons. - Fluxo de Caixa
+CON;DFC;8;6.05;Aumento (Redução) de Caixa e Equivalentes;AUMENTO (REDUCAO) DE CAIXA E EQUIVALENTES;2;6;6;True;DF Cons. - Fluxo de Caixa
+CON;DFC;9;6.05.01;Saldo Inicial de Caixa e Equivalentes;SALDO INICIAL DE CAIXA E EQUIVALENTES;3;6;6.05;True;DF Cons. - Fluxo de Caixa
+CON;DFC;10;6.05.02;Saldo Final de Caixa e Equivalentes;SALDO FINAL DE CAIXA E EQUIVALENTES;3;6;6.05;True;DF Cons. - Fluxo de Caixa
+CON;DMPL;1;5.01;Saldos Iniciais;SALDOS INICIAIS;2;5;5;True;DF Cons. - DMPL - 31122016
+CON;DMPL;2;5.02;Ajustes de Exercícios Anteriores;AJUSTES DE EXERCICIOS ANTERIORES;2;5;5;True;DF Cons. - DMPL - 31122016
+CON;DMPL;3;5.03;Saldos Iniciais Ajustados;SALDOS INICIAIS AJUSTADOS;2;5;5;True;DF Cons. - DMPL - 31122016
+CON;DMPL;4;5.04;Transações de Capital com os Sócios;TRANSACOES DE CAPITAL COM OS SOCIOS;2;5;5;True;DF Cons. - DMPL - 31122016
+CON;DMPL;5;5.04.01;Aumentos de Capital;AUMENTOS DE CAPITAL;3;5;5.04;True;DF Cons. - DMPL - 31122016
+CON;DMPL;6;5.04.02;Gastos com Emissão de Ações;GASTOS COM EMISSAO DE ACOES;3;5;5.04;True;DF Cons. - DMPL - 31122016
+CON;DMPL;7;5.04.03;Opções Outorgadas Reconhecidas;OPCOES OUTORGADAS RECONHECIDAS;3;5;5.04;True;DF Cons. - DMPL - 31122016
+CON;DMPL;8;5.04.04;Ações em Tesouraria Adquiridas;ACOES EM TESOURARIA ADQUIRIDAS;3;5;5.04;True;DF Cons. - DMPL - 31122016
+CON;DMPL;9;5.04.05;Ações em Tesouraria Vendidas;ACOES EM TESOURARIA VENDIDAS;3;5;5.04;True;DF Cons. - DMPL - 31122016
+CON;DMPL;10;5.04.06;Dividendos;DIVIDENDOS;3;5;5.04;True;DF Cons. - DMPL - 31122016
+CON;DMPL;11;5.04.07;Juros sobre Capital Próprio;JUROS SOBRE CAPITAL PROPRIO;3;5;5.04;True;DF Cons. - DMPL - 31122016
+CON;DMPL;12;5.05;Resultado Abrangente Total;RESULTADO ABRANGENTE TOTAL;2;5;5;True;DF Cons. - DMPL - 31122016
+CON;DMPL;13;5.05.01;Lucro Líquido do Período;LUCRO LIQUIDO DO PERIODO;3;5;5.05;True;DF Cons. - DMPL - 31122016
+CON;DMPL;14;5.05.02;Outros Resultados Abrangentes;OUTROS RESULTADOS ABRANGENTES;3;5;5.05;True;DF Cons. - DMPL - 31122016
+CON;DMPL;15;5.05.02.01;Ajustes de Instrumentos Financeiros;AJUSTES DE INSTRUMENTOS FINANCEIROS;4;5;5.05.02;True;DF Cons. - DMPL - 31122016
+CON;DMPL;16;5.05.02.02;Tributos s/ Ajustes Instrumentos Financeiros;TRIBUTOS S/ AJUSTES INSTRUMENTOS FINANCEIROS;4;5;5.05.02;True;DF Cons. - DMPL - 31122016
+CON;DMPL;17;5.05.02.03;Equiv. Patrim. s/Result. Abrang. Coligadas;EQUIV. PATRIM. S/RESULT. ABRANG. COLIGADAS;4;5;5.05.02;True;DF Cons. - DMPL - 31122016
+CON;DMPL;18;5.05.02.04;Ajustes de Conversão do Período;AJUSTES DE CONVERSAO DO PERIODO;4;5;5.05.02;True;DF Cons. - DMPL - 31122016
+CON;DMPL;19;5.05.02.05;Tributos s/ Ajustes de Conversão do Período;TRIBUTOS S/ AJUSTES DE CONVERSAO DO PERIODO;4;5;5.05.02;True;DF Cons. - DMPL - 31122016
+CON;DMPL;20;5.05.03;Reclassificações para o Resultado;RECLASSIFICACOES PARA O RESULTADO;3;5;5.05;True;DF Cons. - DMPL - 31122016
+CON;DMPL;21;5.05.03.01;Ajustes de Instrumentos Financeiros;AJUSTES DE INSTRUMENTOS FINANCEIROS;4;5;5.05.03;True;DF Cons. - DMPL - 31122016
+CON;DMPL;22;5.06;Mutações Internas do Patrimônio Líquido;MUTACOES INTERNAS DO PATRIMONIO LIQUIDO;2;5;5;True;DF Cons. - DMPL - 31122016
+CON;DMPL;23;5.06.01;Constituição de Reservas;CONSTITUICAO DE RESERVAS;3;5;5.06;True;DF Cons. - DMPL - 31122016
+CON;DMPL;24;5.06.02;Realização da Reserva Reavaliação;REALIZACAO DA RESERVA REAVALIACAO;3;5;5.06;True;DF Cons. - DMPL - 31122016
+CON;DMPL;25;5.06.03;Tributos sobre a Realização da Reserva de Reavaliação;TRIBUTOS SOBRE A REALIZACAO DA RESERVA DE REAVALIACAO;3;5;5.06;True;DF Cons. - DMPL - 31122016
+CON;DMPL;26;5.07;Saldos Finais;SALDOS FINAIS;2;5;5;True;DF Cons. - DMPL - 31122016
+CON;DVA;1;7.01;Receitas;RECEITAS;2;7;7;True;DF Cons. - Valor Adicionado
+CON;DVA;2;7.01.01;Vendas de Mercadorias, Produtos e Serviços;VENDAS DE MERCADORIAS, PRODUTOS E SERVICOS;3;7;7.01;True;DF Cons. - Valor Adicionado
+CON;DVA;3;7.01.02;Outras Receitas;OUTRAS RECEITAS;3;7;7.01;True;DF Cons. - Valor Adicionado
+CON;DVA;4;7.01.03;Receitas refs. à Construção de Ativos Próprios;RECEITAS REFS. A CONSTRUCAO DE ATIVOS PROPRIOS;3;7;7.01;True;DF Cons. - Valor Adicionado
+CON;DVA;5;7.01.04;Provisão/Reversão de Créds. Liquidação Duvidosa;PROVISAO/REVERSAO DE CREDS. LIQUIDACAO DUVIDOSA;3;7;7.01;True;DF Cons. - Valor Adicionado
+CON;DVA;6;7.02;Insumos Adquiridos de Terceiros;INSUMOS ADQUIRIDOS DE TERCEIROS;2;7;7;True;DF Cons. - Valor Adicionado
+CON;DVA;7;7.02.01;Custos Prods., Mercs. e Servs. Vendidos;CUSTOS PRODS., MERCS. E SERVS. VENDIDOS;3;7;7.02;True;DF Cons. - Valor Adicionado
+CON;DVA;8;7.02.02;Materiais, Energia, Servs. de Terceiros e Outros;MATERIAIS, ENERGIA, SERVS. DE TERCEIROS E OUTROS;3;7;7.02;True;DF Cons. - Valor Adicionado
+CON;DVA;9;7.02.03;Perda/Recuperação de Valores Ativos;PERDA/RECUPERACAO DE VALORES ATIVOS;3;7;7.02;True;DF Cons. - Valor Adicionado
+CON;DVA;10;7.02.04;Outros;OUTROS;3;7;7.02;True;DF Cons. - Valor Adicionado
+CON;DVA;11;7.03;Valor Adicionado Bruto;VALOR ADICIONADO BRUTO;2;7;7;True;DF Cons. - Valor Adicionado
+CON;DVA;12;7.04;Retenções;RETENCOES;2;7;7;True;DF Cons. - Valor Adicionado
+CON;DVA;13;7.04.01;Depreciação, Amortização e Exaustão;DEPRECIACAO, AMORTIZACAO E EXAUSTAO;3;7;7.04;True;DF Cons. - Valor Adicionado
+CON;DVA;14;7.04.02;Outras;OUTRAS;3;7;7.04;True;DF Cons. - Valor Adicionado
+CON;DVA;15;7.05;Valor Adicionado Líquido Produzido;VALOR ADICIONADO LIQUIDO PRODUZIDO;2;7;7;True;DF Cons. - Valor Adicionado
+CON;DVA;16;7.06;Vlr Adicionado Recebido em Transferência;VLR ADICIONADO RECEBIDO EM TRANSFERENCIA;2;7;7;True;DF Cons. - Valor Adicionado
+CON;DVA;17;7.06.01;Resultado de Equivalência Patrimonial;RESULTADO DE EQUIVALENCIA PATRIMONIAL;3;7;7.06;True;DF Cons. - Valor Adicionado
+CON;DVA;18;7.06.02;Receitas Financeiras;RECEITAS FINANCEIRAS;3;7;7.06;True;DF Cons. - Valor Adicionado
+CON;DVA;19;7.06.03;Outros;OUTROS;3;7;7.06;True;DF Cons. - Valor Adicionado
+CON;DVA;20;7.07;Valor Adicionado Total a Distribuir;VALOR ADICIONADO TOTAL A DISTRIBUIR;2;7;7;True;DF Cons. - Valor Adicionado
+CON;DVA;21;7.08;Distribuição do Valor Adicionado;DISTRIBUICAO DO VALOR ADICIONADO;2;7;7;True;DF Cons. - Valor Adicionado
+CON;DVA;22;7.08.01;Pessoal;PESSOAL;3;7;7.08;True;DF Cons. - Valor Adicionado
+CON;DVA;23;7.08.01.01;Remuneração Direta;REMUNERACAO DIRETA;4;7;7.08.01;True;DF Cons. - Valor Adicionado
+CON;DVA;24;7.08.01.02;Benefícios;BENEFICIOS;4;7;7.08.01;True;DF Cons. - Valor Adicionado
+CON;DVA;25;7.08.01.03;F.G.T.S.;F.G.T.S.;4;7;7.08.01;True;DF Cons. - Valor Adicionado
+CON;DVA;26;7.08.01.04;Outros;OUTROS;4;7;7.08.01;True;DF Cons. - Valor Adicionado
+CON;DVA;27;7.08.02;Impostos, Taxas e Contribuições;IMPOSTOS, TAXAS E CONTRIBUICOES;3;7;7.08;True;DF Cons. - Valor Adicionado
+CON;DVA;28;7.08.02.01;Federais;FEDERAIS;4;7;7.08.02;True;DF Cons. - Valor Adicionado
+CON;DVA;29;7.08.02.02;Estaduais;ESTADUAIS;4;7;7.08.02;True;DF Cons. - Valor Adicionado
+CON;DVA;30;7.08.02.03;Municipais;MUNICIPAIS;4;7;7.08.02;True;DF Cons. - Valor Adicionado
+CON;DVA;31;7.08.03;Remuneração de Capitais de Terceiros;REMUNERACAO DE CAPITAIS DE TERCEIROS;3;7;7.08;True;DF Cons. - Valor Adicionado
+CON;DVA;32;7.08.03.01;Juros;JUROS;4;7;7.08.03;True;DF Cons. - Valor Adicionado
+CON;DVA;33;7.08.03.02;Aluguéis;ALUGUEIS;4;7;7.08.03;True;DF Cons. - Valor Adicionado
+CON;DVA;34;7.08.03.03;Outras;OUTRAS;4;7;7.08.03;True;DF Cons. - Valor Adicionado
+CON;DVA;35;7.08.04;Remuneração de Capitais Próprios;REMUNERACAO DE CAPITAIS PROPRIOS;3;7;7.08;True;DF Cons. - Valor Adicionado
+CON;DVA;36;7.08.04.01;Juros sobre o Capital Próprio;JUROS SOBRE O CAPITAL PROPRIO;4;7;7.08.04;True;DF Cons. - Valor Adicionado
+CON;DVA;37;7.08.04.02;Dividendos;DIVIDENDOS;4;7;7.08.04;True;DF Cons. - Valor Adicionado
+CON;DVA;38;7.08.04.03;Lucros Retidos / Prejuízo do Período;LUCROS RETIDOS / PREJUIZO DO PERIODO;4;7;7.08.04;True;DF Cons. - Valor Adicionado
+CON;DVA;39;7.08.04.04;Part. Não Controladores nos Lucros Retidos;PART. NAO CONTROLADORES NOS LUCROS RETIDOS;4;7;7.08.04;True;DF Cons. - Valor Adicionado
+CON;DVA;40;7.08.05;Outros;OUTROS;3;7;7.08;True;DF Cons. - Valor Adicionado

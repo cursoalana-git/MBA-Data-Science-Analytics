@@ -1,0 +1,1050 @@
+{
+ "CHAVE_CACHE": "73c61333d8de4d506630fef542bc4bf6797f6afb9dababac007bb21395a83efc",
+ "VERSAO_MECANISMO": "1",
+ "DATA_HORA_UTC": "2026-10-04T17:06:55.766553+00:00",
+ "TABELAS": {
+  "INDICE": {
+   "ARQUIVO": "fre_cia_aberta__indice.parquet",
+   "HASH_CONTEUDO": "05a109a147f2ff7bcbd351b84fe0493087acc424247dfdc2c3fa158d68e86c6c",
+   "QTD_LINHAS": 70357,
+   "MB_DISCO": 1.537431
+  },
+  "CAPITAL": {
+   "ARQUIVO": "fre_cia_aberta__capital.parquet",
+   "HASH_CONTEUDO": "725b0b77a8cdc4304cd7a689b878e403cd1eb45569e6fc3bfae89dbcc72e4abe",
+   "QTD_LINHAS": 43912,
+   "MB_DISCO": 1.003732
+  },
+  "CAPITAL_CLASSE": {
+   "ARQUIVO": "fre_cia_aberta__capital_classe.parquet",
+   "HASH_CONTEUDO": "4ad36859e9040c9bd5cd2eb989895fd53f2b85d9046a4c66491ede28eb1e1bcd",
+   "QTD_LINHAS": 6533,
+   "MB_DISCO": 0.076015
+  },
+  "DESDOBRAMENTO": {
+   "ARQUIVO": "fre_cia_aberta__desdobramento.parquet",
+   "HASH_CONTEUDO": "96602269a5d556bb9f05dbccd3d6e1a84f7c2f3ffd4ef362424f6b42ae7d8def",
+   "QTD_LINHAS": 2544,
+   "MB_DISCO": 0.115331
+  },
+  "DESDOBRAMENTO_CLASSE": {
+   "ARQUIVO": "fre_cia_aberta__desdobramento_classe.parquet",
+   "HASH_CONTEUDO": "a8de256a4bea3fc595ae5ccc6cb64e7f54eff14d46d0a785b8731ab34c5029de",
+   "QTD_LINHAS": 410,
+   "MB_DISCO": 0.018319
+  },
+  "REDUCAO": {
+   "ARQUIVO": "fre_cia_aberta__reducao.parquet",
+   "HASH_CONTEUDO": "e8c77969aefead27c79cb0ac8b3b5e8d185c25781fc7c1b43d079a5de4d1ff78",
+   "QTD_LINHAS": 1764,
+   "MB_DISCO": 0.150853
+  },
+  "REDUCAO_CLASSE": {
+   "ARQUIVO": "fre_cia_aberta__reducao_classe.parquet",
+   "HASH_CONTEUDO": "d30fba378098c7f81e22d30c6c5667f8be7efdaf31ec4429e8d7eafa5ae1dbbe",
+   "QTD_LINHAS": 95,
+   "MB_DISCO": 0.009741
+  },
+  "AUMENTO": {
+   "ARQUIVO": "fre_cia_aberta__aumento.parquet",
+   "HASH_CONTEUDO": "abe31ef8ec759254ef9bef205e0d7ef6d5123c63ddbcb71fa1604f18295a6dca",
+   "QTD_LINHAS": 30569,
+   "MB_DISCO": 1.369798
+  },
+  "AUMENTO_CLASSE": {
+   "ARQUIVO": "fre_cia_aberta__aumento_classe.parquet",
+   "HASH_CONTEUDO": "5effc6ebcc151e0c78bb586435b3b3637312bae57513855eed32cdb96f13dede",
+   "QTD_LINHAS": 1946,
+   "MB_DISCO": 0.03268
+  }
+ },
+ "LEITURAS": [
+  {
+   "ANO": 2011,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2011.csv",
+   "QTD_LINHAS": 4110,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2011.csv",
+   "QTD_LINHAS": 2091,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2011.csv",
+   "QTD_LINHAS": 397,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2011.csv",
+   "QTD_LINHAS": 180,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2011.csv",
+   "QTD_LINHAS": 33,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2011.csv",
+   "QTD_LINHAS": 135,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2011.csv",
+   "QTD_LINHAS": 7,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2011.csv",
+   "QTD_LINHAS": 1852,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2011.csv",
+   "QTD_LINHAS": 188,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2012.csv",
+   "QTD_LINHAS": 4239,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2012.csv",
+   "QTD_LINHAS": 2422,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2012.csv",
+   "QTD_LINHAS": 405,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2012.csv",
+   "QTD_LINHAS": 185,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2012.csv",
+   "QTD_LINHAS": 28,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2012.csv",
+   "QTD_LINHAS": 142,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2012.csv",
+   "QTD_LINHAS": 9,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2012.csv",
+   "QTD_LINHAS": 2269,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2012.csv",
+   "QTD_LINHAS": 199,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2013.csv",
+   "QTD_LINHAS": 4456,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2013.csv",
+   "QTD_LINHAS": 2616,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2013.csv",
+   "QTD_LINHAS": 482,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2013.csv",
+   "QTD_LINHAS": 223,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2013.csv",
+   "QTD_LINHAS": 44,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2013.csv",
+   "QTD_LINHAS": 149,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2013.csv",
+   "QTD_LINHAS": 13,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2013.csv",
+   "QTD_LINHAS": 2518,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2013.csv",
+   "QTD_LINHAS": 196,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2014.csv",
+   "QTD_LINHAS": 4119,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2014.csv",
+   "QTD_LINHAS": 2561,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2014.csv",
+   "QTD_LINHAS": 469,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2014.csv",
+   "QTD_LINHAS": 195,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2014.csv",
+   "QTD_LINHAS": 35,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2014.csv",
+   "QTD_LINHAS": 155,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2014.csv",
+   "QTD_LINHAS": 10,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2014.csv",
+   "QTD_LINHAS": 2620,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2014.csv",
+   "QTD_LINHAS": 170,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2015.csv",
+   "QTD_LINHAS": 4210,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2015.csv",
+   "QTD_LINHAS": 2450,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2015.csv",
+   "QTD_LINHAS": 506,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2015.csv",
+   "QTD_LINHAS": 191,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2015.csv",
+   "QTD_LINHAS": 30,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2015.csv",
+   "QTD_LINHAS": 155,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2015.csv",
+   "QTD_LINHAS": 9,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2015.csv",
+   "QTD_LINHAS": 2581,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2015.csv",
+   "QTD_LINHAS": 178,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2016.csv",
+   "QTD_LINHAS": 4308,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2016.csv",
+   "QTD_LINHAS": 2699,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2016.csv",
+   "QTD_LINHAS": 500,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2016.csv",
+   "QTD_LINHAS": 195,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2016.csv",
+   "QTD_LINHAS": 35,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2016.csv",
+   "QTD_LINHAS": 146,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2016.csv",
+   "QTD_LINHAS": 8,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2016.csv",
+   "QTD_LINHAS": 2421,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2016.csv",
+   "QTD_LINHAS": 182,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2017.csv",
+   "QTD_LINHAS": 4324,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2017.csv",
+   "QTD_LINHAS": 2872,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2017.csv",
+   "QTD_LINHAS": 474,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2017.csv",
+   "QTD_LINHAS": 202,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2017.csv",
+   "QTD_LINHAS": 34,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2017.csv",
+   "QTD_LINHAS": 146,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2017.csv",
+   "QTD_LINHAS": 6,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2017.csv",
+   "QTD_LINHAS": 2495,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2017.csv",
+   "QTD_LINHAS": 170,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2018.csv",
+   "QTD_LINHAS": 4435,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2018.csv",
+   "QTD_LINHAS": 2995,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2018.csv",
+   "QTD_LINHAS": 440,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2018.csv",
+   "QTD_LINHAS": 195,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2018.csv",
+   "QTD_LINHAS": 33,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2018.csv",
+   "QTD_LINHAS": 139,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2018.csv",
+   "QTD_LINHAS": 6,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2018.csv",
+   "QTD_LINHAS": 2430,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2018.csv",
+   "QTD_LINHAS": 171,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2019.csv",
+   "QTD_LINHAS": 4498,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2019.csv",
+   "QTD_LINHAS": 2988,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2019.csv",
+   "QTD_LINHAS": 456,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2019.csv",
+   "QTD_LINHAS": 187,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2019.csv",
+   "QTD_LINHAS": 35,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2019.csv",
+   "QTD_LINHAS": 132,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2019.csv",
+   "QTD_LINHAS": 8,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2019.csv",
+   "QTD_LINHAS": 2584,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2019.csv",
+   "QTD_LINHAS": 167,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2020.csv",
+   "QTD_LINHAS": 4238,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2020.csv",
+   "QTD_LINHAS": 3222,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2020.csv",
+   "QTD_LINHAS": 461,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2020.csv",
+   "QTD_LINHAS": 232,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2020.csv",
+   "QTD_LINHAS": 34,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2020.csv",
+   "QTD_LINHAS": 134,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2020.csv",
+   "QTD_LINHAS": 7,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2020.csv",
+   "QTD_LINHAS": 2792,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2020.csv",
+   "QTD_LINHAS": 151,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2021.csv",
+   "QTD_LINHAS": 5050,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2021.csv",
+   "QTD_LINHAS": 3606,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2021.csv",
+   "QTD_LINHAS": 461,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2021.csv",
+   "QTD_LINHAS": 275,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2021.csv",
+   "QTD_LINHAS": 34,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2021.csv",
+   "QTD_LINHAS": 167,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2021.csv",
+   "QTD_LINHAS": 6,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2021.csv",
+   "QTD_LINHAS": 3148,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2021.csv",
+   "QTD_LINHAS": 97,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2022.csv",
+   "QTD_LINHAS": 5076,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2022.csv",
+   "QTD_LINHAS": 3775,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2022.csv",
+   "QTD_LINHAS": 452,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2022.csv",
+   "QTD_LINHAS": 282,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DESDOBRAMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2022.csv",
+   "QTD_LINHAS": 35,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2022.csv",
+   "QTD_LINHAS": 163,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "REDUCAO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_classe_acao_2022.csv",
+   "QTD_LINHAS": 6,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2022.csv",
+   "QTD_LINHAS": 2831,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "AUMENTO_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_classe_acao_2022.csv",
+   "QTD_LINHAS": 77,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2023.csv",
+   "QTD_LINHAS": 5214,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2023.csv",
+   "QTD_LINHAS": 2492,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2023.csv",
+   "QTD_LINHAS": 235,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "DESDOBRAMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_desdobramento_2023.csv",
+   "QTD_LINHAS": 2,
+   "ENCODING": "utf-8",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "REDUCAO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_reducao_2023.csv",
+   "QTD_LINHAS": 1,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "AUMENTO",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_aumento_2023.csv",
+   "QTD_LINHAS": 28,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2024.csv",
+   "QTD_LINHAS": 5113,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2024.csv",
+   "QTD_LINHAS": 2496,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2024.csv",
+   "QTD_LINHAS": 264,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2025.csv",
+   "QTD_LINHAS": 4944,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2025.csv",
+   "QTD_LINHAS": 2402,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2025.csv",
+   "QTD_LINHAS": 292,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "fre_cia_aberta_2026.csv",
+   "QTD_LINHAS": 2023,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "CAPITAL",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_2026.csv",
+   "QTD_LINHAS": 2225,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "CAPITAL_CLASSE",
+   "NOME_MEMBRO": "fre_cia_aberta_capital_social_classe_acao_2026.csv",
+   "QTD_LINHAS": 239,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  }
+ ],
+ "LAYOUT_DIVERGENTE": [],
+ "COLUNAS_AUSENTES": [],
+ "FLAG_CONTEUDO_PRESERVADO": true
+}

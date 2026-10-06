@@ -1,0 +1,1184 @@
+{
+  "ID_EXECUCAO": "20261005_154346",
+  "SECAO": "4 - INGESTAO BRUTA",
+  "FLAG_APROVADO": true,
+  "QTD_FONTES": 6,
+  "QTD_TABELAS": 28,
+  "QTD_LINHAS_TOTAL": 62597766,
+  "FONTES": {
+    "CVM_CAD": {
+      "CELULA": "4.1",
+      "ORIGEM_CARGA": "CSV_DIRETO",
+      "ARQUIVOS": [
+        {
+          "ARQUIVO": "data\\raw\\cvm_cad\\cad_cia_aberta__20261004_87222302.csv",
+          "VERSAO_LOCAL": 1,
+          "HASH_SHA256": "872223026e2f1053f51ed58cbdd9246e73fec09d3f22320d55a607b9f1fa4ec0"
+        }
+      ],
+      "TABELAS": {
+        "CAD": {
+          "DATAFRAME": "df_cvm_cad_raw",
+          "QTD_LINHAS": 2678,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DENOM_SOCIAL",
+            "DENOM_COMERC",
+            "DT_REG",
+            "DT_CONST",
+            "DT_CANCEL",
+            "MOTIVO_CANCEL",
+            "SIT",
+            "DT_INI_SIT",
+            "CD_CVM",
+            "SETOR_ATIV",
+            "TP_MERC",
+            "CATEG_REG",
+            "DT_INI_CATEG",
+            "SIT_EMISSOR",
+            "DT_INI_SIT_EMISSOR",
+            "CONTROLE_ACIONARIO",
+            "TP_ENDER",
+            "LOGRADOURO",
+            "COMPL",
+            "BAIRRO",
+            "MUN",
+            "UF",
+            "PAIS",
+            "CEP",
+            "DDD_TEL",
+            "TEL",
+            "DDD_FAX",
+            "FAX",
+            "EMAIL",
+            "TP_RESP",
+            "RESP",
+            "DT_INI_RESP",
+            "LOGRADOURO_RESP",
+            "COMPL_RESP",
+            "BAIRRO_RESP",
+            "MUN_RESP",
+            "UF_RESP",
+            "PAIS_RESP",
+            "CEP_RESP",
+            "DDD_TEL_RESP",
+            "TEL_RESP",
+            "DDD_FAX_RESP",
+            "FAX_RESP",
+            "EMAIL_RESP",
+            "CNPJ_AUDITOR",
+            "AUDITOR"
+          ],
+          "HASH_CONTEUDO": "0f166cc85dd5b80b2c2d42efefef251c6c41a18f46b6cd3e92baa7e0931ca263"
+        }
+      }
+    },
+    "CVM_DFP": {
+      "CELULA": "4.2",
+      "ORIGEM_CARGA": "CACHE",
+      "ARQUIVOS": [
+        {
+          "ANO": 2011,
+          "NOME_LOGICO": "dfp_cia_aberta_2011.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2011__20261004_858423fb.zip"
+        },
+        {
+          "ANO": 2012,
+          "NOME_LOGICO": "dfp_cia_aberta_2012.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2012__20261004_3aff7a72.zip"
+        },
+        {
+          "ANO": 2013,
+          "NOME_LOGICO": "dfp_cia_aberta_2013.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2013__20261004_ef379ac9.zip"
+        },
+        {
+          "ANO": 2014,
+          "NOME_LOGICO": "dfp_cia_aberta_2014.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2014__20261004_b8795dba.zip"
+        },
+        {
+          "ANO": 2015,
+          "NOME_LOGICO": "dfp_cia_aberta_2015.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2015__20261004_39a7001b.zip"
+        },
+        {
+          "ANO": 2016,
+          "NOME_LOGICO": "dfp_cia_aberta_2016.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2016__20261004_772f06a7.zip"
+        },
+        {
+          "ANO": 2017,
+          "NOME_LOGICO": "dfp_cia_aberta_2017.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2017__20261004_1ff8185d.zip"
+        },
+        {
+          "ANO": 2018,
+          "NOME_LOGICO": "dfp_cia_aberta_2018.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2018__20261004_280dcf5a.zip"
+        },
+        {
+          "ANO": 2019,
+          "NOME_LOGICO": "dfp_cia_aberta_2019.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2019__20261004_bc82a116.zip"
+        },
+        {
+          "ANO": 2020,
+          "NOME_LOGICO": "dfp_cia_aberta_2020.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2020__20261004_8fb97d18.zip"
+        },
+        {
+          "ANO": 2021,
+          "NOME_LOGICO": "dfp_cia_aberta_2021.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2021__20261004_64b8693b.zip"
+        },
+        {
+          "ANO": 2022,
+          "NOME_LOGICO": "dfp_cia_aberta_2022.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2022__20261004_dd67d4fb.zip"
+        },
+        {
+          "ANO": 2023,
+          "NOME_LOGICO": "dfp_cia_aberta_2023.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2023__20261004_0ca6490b.zip"
+        },
+        {
+          "ANO": 2024,
+          "NOME_LOGICO": "dfp_cia_aberta_2024.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2024__20261004_ffc488e1.zip"
+        },
+        {
+          "ANO": 2025,
+          "NOME_LOGICO": "dfp_cia_aberta_2025.zip",
+          "VERSAO_LOCAL": 2,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2025__20261004_d7aec54e.zip"
+        },
+        {
+          "ANO": 2026,
+          "NOME_LOGICO": "dfp_cia_aberta_2026.zip",
+          "VERSAO_LOCAL": 2,
+          "ARQUIVO": "data/raw/cvm_dfp/dfp_cia_aberta_2026__20261004_7eab9645.zip"
+        }
+      ],
+      "TABELAS": {
+        "INDICE": {
+          "DATAFRAME": "df_cvm_dfp_indice_raw",
+          "QTD_LINHAS": 12898,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "CATEG_DOC",
+            "ID_DOC",
+            "DT_RECEB",
+            "LINK_DOC",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "9cd6d2039cc9a7a1ca1e943e0b4e8095175d9707c5521e777647ca1fba30de39"
+        },
+        "BPA": {
+          "DATAFRAME": "df_cvm_dfp_bpa_raw",
+          "QTD_LINHAS": 2103876,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "a7034e703a733513c5fb7ab0911c7eaafd7efa45cf3691102668bc5234d66807"
+        },
+        "BPP": {
+          "DATAFRAME": "df_cvm_dfp_bpp_raw",
+          "QTD_LINHAS": 3521666,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "2a8c2cfb93bd6baab2a9de2384d457a3f414e6b49786289c08172afc262bcc0f"
+        },
+        "DRE": {
+          "DATAFRAME": "df_cvm_dfp_dre_raw",
+          "QTD_LINHAS": 1082690,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_INI_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "fd21b371265979126c633bf573819a20e3a07f27f29dcaa5c816e89cc44f647a"
+        },
+        "DFC_MD": {
+          "DATAFRAME": "df_cvm_dfp_dfc_md_raw",
+          "QTD_LINHAS": 19923,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_INI_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "adf8ec6e2d74a19d08f7bd87872974224d332f43077777f039c5197b07d0b90b"
+        },
+        "DFC_MI": {
+          "DATAFRAME": "df_cvm_dfp_dfc_mi_raw",
+          "QTD_LINHAS": 1405805,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_INI_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "346a3eb83e271108d8742eb535b8b96731bb7cf89905dfa981c77ea944cd45d8"
+        },
+        "DMPL": {
+          "DATAFRAME": "df_cvm_dfp_dmpl_raw",
+          "QTD_LINHAS": 6411104,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_INI_EXERC",
+            "DT_FIM_EXERC",
+            "COLUNA_DF",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "9f752ec9c095a2b51f73a46287493e0e92911ac74d6c75d8955ba702fb85633d"
+        }
+      }
+    },
+    "CVM_ITR": {
+      "CELULA": "4.3",
+      "ORIGEM_CARGA": "CACHE",
+      "ARQUIVOS": [
+        {
+          "ANO": 2011,
+          "NOME_LOGICO": "itr_cia_aberta_2011.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2011__20261004_11f0d8cc.zip"
+        },
+        {
+          "ANO": 2012,
+          "NOME_LOGICO": "itr_cia_aberta_2012.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2012__20261004_f1d642a1.zip"
+        },
+        {
+          "ANO": 2013,
+          "NOME_LOGICO": "itr_cia_aberta_2013.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2013__20261004_a336c9d5.zip"
+        },
+        {
+          "ANO": 2014,
+          "NOME_LOGICO": "itr_cia_aberta_2014.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2014__20261004_c10271ea.zip"
+        },
+        {
+          "ANO": 2015,
+          "NOME_LOGICO": "itr_cia_aberta_2015.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2015__20261004_2755f06e.zip"
+        },
+        {
+          "ANO": 2016,
+          "NOME_LOGICO": "itr_cia_aberta_2016.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2016__20261004_3c2954a0.zip"
+        },
+        {
+          "ANO": 2017,
+          "NOME_LOGICO": "itr_cia_aberta_2017.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2017__20261004_f2e62626.zip"
+        },
+        {
+          "ANO": 2018,
+          "NOME_LOGICO": "itr_cia_aberta_2018.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2018__20261004_a551278c.zip"
+        },
+        {
+          "ANO": 2019,
+          "NOME_LOGICO": "itr_cia_aberta_2019.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2019__20261004_dbfe1e32.zip"
+        },
+        {
+          "ANO": 2020,
+          "NOME_LOGICO": "itr_cia_aberta_2020.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2020__20261004_4ca11b43.zip"
+        },
+        {
+          "ANO": 2021,
+          "NOME_LOGICO": "itr_cia_aberta_2021.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2021__20261004_c8723d5c.zip"
+        },
+        {
+          "ANO": 2022,
+          "NOME_LOGICO": "itr_cia_aberta_2022.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2022__20261004_5f243e8d.zip"
+        },
+        {
+          "ANO": 2023,
+          "NOME_LOGICO": "itr_cia_aberta_2023.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2023__20261004_a59eca20.zip"
+        },
+        {
+          "ANO": 2024,
+          "NOME_LOGICO": "itr_cia_aberta_2024.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2024__20261004_fe888a09.zip"
+        },
+        {
+          "ANO": 2025,
+          "NOME_LOGICO": "itr_cia_aberta_2025.zip",
+          "VERSAO_LOCAL": 2,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2025__20261004_efe75484.zip"
+        },
+        {
+          "ANO": 2026,
+          "NOME_LOGICO": "itr_cia_aberta_2026.zip",
+          "VERSAO_LOCAL": 2,
+          "ARQUIVO": "data/raw/cvm_itr/itr_cia_aberta_2026__20261004_0e1ef742.zip"
+        }
+      ],
+      "TABELAS": {
+        "INDICE": {
+          "DATAFRAME": "df_cvm_itr_indice_raw",
+          "QTD_LINHAS": 35727,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "CATEG_DOC",
+            "ID_DOC",
+            "DT_RECEB",
+            "LINK_DOC",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "e4a57d846a90a0a32b9e3d1d2da4d1e7840805e40385015def366195452051ef"
+        },
+        "BPA": {
+          "DATAFRAME": "df_cvm_itr_bpa_raw",
+          "QTD_LINHAS": 6399407,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "7ea7786574f6968734a6f8d5a6795c7c4def42ec6f68425fe66552757e6001ca"
+        },
+        "BPP": {
+          "DATAFRAME": "df_cvm_itr_bpp_raw",
+          "QTD_LINHAS": 10718108,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "2b185283ff4bd50c9b8a88bfb4e991004f4d5f56dad9e792269935e7eecd974d"
+        },
+        "DRE": {
+          "DATAFRAME": "df_cvm_itr_dre_raw",
+          "QTD_LINHAS": 5423117,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_INI_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "65673b382598223d59c15ef11017891b6fdb3f2fbe6e40e224a3c0a63f8d226c"
+        },
+        "DFC_MD": {
+          "DATAFRAME": "df_cvm_itr_dfc_md_raw",
+          "QTD_LINHAS": 50006,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_INI_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "01653c869018ae3bb8a0703ff6be5206a83a1dc2d4d6dd17ba3453af4b50a28e"
+        },
+        "DFC_MI": {
+          "DATAFRAME": "df_cvm_itr_dfc_mi_raw",
+          "QTD_LINHAS": 3925945,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_INI_EXERC",
+            "DT_FIM_EXERC",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "9ea27c663b4c7905611b722ce4b481db5a7bad700d66e4734419a4df2c5c6041"
+        },
+        "DMPL": {
+          "DATAFRAME": "df_cvm_itr_dmpl_raw",
+          "QTD_LINHAS": 18272624,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "GRUPO_DFP",
+            "MOEDA",
+            "ESCALA_MOEDA",
+            "ORDEM_EXERC",
+            "DT_INI_EXERC",
+            "DT_FIM_EXERC",
+            "COLUNA_DF",
+            "CD_CONTA",
+            "DS_CONTA",
+            "VL_CONTA",
+            "ST_CONTA_FIXA",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "f42f3fadc9fab45e8e3c57c2ef40fa08737b193afaa27bd8a165400b71ec91b8"
+        }
+      }
+    },
+    "CVM_FRE": {
+      "CELULA": "4.4",
+      "ORIGEM_CARGA": "CACHE",
+      "ARQUIVOS": [
+        {
+          "ANO": 2011,
+          "NOME_LOGICO": "fre_cia_aberta_2011.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2011__20261004_7ef45a3f.zip"
+        },
+        {
+          "ANO": 2012,
+          "NOME_LOGICO": "fre_cia_aberta_2012.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2012__20261004_cd48dd32.zip"
+        },
+        {
+          "ANO": 2013,
+          "NOME_LOGICO": "fre_cia_aberta_2013.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2013__20261004_2c746f2c.zip"
+        },
+        {
+          "ANO": 2014,
+          "NOME_LOGICO": "fre_cia_aberta_2014.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2014__20261004_8797e5b6.zip"
+        },
+        {
+          "ANO": 2015,
+          "NOME_LOGICO": "fre_cia_aberta_2015.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2015__20261004_21be79d4.zip"
+        },
+        {
+          "ANO": 2016,
+          "NOME_LOGICO": "fre_cia_aberta_2016.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2016__20261004_bfd0513d.zip"
+        },
+        {
+          "ANO": 2017,
+          "NOME_LOGICO": "fre_cia_aberta_2017.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2017__20261004_cb90963d.zip"
+        },
+        {
+          "ANO": 2018,
+          "NOME_LOGICO": "fre_cia_aberta_2018.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2018__20261004_7a349acb.zip"
+        },
+        {
+          "ANO": 2019,
+          "NOME_LOGICO": "fre_cia_aberta_2019.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2019__20261004_30f461d5.zip"
+        },
+        {
+          "ANO": 2020,
+          "NOME_LOGICO": "fre_cia_aberta_2020.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2020__20261004_17d2d911.zip"
+        },
+        {
+          "ANO": 2021,
+          "NOME_LOGICO": "fre_cia_aberta_2021.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2021__20261004_882e4c19.zip"
+        },
+        {
+          "ANO": 2022,
+          "NOME_LOGICO": "fre_cia_aberta_2022.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2022__20261004_8dfe3301.zip"
+        },
+        {
+          "ANO": 2023,
+          "NOME_LOGICO": "fre_cia_aberta_2023.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2023__20261004_99dac78d.zip"
+        },
+        {
+          "ANO": 2024,
+          "NOME_LOGICO": "fre_cia_aberta_2024.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2024__20261004_1adbfd73.zip"
+        },
+        {
+          "ANO": 2025,
+          "NOME_LOGICO": "fre_cia_aberta_2025.zip",
+          "VERSAO_LOCAL": 2,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2025__20261004_23cacdb7.zip"
+        },
+        {
+          "ANO": 2026,
+          "NOME_LOGICO": "fre_cia_aberta_2026.zip",
+          "VERSAO_LOCAL": 2,
+          "ARQUIVO": "data/raw/cvm_fre/fre_cia_aberta_2026__20261004_a04a1079.zip"
+        }
+      ],
+      "TABELAS": {
+        "INDICE": {
+          "DATAFRAME": "df_cvm_fre_indice_raw",
+          "QTD_LINHAS": 70357,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "CATEG_DOC",
+            "ID_DOC",
+            "DT_RECEB",
+            "LINK_DOC",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "05a109a147f2ff7bcbd351b84fe0493087acc424247dfdc2c3fa158d68e86c6c"
+        },
+        "CAPITAL": {
+          "DATAFRAME": "df_cvm_fre_capital_raw",
+          "QTD_LINHAS": 43912,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Companhia",
+            "ID_Capital_Social",
+            "Tipo_Capital",
+            "Data_Autorizacao_Aprovacao",
+            "Valor_Capital",
+            "Prazo_Integralizacao",
+            "Quantidade_Acoes_Ordinarias",
+            "Quantidade_Acoes_Preferenciais",
+            "Quantidade_Total_Acoes",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "725b0b77a8cdc4304cd7a689b878e403cd1eb45569e6fc3bfae89dbcc72e4abe"
+        },
+        "CAPITAL_CLASSE": {
+          "DATAFRAME": "df_cvm_fre_capital_classe_raw",
+          "QTD_LINHAS": 6533,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Companhia",
+            "ID_Capital_Social",
+            "Tipo_Classe_Acao_Preferencial",
+            "Quantidade_Acoes",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "4ad36859e9040c9bd5cd2eb989895fd53f2b85d9046a4c66491ede28eb1e1bcd"
+        },
+        "DESDOBRAMENTO": {
+          "DATAFRAME": "df_cvm_fre_desdobramento_raw",
+          "QTD_LINHAS": 2544,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Companhia",
+            "ID_Capital_Social_Desdobramento",
+            "Data_Aprovacao",
+            "Tipo_Evento",
+            "Quantidade_Acoes_Ordinarias_Antes_Aprovacao",
+            "Quantidade_Acoes_Preferenciais_Antes_Aprovacao",
+            "Quantidade_Total_Acoes_Antes_Aprovacao",
+            "Quantidade_Acoes_Ordinarias_Depois_Aprovacao",
+            "Quantidade_Acoes_Preferenciais_Depois_Aprovacao",
+            "Quantidade_Total_Acoes_Depois_Aprovacao",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "96602269a5d556bb9f05dbccd3d6e1a84f7c2f3ffd4ef362424f6b42ae7d8def"
+        },
+        "DESDOBRAMENTO_CLASSE": {
+          "DATAFRAME": "df_cvm_fre_desdobramento_classe_raw",
+          "QTD_LINHAS": 410,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Companhia",
+            "ID_Capital_Social_Desdobramento",
+            "Tipo_Classe_Acao_Preferencial",
+            "Quantidade_Acoes_Antes_Aprovacao",
+            "Quantidade_Acoes_Depois_Aprovacao",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "a8de256a4bea3fc595ae5ccc6cb64e7f54eff14d46d0a785b8731ab34c5029de"
+        },
+        "REDUCAO": {
+          "DATAFRAME": "df_cvm_fre_reducao_raw",
+          "QTD_LINHAS": 1764,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Companhia",
+            "ID_Capital_Social_Reducao",
+            "Data_Deliberacao",
+            "Data_Reducao",
+            "Valor_Total_Reducao",
+            "Quantidade_Acoes_Ordinarias",
+            "Quantidade_Acoes_Preferenciais",
+            "Quantidade_Total_Acoes",
+            "Reducao_Capital_Anterior",
+            "Valor_Restituido_Por_Acao",
+            "Forma_Restituicao",
+            "Razao_Reducao",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "e8c77969aefead27c79cb0ac8b3b5e8d185c25781fc7c1b43d079a5de4d1ff78"
+        },
+        "REDUCAO_CLASSE": {
+          "DATAFRAME": "df_cvm_fre_reducao_classe_raw",
+          "QTD_LINHAS": 95,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Companhia",
+            "ID_Capital_Social_Reducao",
+            "Tipo_Classe_Acao_Preferencial",
+            "Quantidade_Acoes",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "d30fba378098c7f81e22d30c6c5667f8be7efdaf31ec4429e8d7eafa5ae1dbbe"
+        },
+        "AUMENTO": {
+          "DATAFRAME": "df_cvm_fre_aumento_raw",
+          "QTD_LINHAS": 30569,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Companhia",
+            "ID_Capital_Social_Aumento",
+            "Data_Deliberacao",
+            "Orgao_Deliberacao_Aumento",
+            "Data_Emissao",
+            "Valor_Total_Emissao",
+            "Tipo_Subscricao",
+            "Quantidade_Acoes_Ordinarias",
+            "Quantidade_Acoes_Preferenciais",
+            "Quantidade_Total_Acoes",
+            "Subscricao_Capital_Anterior",
+            "Fator_Cotacao",
+            "Preco_Emissao",
+            "Criterio_Determinacao_Preco_Emissao",
+            "Forma_Integralizacao",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "abe31ef8ec759254ef9bef205e0d7ef6d5123c63ddbcb71fa1604f18295a6dca"
+        },
+        "AUMENTO_CLASSE": {
+          "DATAFRAME": "df_cvm_fre_aumento_classe_raw",
+          "QTD_LINHAS": 1946,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Companhia",
+            "ID_Capital_Social_Aumento",
+            "Tipo_Classe_Acao_Preferencial",
+            "Quantidade_Acoes",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "5effc6ebcc151e0c78bb586435b3b3637312bae57513855eed32cdb96f13dede"
+        }
+      }
+    },
+    "CVM_FCA": {
+      "CELULA": "4.5",
+      "ORIGEM_CARGA": "CACHE",
+      "ARQUIVOS": [
+        {
+          "ANO": 2011,
+          "NOME_LOGICO": "fca_cia_aberta_2011.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2011__20261004_f5c7aaa2.zip"
+        },
+        {
+          "ANO": 2012,
+          "NOME_LOGICO": "fca_cia_aberta_2012.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2012__20261004_ba68b8e8.zip"
+        },
+        {
+          "ANO": 2013,
+          "NOME_LOGICO": "fca_cia_aberta_2013.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2013__20261004_d62ef489.zip"
+        },
+        {
+          "ANO": 2014,
+          "NOME_LOGICO": "fca_cia_aberta_2014.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2014__20261004_1f70b5e3.zip"
+        },
+        {
+          "ANO": 2015,
+          "NOME_LOGICO": "fca_cia_aberta_2015.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2015__20261004_74326a56.zip"
+        },
+        {
+          "ANO": 2016,
+          "NOME_LOGICO": "fca_cia_aberta_2016.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2016__20261004_229b2cfc.zip"
+        },
+        {
+          "ANO": 2017,
+          "NOME_LOGICO": "fca_cia_aberta_2017.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2017__20261004_48127cf1.zip"
+        },
+        {
+          "ANO": 2018,
+          "NOME_LOGICO": "fca_cia_aberta_2018.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2018__20261004_b20056b0.zip"
+        },
+        {
+          "ANO": 2019,
+          "NOME_LOGICO": "fca_cia_aberta_2019.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2019__20261004_09f84e5f.zip"
+        },
+        {
+          "ANO": 2020,
+          "NOME_LOGICO": "fca_cia_aberta_2020.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2020__20261004_ccf2ac08.zip"
+        },
+        {
+          "ANO": 2021,
+          "NOME_LOGICO": "fca_cia_aberta_2021.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2021__20261004_65ba4b02.zip"
+        },
+        {
+          "ANO": 2022,
+          "NOME_LOGICO": "fca_cia_aberta_2022.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2022__20261004_61efb7bb.zip"
+        },
+        {
+          "ANO": 2023,
+          "NOME_LOGICO": "fca_cia_aberta_2023.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2023__20261004_44ec83c8.zip"
+        },
+        {
+          "ANO": 2024,
+          "NOME_LOGICO": "fca_cia_aberta_2024.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2024__20261004_2ad6fda1.zip"
+        },
+        {
+          "ANO": 2025,
+          "NOME_LOGICO": "fca_cia_aberta_2025.zip",
+          "VERSAO_LOCAL": 2,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2025__20261004_b8728d57.zip"
+        },
+        {
+          "ANO": 2026,
+          "NOME_LOGICO": "fca_cia_aberta_2026.zip",
+          "VERSAO_LOCAL": 2,
+          "ARQUIVO": "data/raw/cvm_fca/fca_cia_aberta_2026__20261004_21d4bb18.zip"
+        }
+      ],
+      "TABELAS": {
+        "INDICE": {
+          "DATAFRAME": "df_cvm_fca_indice_raw",
+          "QTD_LINHAS": 24698,
+          "COLUNAS": [
+            "CNPJ_CIA",
+            "DT_REFER",
+            "VERSAO",
+            "DENOM_CIA",
+            "CD_CVM",
+            "CATEG_DOC",
+            "ID_DOC",
+            "DT_RECEB",
+            "LINK_DOC",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "5484a9bcb54a35e9698ba877712fb3e9b34e0f8294724478335e6f89b1e854be"
+        },
+        "GERAL": {
+          "DATAFRAME": "df_cvm_fca_geral_raw",
+          "QTD_LINHAS": 10985,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Empresarial",
+            "Data_Nome_Empresarial",
+            "Nome_Empresarial_Anterior",
+            "Data_Constituicao",
+            "Codigo_CVM",
+            "Data_Registro_CVM",
+            "Categoria_Registro_CVM",
+            "Data_Categoria_Registro_CVM",
+            "Situacao_Registro_CVM",
+            "Data_Situacao_Registro_CVM",
+            "Pais_Origem",
+            "Pais_Custodia_Valores_Mobiliarios",
+            "Setor_Atividade",
+            "Descricao_Atividade",
+            "Situacao_Emissor",
+            "Data_Situacao_Emissor",
+            "Especie_Controle_Acionario",
+            "Data_Especie_Controle_Acionario",
+            "Dia_Encerramento_Exercicio_Social",
+            "Mes_Encerramento_Exercicio_Social",
+            "Data_Alteracao_Exercicio_Social",
+            "Pagina_Web",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "1e2fb01cacc7ce75cb28e4fbf2edfa5a44c0c621014a1ac8e59fa1d026848ae0"
+        },
+        "VALOR_MOBILIARIO": {
+          "DATAFRAME": "df_cvm_fca_valor_mobiliario_raw",
+          "QTD_LINHAS": 12432,
+          "COLUNAS": [
+            "CNPJ_Companhia",
+            "Data_Referencia",
+            "Versao",
+            "ID_Documento",
+            "Nome_Empresarial",
+            "Valor_Mobiliario",
+            "Sigla_Classe_Acao_Preferencial",
+            "Classe_Acao_Preferencial",
+            "Codigo_Negociacao",
+            "Composicao_BDR_Unit",
+            "Mercado",
+            "Sigla_Entidade_Administradora",
+            "Entidade_Administradora",
+            "Data_Inicio_Negociacao",
+            "Data_Fim_Negociacao",
+            "Segmento",
+            "Data_Inicio_Listagem",
+            "Data_Fim_Listagem",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "babb6bb4e35bd949bc9c666c7331e2a19a699c02bfd90471c69b6c9d1108673d"
+        }
+      }
+    },
+    "B3_COTAHIST": {
+      "CELULA": "4.6",
+      "ORIGEM_CARGA": "CACHE",
+      "ARQUIVOS": [
+        {
+          "ANO": 2011,
+          "NOME_LOGICO": "COTAHIST_A2011.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2011__20261004_0cf67787.zip"
+        },
+        {
+          "ANO": 2012,
+          "NOME_LOGICO": "COTAHIST_A2012.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2012__20261004_98771b12.zip"
+        },
+        {
+          "ANO": 2013,
+          "NOME_LOGICO": "COTAHIST_A2013.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2013__20261004_b6dfb0d7.zip"
+        },
+        {
+          "ANO": 2014,
+          "NOME_LOGICO": "COTAHIST_A2014.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2014__20261004_613d76f8.zip"
+        },
+        {
+          "ANO": 2015,
+          "NOME_LOGICO": "COTAHIST_A2015.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2015__20261004_593f8740.zip"
+        },
+        {
+          "ANO": 2016,
+          "NOME_LOGICO": "COTAHIST_A2016.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2016__20261004_ffc82a9b.zip"
+        },
+        {
+          "ANO": 2017,
+          "NOME_LOGICO": "COTAHIST_A2017.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2017__20261004_af6aaa85.zip"
+        },
+        {
+          "ANO": 2018,
+          "NOME_LOGICO": "COTAHIST_A2018.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2018__20261004_9d661361.zip"
+        },
+        {
+          "ANO": 2019,
+          "NOME_LOGICO": "COTAHIST_A2019.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2019__20261004_5170d3f8.zip"
+        },
+        {
+          "ANO": 2020,
+          "NOME_LOGICO": "COTAHIST_A2020.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2020__20261004_86442168.zip"
+        },
+        {
+          "ANO": 2021,
+          "NOME_LOGICO": "COTAHIST_A2021.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2021__20261004_b0d4aed1.zip"
+        },
+        {
+          "ANO": 2022,
+          "NOME_LOGICO": "COTAHIST_A2022.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2022__20261004_a4f9015b.zip"
+        },
+        {
+          "ANO": 2023,
+          "NOME_LOGICO": "COTAHIST_A2023.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2023__20261004_ad160378.zip"
+        },
+        {
+          "ANO": 2024,
+          "NOME_LOGICO": "COTAHIST_A2024.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2024__20261004_96a003d1.zip"
+        },
+        {
+          "ANO": 2025,
+          "NOME_LOGICO": "COTAHIST_A2025.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2025__20261004_6cc0ad85.zip"
+        },
+        {
+          "ANO": 2026,
+          "NOME_LOGICO": "COTAHIST_A2026.zip",
+          "VERSAO_LOCAL": 1,
+          "ARQUIVO": "data/raw/b3_cotahist/COTAHIST_A2026__20261004_67a343ae.zip"
+        }
+      ],
+      "TABELAS": {
+        "COTACOES": {
+          "DATAFRAME": "df_b3_cotahist_raw",
+          "QTD_LINHAS": 3005947,
+          "COLUNAS": [
+            "DATA_PREGAO",
+            "CODNEG",
+            "CODBDI",
+            "TPMERC",
+            "NOMRES",
+            "ESPECI",
+            "CODISI",
+            "DISMES",
+            "PREABE",
+            "PREMAX",
+            "PREMIN",
+            "PREMED",
+            "PREULT",
+            "FATCOT",
+            "PRECO_ULTIMO_POR_ACAO",
+            "TOTNEG",
+            "QUATOT",
+            "VOLTOT",
+            "ARQUIVO_ORIGEM"
+          ],
+          "HASH_CONTEUDO": "e67e6e75fe5c0f527f0b903350ba339f81458ed9ed61143b3c5ec2dea22dcbac"
+        }
+      }
+    }
+  }
+}

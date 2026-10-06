@@ -1,0 +1,170 @@
+{
+  "ID_EXECUCAO": "20261005_213028",
+  "SECAO": "12 - FATO_ATIVO_TRIMESTRAL",
+  "MANIFESTO_SECAO11": "manifesto_secao11_20261005_213028.json",
+  "CELULAS": [
+    {
+      "CELULA": "12.1.1 Grade ativo × trimestre",
+      "REGRAS": "5/5",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "12.2.1 Preço de entrega",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "12.3.1 LPA trimestral, LPA12 e P/L12",
+      "REGRAS": "11/11",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "12.4 Montagem da fato",
+      "REGRAS": "12/12",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "12.5 Auditoria da tabela final",
+      "REGRAS": "9/9",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS": [
+    {
+      "DATAFRAME": "df_fato_ativo_tri_grade_tratado",
+      "CHAVE": "ID_ATIVO + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 24159,
+      "QTD_COLUNAS": 14,
+      "QTD_ENTIDADES": 693,
+      "HASH": "814aa94fd822674b2092e3b2db6b7a592325a5a7ee29b9f6868a16282f578e4b"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_tri_preco_tratado",
+      "CHAVE": "ID_ATIVO + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 24159,
+      "QTD_COLUNAS": 22,
+      "QTD_ENTIDADES": 693,
+      "HASH": "23d7b54589c42ee48e0978e790787be6971c34ea30dd6030515920ff7481f325"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_tri_lpa_tratado",
+      "CHAVE": "ID_ATIVO + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 24159,
+      "QTD_COLUNAS": 37,
+      "QTD_ENTIDADES": 693,
+      "HASH": "10e31565e6eed6e6607e3fdf986afec35f9b79ec6755e994d902ea122a751014"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_trimestral_final",
+      "CHAVE": "ID_ATIVO + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 24159,
+      "QTD_COLUNAS": 37,
+      "QTD_ENTIDADES": 693,
+      "HASH": "04946d180e460cefc82e6c8c5a9f8d791076099b633688fa3c70cf0ea44ef49d"
+    },
+    {
+      "DATAFRAME": "df_dicionario_fato_ativo_trimestral",
+      "CHAVE": "CAMPO",
+      "QTD_LINHAS": 37,
+      "QTD_COLUNAS": 32,
+      "QTD_ENTIDADES": 37,
+      "HASH": "e2f4fe203e2bff00d5e1efadda51616ee046246812ea4d6d6752e5d43b858bed"
+    }
+  ],
+  "PARAMETROS": {
+    "TOLERANCIA_PRECO_DIAS": 60,
+    "JANELA_LIQUIDEZ_MESES": 6,
+    "PISO_PRECO_B3": 0.05,
+    "LIMIAR_QUASE_ZERO_PER_SHARE": 0.01,
+    "FATOR_IQR_LPA": 3.0,
+    "LIMITE_ORDEM_GRANDEZA_LPA": 1.0
+  },
+  "LIMIARES_CALCULADOS": {
+    "LIMIAR_LPA": 0.241501,
+    "LIMIAR_LPA_SOBRE_PRECO_DFP": 0.939316,
+    "LIMIAR_LPA_SOBRE_PRECO_ITR": 0.547116
+  },
+  "DECISOES": {
+    "GRAO": "ID_ATIVO × DATA_FIM_EXERCICIO; ativos ON, PN e UNIT da amostra; trimestres da FATO_EMPRESA_TRIMESTRAL cuja janela de 3 meses cruza o período negociado",
+    "PRECO_ENTREGA": "primeiro pregão na entrega ou depois, até TOLERANCIA_PRECO_DIAS; pregão não suspeito preferido",
+    "LPA_CLASSE": "ON → ON; PN → sigla da DIM_ATIVO; sem sigla no documento → PN genérico ou única classe preferencial (flag)",
+    "Q4": "anual da DFP − (Q1 + Q2 + Q3); nulo com evento no ano acima de LIMIAR_LPA",
+    "LPA_PRECO": "só NAO_VERIFICADO: acima do limiar IQR (por ITR e DFP) → flag; uma ordem de grandeza além → nulo",
+    "LPA12": "4 trimestres civis consecutivos, sem soma parcial; LPA arredondado a 10 casas",
+    "PL12": "divisão segura; LPA12 quase zero sinalizado, valor mantido",
+    "UNIT": "preço mantido; métricas por ação nulas",
+    "DICIONARIO": "14 campos do briefing publicáveis; técnicos fora da exportação"
+  },
+  "PENDENCIAS": [
+    {
+      "ITEM": "ativos da amostra sem trimestre na grade",
+      "QTD": "3",
+      "DESTINO": "limitação documentada (empresa fora da fato ou sem trimestre no período negociado)"
+    },
+    {
+      "ITEM": "trimestres sem pregão na tolerância (preço nulo)",
+      "QTD": "2287",
+      "DESTINO": "P/L12 nulo; Seção 14 (cobertura)"
+    },
+    {
+      "ITEM": "preço de entrega de pregão suspeito (único na tolerância)",
+      "QTD": "90",
+      "DESTINO": "múltiplos com a flag"
+    },
+    {
+      "ITEM": "preço de entrega abaixo do piso",
+      "QTD": "137",
+      "DESTINO": "múltiplos com a flag"
+    },
+    {
+      "ITEM": "sem negociação nos 6 meses anteriores à entrega",
+      "QTD": "1112",
+      "DESTINO": "informativa; não filtra"
+    },
+    {
+      "ITEM": "Q4 derivado do anual (aproximação)",
+      "QTD": "3597",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "Q4 anulado por evento acima de LIMIAR_LPA no ano",
+      "QTD": "74",
+      "DESTINO": "LPA12 nulo nos 4 trimestres da janela"
+    },
+    {
+      "ITEM": "Q4 mantido com evento pequeno no ano",
+      "QTD": "92",
+      "DESTINO": "leitura com a flag; Seção 13 alinha o evento ao ano fiscal"
+    },
+    {
+      "ITEM": "LPA × preço atípico mantido (NAO_VERIFICADO)",
+      "QTD": "77",
+      "DESTINO": "leitura com a flag (recuperação judicial e similares)"
+    },
+    {
+      "ITEM": "LPA anulado pelo preço (uma ordem de grandeza além do limiar)",
+      "QTD": "53",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "LPA lido de classe aproximada",
+      "QTD": "205",
+      "DESTINO": "leitura com a flag"
+    },
+    {
+      "ITEM": "LPA com divergência longa (mantido)",
+      "QTD": "326",
+      "DESTINO": "P/L com a flag"
+    },
+    {
+      "ITEM": "LPA12 quase zero (P/L12 extremo mantido)",
+      "QTD": "99",
+      "DESTINO": "P/L12 com a flag"
+    },
+    {
+      "ITEM": "unit sem métrica por ação",
+      "QTD": "453",
+      "DESTINO": "decisão registrada; preço mantido"
+    }
+  ]
+}

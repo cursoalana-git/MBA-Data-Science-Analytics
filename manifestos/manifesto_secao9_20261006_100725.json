@@ -1,0 +1,192 @@
+{
+  "ID_EXECUCAO": "20261006_100725",
+  "SECAO": "9 - FATO_EMPRESA_TRIMESTRAL",
+  "MANIFESTO_SECAO8": "manifesto_secao8_20261006_100725.json",
+  "CELULAS": [
+    {
+      "CELULA": "9.1.1 Diagnóstico dos documentos",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "9.1.2 Grade empresa × trimestre",
+      "REGRAS": "9/9",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "9.2.1 Estoques do balanço",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "9.2.2 Fluxos da DRE",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "9.2.3 Caixa operacional",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "9.2.4 Saneamento",
+      "REGRAS": "11/11",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "9.3 Janelas e indicadores",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "9.4 Montagem da fato",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "9.5 Auditoria da tabela final",
+      "REGRAS": "9/9",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS": [
+    {
+      "DATAFRAME": "df_fato_tri_grade_tratado",
+      "CHAVE": "CODIGO_CVM + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 19095,
+      "QTD_COLUNAS": 20,
+      "QTD_EMPRESAS": 431,
+      "HASH": "ea1c43efebfc93efcece9d31fe6281290c941bb472631346207db3460d62ee0f"
+    },
+    {
+      "DATAFRAME": "df_fato_tri_estoque_tratado",
+      "CHAVE": "CODIGO_CVM + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 19095,
+      "QTD_COLUNAS": 24,
+      "QTD_EMPRESAS": 431,
+      "HASH": "0cb573d2662bd9d4b15e8764f01b130eda969d3b64caa298f0b9071c1d3a0cc8"
+    },
+    {
+      "DATAFRAME": "df_fato_tri_dre_tratado",
+      "CHAVE": "CODIGO_CVM + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 19095,
+      "QTD_COLUNAS": 15,
+      "QTD_EMPRESAS": 431,
+      "HASH": "0bd8b20d8cb0bb07f555cbea29728f441e4cd26f1f87ecd9acb5457e5da32cc6"
+    },
+    {
+      "DATAFRAME": "df_fato_tri_dfc_tratado",
+      "CHAVE": "CODIGO_CVM + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 19095,
+      "QTD_COLUNAS": 5,
+      "QTD_EMPRESAS": 431,
+      "HASH": "cec1dbfa8dfa82cb034ec17e1a525dfae6f3791e8daa9104070febacbeabebf1"
+    },
+    {
+      "DATAFRAME": "df_fato_tri_indicador_tratado",
+      "CHAVE": "CODIGO_CVM + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 19095,
+      "QTD_COLUNAS": 20,
+      "QTD_EMPRESAS": 431,
+      "HASH": "3d52373e0a301cd4d6772f97d26c36122c42a7f53f1b685ae53ae8ccd7d3f4d7"
+    },
+    {
+      "DATAFRAME": "df_fato_empresa_trimestral_final",
+      "CHAVE": "CODIGO_CVM + DATA_FIM_EXERCICIO",
+      "QTD_LINHAS": 18851,
+      "QTD_COLUNAS": 76,
+      "QTD_EMPRESAS": 430,
+      "HASH": "b2315eca27ff685f9aeb94add69965aba451a719e97568d0b7c84ff421135c1b"
+    },
+    {
+      "DATAFRAME": "df_dicionario_fato_empresa_trimestral",
+      "CHAVE": "CAMPO",
+      "QTD_LINHAS": 76,
+      "QTD_COLUNAS": 32,
+      "QTD_EMPRESAS": null,
+      "HASH": "c4f90259340dcd16b7f18775249a8f5c7c9ef7193cea917a9749849407a88267"
+    }
+  ],
+  "PARAMETROS": {
+    "DATA_FIM_MAXIMA_FATO": "2026-06-30",
+    "LIMIAR_COBERTURA_ENTREGA": 0.95,
+    "TOLERANCIA_RECONCILIACAO_RELATIVA": 0.01,
+    "TOLERANCIA_RECONCILIACAO_ABSOLUTA": 1.0,
+    "LIMIAR_VARIACAO_BASE_ATIVO_12M": 100,
+    "ORDEM_EXERC_ATUAL": "ULTIMO",
+    "LIMIAR_PL_MINIMO_ESTABILIDADE (|PL| / AT, calculado na 9.2.4)": 0.031104025555711793,
+    "FATOR_IQR_PL_ESTABILIDADE": 3.0,
+    "LIMIAR_ATIVO_ATIPICO (R$ mil, calculado na 9.2.4)": 262.3208781783526,
+    "FATOR_IQR_ATIVO_ATIPICO": 3.0
+  },
+  "DECISOES": {
+    "GRAO": "CODIGO_CVM × DATA_FIM_EXERCICIO; um documento por data (DFP FECHAMENTO, ITR, ITR 12 MESES, DFP INTERMEDIARIA)",
+    "EXERCICIO": "início lido do próprio documento (menor DT_INI da DRE); fallback pelo mês da DIM_EMPRESA",
+    "ESTOQUES": "PE = PC + PNC; PLc = PL − 2.03.09 na CON; BPP sem abertura → passivos e PL nulos",
+    "FLUXOS_DRE": "1º trimestre pelo acumulado; demais pela linha de 3 meses ou desacumulados; exercício fora da tolerância → todo desacumulado (opção B)",
+    "FLUXOS_DFC": "sempre desacumulada dentro do exercício",
+    "CONFLITO": "valores diferentes da mesma conta no mesmo documento → nulo auditado",
+    "SANEAMENTO": "zero isolado (AT, PL, RL, LL), caixa negativo e receita do trimestre negativa (RL e LB) → nulo; base de ativo instável e PL quase zero (IQR de log10 |PL|/AT) sinalizados",
+    "JANELAS_12M": "4 trimestres civis consecutivos, sem soma parcial; denominador = AT de 4 trimestres antes",
+    "VIGENCIA": "linha publicada só com entrega dentro da vigência CVM",
+    "PENULTIMO": "não aplicado: o comparativo vem de documento entregue depois (look-ahead)",
+    "DICIONARIO": "briefing 3.5 + 3.9, conferido por validar_dados_contra_dicionario; técnicas fora da exportação"
+  },
+  "PENDENCIAS": [
+    {
+      "ITEM": "empresa com dois exercícios terminados no mesmo ano (mudança de exercício)",
+      "QTD": 1,
+      "DESTINO": "Seção 10: escolher um exercício por ANO_FISCAL"
+    },
+    {
+      "ITEM": "Q4 da DRE sem base (fluxos nulos)",
+      "QTD": 43,
+      "DESTINO": "Seção 10: anual vem direto da DFP"
+    },
+    {
+      "ITEM": "Q4 da DFC sem base (CFO nulo)",
+      "QTD": 45,
+      "DESTINO": "Seção 10: anual vem direto da DFP"
+    },
+    {
+      "ITEM": "linhas excluídas por entrega fora da vigência CVM",
+      "QTD": 244,
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "trimestres com base de ativo instável (índices 12M mantidos)",
+      "QTD": 56,
+      "DESTINO": "leitura cautelosa; Seção 14"
+    },
+    {
+      "ITEM": "trimestres com receita negativa anulada (RL e LB)",
+      "QTD": 99,
+      "DESTINO": "limitação documentada; Seção 14"
+    },
+    {
+      "ITEM": "trimestres com PL quase zero (valor mantido)",
+      "QTD": 269,
+      "DESTINO": "Seções 10 a 13: leitura cautelosa de IE, DLP/PL e múltiplos"
+    },
+    {
+      "ITEM": "empresas com PL negativo em algum trimestre",
+      "QTD": 112,
+      "DESTINO": "Seções 10 a 13: múltiplos e Graham com a flag"
+    },
+    {
+      "ITEM": "zeros isolados e caixa negativo anulados",
+      "QTD": 774,
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "tolerâncias de reconciliação marcadas [PROVISORIO] no painel",
+      "QTD": 2,
+      "DESTINO": "congeladas neste manifesto; revisar status no painel 0.2"
+    },
+    {
+      "ITEM": "correção por PENÚLTIMO não aplicada (risco de look-ahead)",
+      "QTD": 0,
+      "DESTINO": "decisão registrada; AUD_FLAG_PATCH_PENULTIMO = False"
+    }
+  ]
+}

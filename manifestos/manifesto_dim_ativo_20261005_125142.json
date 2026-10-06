@@ -1,0 +1,402 @@
+{
+  "ID_EXECUCAO": "20261005_125142",
+  "SECAO": "8 - DIM_ATIVO",
+  "MANIFESTO_UNIVERSO": "manifesto_universo_20261005_125142.json",
+  "AUXILIARES": {
+    "CADASTRO_ISIN_B3_3_7": "manifesto_isin_b3_20261005_125142.json",
+    "CODIGOS_EMISSOR_ANTIGOS_3_8_HASH": "3eb2f76327495859415c809d6e240034bf7f463f08620b8de93cb5f15861f470"
+  },
+  "CELULAS": [
+    {
+      "CELULA": "8.1.1 Ponte empresa → emissor → negociação",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "8.1.2 Universo negociado e tickers",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "8.2.1 DIM_ATIVO base",
+      "REGRAS": "7/7",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "8.2.2 Auditoria da DIM_ATIVO",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "8.3.1 Composição das units",
+      "REGRAS": "5/5",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "8.3.2 Valuation e ticker da carteira",
+      "REGRAS": "7/7",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS": [
+    {
+      "DATAFRAME": "df_ponte_empresa_emissor_811",
+      "CHAVE": "CD_CVM",
+      "QTD_LINHAS": 1224,
+      "QTD_COLUNAS": 10,
+      "QTD_EMPRESAS": 1224,
+      "HASH": "a8d93de17ae21112554f693b3e12a58635b855e3caea4e97798f015cb78df4e0"
+    },
+    {
+      "DATAFRAME": "df_ponte_emissor_empresa_811",
+      "CHAVE": "CODIGO_EMISSOR + CD_CVM",
+      "QTD_LINHAS": 811,
+      "QTD_COLUNAS": 7,
+      "QTD_EMPRESAS": 743,
+      "HASH": "7f4836ebc6269889d164965a4945140059b10fa5ace0a132897c97e73ff6a466"
+    },
+    {
+      "DATAFRAME": "df_cotahist_acao_ano_811",
+      "CHAVE": "ANO + CODISI + CODNEG",
+      "QTD_LINHAS": 7614,
+      "QTD_COLUNAS": 10,
+      "QTD_EMPRESAS": null,
+      "HASH": "dafa658d8aa3ba2312a34087654fd6a54f57f50ba650d2fd994ffc184edec886"
+    },
+    {
+      "DATAFRAME": "df_empresa_ano_negociacao_811",
+      "CHAVE": "CD_CVM + ANO",
+      "QTD_LINHAS": 11194,
+      "QTD_COLUNAS": 21,
+      "QTD_EMPRESAS": 1224,
+      "HASH": "5214d261333a4cbafb08c8a35bba0005633f022b9227b30d692835e1f080b55b"
+    },
+    {
+      "DATAFRAME": "df_universo_negociado_empresa_ano_tratado",
+      "CHAVE": "CD_CVM + ANO",
+      "QTD_LINHAS": 11194,
+      "QTD_COLUNAS": 45,
+      "QTD_EMPRESAS": 1224,
+      "HASH": "00a476f1a1d07e4e5ce37dacfac5f4461fb0868e12c463b3b2c8ca869168ded5"
+    },
+    {
+      "DATAFRAME": "df_universo_negociado_tratado",
+      "CHAVE": "CD_CVM + ANO",
+      "QTD_LINHAS": 4478,
+      "QTD_COLUNAS": 19,
+      "QTD_EMPRESAS": 431,
+      "HASH": "67b643d5bdfc24e3e0630c56e4f40a3cdbc52cef263c808d833329626513b2ac"
+    },
+    {
+      "DATAFRAME": "df_ticker_empresa_ano_tratado",
+      "CHAVE": "CD_CVM + ANO + CODNEG + CODISI",
+      "QTD_LINHAS": 7501,
+      "QTD_COLUNAS": 17,
+      "QTD_EMPRESAS": 489,
+      "HASH": "2da411dff916cad1d9b2d064da8cebf84b01c93c4857f6dbe46276573bc030f8"
+    },
+    {
+      "DATAFRAME": "df_ticker_empresa_periodo_tratado",
+      "CHAVE": "CD_CVM + CODNEG + CODISI",
+      "QTD_LINHAS": 809,
+      "QTD_COLUNAS": 16,
+      "QTD_EMPRESAS": 489,
+      "HASH": "dc6cdcb9fffd06e277e02f774c419107acfbcc758acd867ff8c9abb304e01f57"
+    },
+    {
+      "DATAFRAME": "df_dim_ativo_final",
+      "CHAVE": "ID_ATIVO",
+      "QTD_LINHAS": 806,
+      "QTD_COLUNAS": 32,
+      "QTD_EMPRESAS": 489,
+      "HASH": "476096de42e1e63a2a317ef143bd134c806c59c8a15098760da2ce9902426d41"
+    },
+    {
+      "DATAFRAME": "df_unit_composicao_ano_tratado",
+      "CHAVE": "ID_ATIVO + ANO",
+      "QTD_LINHAS": 181,
+      "QTD_COLUNAS": 10,
+      "QTD_EMPRESAS": 23,
+      "HASH": "1ce54fe58fe0b4bd0c22872be360a68086e5eebcefc07a3c5a2e680395e34f98"
+    },
+    {
+      "DATAFRAME": "df_valuation_classe_empresa_ano_tratado",
+      "CHAVE": "CD_CVM + ANO + CLASSE",
+      "QTD_LINHAS": 5868,
+      "QTD_COLUNAS": 11,
+      "QTD_EMPRESAS": 431,
+      "HASH": "955e51945c587ea30b9c42f67afc80002c6a906b698a45414c29e683efeed148"
+    },
+    {
+      "DATAFRAME": "df_ticker_carteira_empresa_ano_tratado",
+      "CHAVE": "CD_CVM + ANO",
+      "QTD_LINHAS": 4478,
+      "QTD_COLUNAS": 9,
+      "QTD_EMPRESAS": 431,
+      "HASH": "9833fd267e3374a225e568536e86faa31f3bad52fae5ffabf17af18b078f93f0"
+    }
+  ],
+  "PARAMETROS": {
+    "JANELA_MAX_TROCA_SEQUENCIAL_DIAS": 30
+  },
+  "DECISOES": {
+    "CRITERIO_BOLSA": "negociação efetiva: ao menos um pregão de ação da empresa no ano (COTAHIST); FCA só auditoria",
+    "ORDEM_DO_FUNIL": [
+      {
+        "FLAG": "FLAG_BRASILEIRA",
+        "MANTEM_QUANDO": true,
+        "MOTIVO": "ESTRANGEIRA"
+      },
+      {
+        "FLAG": "FLAG_CATEGORIA_A",
+        "MANTEM_QUANDO": true,
+        "MOTIVO": "FORA DA CATEGORIA A"
+      },
+      {
+        "FLAG": "FLAG_NEGOCIADA",
+        "MANTEM_QUANDO": true,
+        "MOTIVO": "SEM PREGAO NO COTAHIST"
+      },
+      {
+        "FLAG": "FLAG_SETOR_EXCLUIDO",
+        "MANTEM_QUANDO": false,
+        "MOTIVO": "SETOR EXCLUIDO (FINANCEIRO OU HOLDINGS)"
+      },
+      {
+        "FLAG": "FLAG_FORMATO_FORA_PLANO",
+        "MANTEM_QUANDO": false,
+        "MOTIVO": "FORMATO FORA DO PLANO COMERCIAL"
+      },
+      {
+        "FLAG": "FLAG_SEM_OPERACAO",
+        "MANTEM_QUANDO": false,
+        "MOTIVO": "SEM OPERACAO NA BASE OFICIAL"
+      },
+      {
+        "FLAG": "FLAG_EXCECAO_EXCLUIR",
+        "MANTEM_QUANDO": false,
+        "MOTIVO": "EXCECAO DO CATALOGO"
+      }
+    ],
+    "PONTE": "CNPJ completo (EMISSOR.TXT) ou raiz do CNPJ; tabela 3.8; ticker do FCA (2018+); alias da 3.4",
+    "TICKER_FORA_DO_PADRAO": "pregão com ticker anulado na Seção 5 (ex.: balcão com sufixo B) não conta como negociação",
+    "CLASSE": "pela espécie do ISIN; regra do sufixo do ticker mantida como auditoria",
+    "CODIGO_ANTERIOR": "3.4 (mesma empresa), mesmo ISIN ou troca sequencial até JANELA_MAX_TROCA_SEQUENCIAL_DIAS",
+    "UNITS": "composição lida do FCA (Composicao_BDR_Unit); recibo de subscrição ou conflito no ano = não auditável",
+    "VALUATION": "ON + PN; UNIT nunca; preço da classe pelo ticker próprio, senão unit ÷ ações por unit",
+    "JANELA_DA_CLASSE": "classe só entra entre o primeiro e o último ano com pregão (ticker próprio ou unit)",
+    "TICKER_CARTEIRA": "maior volume financeiro no ano entre ON, PN e unit com composição auditável (Testa e Lima, 2012)",
+    "LIQUIDEZ_6M": "informativa, não filtro estrutural (Documento Mestre)"
+  },
+  "FUNIL_UNIVERSO_NEGOCIADO": [
+    {
+      "ETAPA": "EMPRESA × ANO COM DEMONSTRAÇÃO TRATADA",
+      "QTD_EMPRESA_ANO": 11194,
+      "QTD_EMPRESAS": 1224,
+      "QTD_EMPRESA_ANO_SAI": 0
+    },
+    {
+      "ETAPA": "SAI: ESTRANGEIRA",
+      "QTD_EMPRESA_ANO": 11060,
+      "QTD_EMPRESAS": 1202,
+      "QTD_EMPRESA_ANO_SAI": 134
+    },
+    {
+      "ETAPA": "SAI: FORA DA CATEGORIA A",
+      "QTD_EMPRESA_ANO": 7589,
+      "QTD_EMPRESAS": 788,
+      "QTD_EMPRESA_ANO_SAI": 3471
+    },
+    {
+      "ETAPA": "SAI: SEM PREGAO NO COTAHIST",
+      "QTD_EMPRESA_ANO": 5172,
+      "QTD_EMPRESAS": 489,
+      "QTD_EMPRESA_ANO_SAI": 2417
+    },
+    {
+      "ETAPA": "SAI: SETOR EXCLUIDO (FINANCEIRO OU HOLDINGS)",
+      "QTD_EMPRESA_ANO": 4631,
+      "QTD_EMPRESAS": 443,
+      "QTD_EMPRESA_ANO_SAI": 541
+    },
+    {
+      "ETAPA": "SAI: FORMATO FORA DO PLANO COMERCIAL",
+      "QTD_EMPRESA_ANO": 4631,
+      "QTD_EMPRESAS": 443,
+      "QTD_EMPRESA_ANO_SAI": 0
+    },
+    {
+      "ETAPA": "SAI: SEM OPERACAO NA BASE OFICIAL",
+      "QTD_EMPRESA_ANO": 4478,
+      "QTD_EMPRESAS": 431,
+      "QTD_EMPRESA_ANO_SAI": 153
+    },
+    {
+      "ETAPA": "SAI: EXCECAO DO CATALOGO",
+      "QTD_EMPRESA_ANO": 4478,
+      "QTD_EMPRESAS": 431,
+      "QTD_EMPRESA_ANO_SAI": 0
+    }
+  ],
+  "UNIVERSO_POR_ANO": [
+    {
+      "ANO": 2011,
+      "UNIVERSO_7_3_1": 316,
+      "UNIVERSO_NEGOCIADO": 290,
+      "ENTRA": 9,
+      "SAI": 35
+    },
+    {
+      "ANO": 2012,
+      "UNIVERSO_7_3_1": 307,
+      "UNIVERSO_NEGOCIADO": 281,
+      "ENTRA": 13,
+      "SAI": 39
+    },
+    {
+      "ANO": 2013,
+      "UNIVERSO_7_3_1": 304,
+      "UNIVERSO_NEGOCIADO": 280,
+      "ENTRA": 8,
+      "SAI": 32
+    },
+    {
+      "ANO": 2014,
+      "UNIVERSO_7_3_1": 295,
+      "UNIVERSO_NEGOCIADO": 272,
+      "ENTRA": 13,
+      "SAI": 36
+    },
+    {
+      "ANO": 2015,
+      "UNIVERSO_7_3_1": 284,
+      "UNIVERSO_NEGOCIADO": 263,
+      "ENTRA": 11,
+      "SAI": 32
+    },
+    {
+      "ANO": 2016,
+      "UNIVERSO_7_3_1": 279,
+      "UNIVERSO_NEGOCIADO": 254,
+      "ENTRA": 9,
+      "SAI": 34
+    },
+    {
+      "ANO": 2017,
+      "UNIVERSO_7_3_1": 281,
+      "UNIVERSO_NEGOCIADO": 268,
+      "ENTRA": 14,
+      "SAI": 27
+    },
+    {
+      "ANO": 2018,
+      "UNIVERSO_7_3_1": 281,
+      "UNIVERSO_NEGOCIADO": 263,
+      "ENTRA": 10,
+      "SAI": 28
+    },
+    {
+      "ANO": 2019,
+      "UNIVERSO_7_3_1": 303,
+      "UNIVERSO_NEGOCIADO": 258,
+      "ENTRA": 4,
+      "SAI": 49
+    },
+    {
+      "ANO": 2020,
+      "UNIVERSO_7_3_1": 318,
+      "UNIVERSO_NEGOCIADO": 277,
+      "ENTRA": 9,
+      "SAI": 50
+    },
+    {
+      "ANO": 2021,
+      "UNIVERSO_7_3_1": 334,
+      "UNIVERSO_NEGOCIADO": 318,
+      "ENTRA": 14,
+      "SAI": 30
+    },
+    {
+      "ANO": 2022,
+      "UNIVERSO_7_3_1": 332,
+      "UNIVERSO_NEGOCIADO": 302,
+      "ENTRA": 3,
+      "SAI": 33
+    },
+    {
+      "ANO": 2023,
+      "UNIVERSO_7_3_1": 331,
+      "UNIVERSO_NEGOCIADO": 300,
+      "ENTRA": 2,
+      "SAI": 33
+    },
+    {
+      "ANO": 2024,
+      "UNIVERSO_7_3_1": 327,
+      "UNIVERSO_NEGOCIADO": 295,
+      "ENTRA": 3,
+      "SAI": 35
+    },
+    {
+      "ANO": 2025,
+      "UNIVERSO_7_3_1": 318,
+      "UNIVERSO_NEGOCIADO": 288,
+      "ENTRA": 3,
+      "SAI": 33
+    },
+    {
+      "ANO": 2026,
+      "UNIVERSO_7_3_1": 294,
+      "UNIVERSO_NEGOCIADO": 269,
+      "ENTRA": 4,
+      "SAI": 29
+    }
+  ],
+  "PENDENCIAS": [
+    {
+      "ITEM": "troca de ticker na mesma classe sem ligação registrada",
+      "QTD": 3,
+      "DESTINO": "Seção 11: continuidade da série de preço"
+    },
+    {
+      "ITEM": "classe × ano dentro da janela da classe sem pregão",
+      "QTD": 85,
+      "DESTINO": "Seção 11: confirmar pela QA por classe (FRE)"
+    },
+    {
+      "ITEM": "classe × ano com preço via unit (mesmo preço para ON e PN)",
+      "QTD": 39,
+      "DESTINO": "Seções 10 a 13: flag de aproximação"
+    },
+    {
+      "ITEM": "classe × ano via unit com composição de ano posterior",
+      "QTD": 38,
+      "DESTINO": "Seção 14: limitação documentada"
+    },
+    {
+      "ITEM": "empresa × ano do universo sem ativo elegível para a carteira",
+      "QTD": 5,
+      "DESTINO": "Seção 10: fora da carteira no ano"
+    },
+    {
+      "ITEM": "código de emissor antigo negociado sem ligação a empresa",
+      "QTD": 19,
+      "DESTINO": "limitação: financeiras, holdings e empresas fora da base"
+    },
+    {
+      "ITEM": "ligação investigativa na 3.8 (registrada, não aplicada)",
+      "QTD": 2,
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "pregões de ação com ticker fora do padrão B3 (não contam como negociação)",
+      "QTD": 4049,
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "ticker negociado e não declarado no FCA (universo, 2018+)",
+      "QTD": 410,
+      "DESTINO": "informativo: COTAHIST é a fonte do ativo"
+    }
+  ]
+}

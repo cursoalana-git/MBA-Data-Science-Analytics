@@ -1,0 +1,203 @@
+{
+  "ID_EXECUCAO": "20261006_100725",
+  "SECAO": "11 - Mercado, eventos e dividendos",
+  "MANIFESTO_SECAO10": "manifesto_secao10_20261006_100725.json",
+  "CELULAS": [
+    {
+      "CELULA": "11.1.1 Inventário dos insumos",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "11.2.1 Preço diário por ativo",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "11.2.2 Preço suspeito, piso e salto",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "11.3.1 Quantidade de ações por classe",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "11.3.2 Saltos de QA, eventos e valor nominal",
+      "REGRAS": "10/10",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "11.3.3 Índice acumulado de eventos",
+      "REGRAS": "5/5",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "11.4.1 LPA por classe",
+      "REGRAS": "10/10",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "11.5.1 Dividendos (Yahoo)",
+      "REGRAS": "7/7",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "11.5.2 Pagamento no ano (PDA)",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS": [
+    {
+      "DATAFRAME": "df_preco_ativo_dia_tratado",
+      "CHAVE": "ID_ATIVO + DATA_PREGAO",
+      "QTD_LINHAS": 1394672,
+      "QTD_COLUNAS": 18,
+      "QTD_ENTIDADES": 806,
+      "HASH": "6061b25e4cb21ce120f36cf3a139bf735e13ab50cc7112c02ab481c40822b3ec"
+    },
+    {
+      "DATAFRAME": "df_qa_classe_ano_tratado",
+      "CHAVE": "CD_CVM + ANO_REFERENCIA_FRE + CLASSE",
+      "QTD_LINHAS": 13008,
+      "QTD_COLUNAS": 14,
+      "QTD_ENTIDADES": 1180,
+      "HASH": "a6142df1708933de445f305a9f7cc69bfcb3797aa239287db8205b8ed6fddbd7"
+    },
+    {
+      "DATAFRAME": "df_qa_classe_ano_saneado",
+      "CHAVE": "CD_CVM + ANO_REFERENCIA_FRE + CLASSE",
+      "QTD_LINHAS": 13008,
+      "QTD_COLUNAS": 29,
+      "QTD_ENTIDADES": 1180,
+      "HASH": "6dd50352203e2958fc911d865688547ebb08ada8894e67669b3e2895407c7096"
+    },
+    {
+      "DATAFRAME": "df_indice_eventos_tratado",
+      "CHAVE": "CD_CVM + CLASSE + ANO_REFERENCIA_FRE",
+      "QTD_LINHAS": 13008,
+      "QTD_COLUNAS": 7,
+      "QTD_ENTIDADES": 1180,
+      "HASH": "f94c095e1cb8e32c4cd5fc682588c21f9efbbe9f89fa7e6be475a3cfe68d6678"
+    },
+    {
+      "DATAFRAME": "df_lpa_classe_tratado",
+      "CHAVE": "CODIGO_CVM + FONTE_DOC + DATA_REFERENCIA_CVM + SIGLA_CLASSE",
+      "QTD_LINHAS": 48163,
+      "QTD_COLUNAS": 21,
+      "QTD_ENTIDADES": 1117,
+      "HASH": "d9d0ab8eccb603a63b13f24f4cae9aa988d7243a588b6401b22b62b7162b8708"
+    },
+    {
+      "DATAFRAME": "df_dividendo_evento_tratado",
+      "CHAVE": "ID_ATIVO + DATA_EX + VALOR_POR_ACAO",
+      "QTD_LINHAS": 7829,
+      "QTD_COLUNAS": 4,
+      "QTD_ENTIDADES": 313,
+      "HASH": "f1bb8cf883487179cdd769a87a9ccb2c5200f32c5ebb5b8b231624e8023fb5f7"
+    },
+    {
+      "DATAFRAME": "df_dividendo_status_ativo_tratado",
+      "CHAVE": "ID_ATIVO",
+      "QTD_LINHAS": 696,
+      "QTD_COLUNAS": 9,
+      "QTD_ENTIDADES": 696,
+      "HASH": "3a6695e94ccb6a2c5d31a011df5c95f1d4fa043dcde99dfa8f2234a2935d32cb"
+    },
+    {
+      "DATAFRAME": "df_dividendo_ano_tratado",
+      "CHAVE": "ID_ATIVO + ANO_FISCAL",
+      "QTD_LINHAS": 5981,
+      "QTD_COLUNAS": 7,
+      "QTD_ENTIDADES": 664,
+      "HASH": "bf6eb136d632152b44c6da5c1a2f422a720f9de2927c6ed5aa673ddccb735e08"
+    }
+  ],
+  "PARAMETROS": {
+    "PISO_PRECO_B3": 0.05,
+    "PERSISTENCIA_MINIMA_PRECO": 5,
+    "FATOR_IQR_SALTO_PRECO": 3.0,
+    "QTD_MIN_RETORNOS_LIMIAR_ATIVO": 252,
+    "FATOR_IQR_SALTO_QA": 3.0,
+    "FATOR_IQR_VALOR_NOMINAL": 3.0,
+    "QTD_MAX_TRIMESTRES_BLOCO_IMPUTACAO": 8,
+    "FATOR_IQR_LPA": 3.0,
+    "LIMITE_ORDEM_GRANDEZA_LPA": 1.0
+  },
+  "LIMIARES_CALCULADOS": {
+    "LIMIAR_SALTO_PRECO": 0.09788,
+    "LIMIAR_VOLTA_PRECO": 0.028373,
+    "LIMIAR_SALTO_QA": 0.011055,
+    "LIMIAR_VOLTA_QA": 0.002764,
+    "LIMIAR_LPA": 0.241501
+  },
+  "DECISOES": {
+    "PRECO": "COTAHIST à vista, lote padrão e regimes especiais; código anterior só antes do 1º pregão do atual; preço nunca alterado",
+    "PRECO_SUSPEITO": "salto acima do limiar do ativo (IQR próprio com amostra mínima, piso global) que volta ao ruído de um dia em até PERSISTENCIA_MINIMA_PRECO pregões; abaixo do piso só flag",
+    "QA": "FRE capital integralizado, versão PIT, ON e PN; PN pela soma das classes só quando fecha com o total",
+    "QA_SANEAMENTO": "erro = salto que volta ao nível anterior em até 2 anos (versão do documento ou ano anterior); valor nominal atípico com salto na fronteira anula a classe responsável; catálogo AMPLA",
+    "EVENTOS": "salto que persiste confirmado por FRE ou preço inverso; sem confirmação = SEM_EVENTO",
+    "INDICE_EVENTOS": "produto das razões dos eventos confirmados por empresa e classe; I = 1 no início",
+    "LPA": "3.99.01.xx por texto; conferido com lucro / QA dos dois FREs; escala 10^±2 e 10^±3 só com QA estável e bloco curto; sinal com operações continuadas; zero sem lucro desprezível nulo; a partir de 10× nulo; catálogo prevalece (MRV, Sondotécnica)",
+    "DIVIDENDOS": "Yahoo com códigos anteriores; NA quando a fonte não responde; anos fora da negociação excluídos"
+  },
+  "PENDENCIAS": [
+    {
+      "ITEM": "pregões com preço suspeito (preço mantido)",
+      "QTD": "10232",
+      "DESTINO": "Seção 12: preferir pregão não suspeito no preço de entrega"
+    },
+    {
+      "ITEM": "pregões abaixo do piso de preço",
+      "QTD": "8914",
+      "DESTINO": "Seções 12 e 13: múltiplos com a flag"
+    },
+    {
+      "ITEM": "QA anulada (catálogo, valor nominal, indeterminada ou zero)",
+      "QTD": "161",
+      "DESTINO": "VPA, VM e B/M nulos no ano"
+    },
+    {
+      "ITEM": "saltos de QA sem evento (emissão, recompra ou cancelamento; QA mantida)",
+      "QTD": "2191",
+      "DESTINO": "evidência auxiliar de emissão (a fonte principal é a DMPL)"
+    },
+    {
+      "ITEM": "anos com lacuna no índice de eventos",
+      "QTD": "341",
+      "DESTINO": "Seção 13: LPA médio e crescimento com a flag"
+    },
+    {
+      "ITEM": "LPA não verificado (sem lucro ou QA para conferir)",
+      "QTD": "24901",
+      "DESTINO": "mantido como declarado"
+    },
+    {
+      "ITEM": "LPA divergente (entre a faixa e 10×; mantido)",
+      "QTD": "1321",
+      "DESTINO": "P/L com a flag"
+    },
+    {
+      "ITEM": "LPA com escala divergente longa (mantido, só flag)",
+      "QTD": "167",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "LPA anulado",
+      "QTD": "3737",
+      "DESTINO": "P/L e LPA médio nulos"
+    },
+    {
+      "ITEM": "ativo × ano sem fonte de dividendos (NA)",
+      "QTD": "1869",
+      "DESTINO": "Graham G4: streak interrompido como indisponível, nunca como 'não pagou'"
+    },
+    {
+      "ITEM": "proporção sem fonte de dividendos no primeiro ano / no último ano completo",
+      "QTD": "51% / 9%",
+      "DESTINO": "trabalho escrito: viés de sobrevivência da fonte (deslistados fora do Yahoo)"
+    }
+  ]
+}

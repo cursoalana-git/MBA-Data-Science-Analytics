@@ -1,0 +1,253 @@
+{
+  "ID_EXECUCAO": "20261006_162318",
+  "SECAO": "13 - FATO_ATIVO_ANUAL (e nova versão da FATO_EMPRESA_ANUAL)",
+  "MANIFESTO_SECAO12": "manifesto_secao12_20261006_162318.json",
+  "CELULAS": [
+    {
+      "CELULA": "13.1.1 Grade ativo × ano fiscal",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.2.1 Preços do ano fiscal",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.3.1 QA e índice no ano fiscal",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.4.1 LPA anual",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.5.1 Dividendos e streak",
+      "REGRAS": "7/7",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.6.1 Base de valuation por classe",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.6.2 VPA, VM, B/M e emissão",
+      "REGRAS": "11/11",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.7.1 Múltiplos de Graham",
+      "REGRAS": "10/10",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.8 Montagem da fato",
+      "REGRAS": "13/13",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.9.1 Auditoria da FATO_ATIVO_ANUAL",
+      "REGRAS": "9/9",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "13.9.2 Auditoria da FATO_EMPRESA_ANUAL",
+      "REGRAS": "9/9",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS": [
+    {
+      "DATAFRAME": "df_fato_ativo_anual_grade_tratado",
+      "CHAVE": "ID_ATIVO + ANO_FISCAL",
+      "QTD_LINHAS": 5981,
+      "QTD_COLUNAS": 15,
+      "QTD_ENTIDADES": 664,
+      "HASH": "6dadede7edbb1146e4c6c3dbcd8d278fb9d5c3a4cee5122dbc88da94044af05f"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_anual_preco_tratado",
+      "CHAVE": "ID_ATIVO + ANO_FISCAL",
+      "QTD_LINHAS": 5981,
+      "QTD_COLUNAS": 29,
+      "QTD_ENTIDADES": 664,
+      "HASH": "24ab194843539ba346d2620daf69ac87579862b19369a700ed6067acd50ac81e"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_anual_qa_tratado",
+      "CHAVE": "ID_ATIVO + ANO_FISCAL",
+      "QTD_LINHAS": 5981,
+      "QTD_COLUNAS": 45,
+      "QTD_ENTIDADES": 664,
+      "HASH": "fbf0f696dc6ff89de203adeed478c3b42b34aafb07a6769c59b7d405ef03b078"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_anual_lpa_tratado",
+      "CHAVE": "ID_ATIVO + ANO_FISCAL",
+      "QTD_LINHAS": 5981,
+      "QTD_COLUNAS": 53,
+      "QTD_ENTIDADES": 664,
+      "HASH": "2fa54b22351afccfe4b51ee469ddf19b8cc5f42a09c255c39f06215089e5429e"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_anual_div_tratado",
+      "CHAVE": "ID_ATIVO + ANO_FISCAL",
+      "QTD_LINHAS": 5981,
+      "QTD_COLUNAS": 60,
+      "QTD_ENTIDADES": 664,
+      "HASH": "526639d358906863e884de2e4499cacf33dbdf84fc152aab90cee3c60442a1dc"
+    },
+    {
+      "DATAFRAME": "df_valuation_classe_anual_tratado",
+      "CHAVE": "CODIGO_CVM + ANO_FISCAL + CLASSE",
+      "QTD_LINHAS": 5419,
+      "QTD_COLUNAS": 29,
+      "QTD_ENTIDADES": 416,
+      "HASH": "572bba131f42d776e303695278f70d35e06260a84113cd44cf0620ab50fa8f58"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_anual_graham_tratado",
+      "CHAVE": "ID_ATIVO + ANO_FISCAL",
+      "QTD_LINHAS": 5981,
+      "QTD_COLUNAS": 75,
+      "QTD_ENTIDADES": 664,
+      "HASH": "c18104d8d69edd4fecdc702a6559733aefdb4cb0793c16e9d31f370abd975d2d"
+    },
+    {
+      "DATAFRAME": "df_fato_ativo_anual_final",
+      "CHAVE": "ID_ATIVO + ANO_FISCAL",
+      "QTD_LINHAS": 5981,
+      "QTD_COLUNAS": 75,
+      "QTD_ENTIDADES": 664,
+      "HASH": "83d4133d29cefe79b717ce3c982c94a87a660f17cf593ce52fb3b2375e3e1fba"
+    },
+    {
+      "DATAFRAME": "df_dicionario_fato_ativo_anual",
+      "CHAVE": "CAMPO",
+      "QTD_LINHAS": 75,
+      "QTD_COLUNAS": 32,
+      "QTD_ENTIDADES": 75,
+      "HASH": "62399b94f5df7edbe06d22af2e938745f4d44e5769170d9eb5c393d1cb604134"
+    },
+    {
+      "DATAFRAME": "df_fato_empresa_anual_final",
+      "CHAVE": "CODIGO_CVM + ANO_FISCAL",
+      "QTD_LINHAS": 4579,
+      "QTD_COLUNAS": 89,
+      "QTD_ENTIDADES": 421,
+      "HASH": "3c0cb37689a7e47af83bd11ca6e3cf0b4bb821d2f4b765167050c6695a5d9caf"
+    },
+    {
+      "DATAFRAME": "df_dicionario_fato_empresa_anual",
+      "CHAVE": "CAMPO",
+      "QTD_LINHAS": 89,
+      "QTD_COLUNAS": 32,
+      "QTD_ENTIDADES": 89,
+      "HASH": "5387b070d08ec52afbe050e5c108348146b19f13c9aba504e4785fb2d7806c0b"
+    }
+  ],
+  "FATO_EMPRESA_ANUAL_SECAO10_HASH": "fb5512edc830c007b4267e4c4b5e6412719cd2b6d2e3786c24b560efe383fb18",
+  "PARAMETROS": {
+    "TOLERANCIA_PRECO_DIAS": 60,
+    "JANELA_LIQUIDEZ_MESES": 6,
+    "PISO_PRECO_B3": 0.05,
+    "LIMIAR_QUASE_ZERO_PER_SHARE": 0.01,
+    "FATOR_IQR_LPA": 3.0,
+    "LIMITE_ORDEM_GRANDEZA_LPA": 1.0,
+    "FATOR_IQR_VM_ATIVO": 3.0,
+    "FATOR_IQR_SALTO_PRECO": 3.0
+  },
+  "LIMIARES_CALCULADOS": {
+    "LIMIAR_LPA": 0.230589,
+    "LIMIAR_LPA_SOBRE_PRECO_DFP": 0.937374,
+    "LIMIAR_VM_SOBRE_ATIVO": 1.781975,
+    "LIMIAR_SALTO_PRECO_ANTES_ENTREGA": 0.268437
+  },
+  "DECISOES": {
+    "GRAO": "ID_ATIVO × ANO_FISCAL; ativos ON, PN e UNIT da amostra; exercícios da FATO_EMPRESA_ANUAL que cruzam o período negociado",
+    "PRECOS": "fim do exercício: último pregão até o fim, até TOLERANCIA_PRECO_DIAS; entrega: primeiro pregão na entrega ou depois, até TOLERANCIA_PRECO_DIAS; pregão não suspeito preferido",
+    "QA": "FRE de entrega mais recente até a entrega da DFP; sem nenhum, primeiro FRE posterior em até um ciclo (sinalizado); PN = total das preferenciais; unit sem QA",
+    "INDICE": "do FRE da QA; eventos confirmados por FRE de mesmo tamanho ou por preço inverso",
+    "LPA_ANUAL": "DFP por classe (roteamento da 12.3.1); LPA × preço só em NAO_VERIFICADO",
+    "DIVIDENDOS": "PDA da 11.5.2; streak não atravessa ano sem fonte; censura com motivo",
+    "VALUATION": "classes ON/PN da 8.3.2; preço próprio ou unit ÷ composição; sem VM parcial; VM e VPA nulos com evento antes do fim ou VM / ativo atípico",
+    "GRAHAM": "LPA3 em 3 anos consecutivos na base atual pelo índice; CLPA10 com início em t−9 a t−7; P/L e P/VP com preço de entrega; PL×PVP só com os dois positivos; múltiplos nulos com salto de preço uma ordem de grandeza além do limiar entre o FRE e a entrega",
+    "EMISSAO": "DMPL; FRE (salto SEM_EVENTO de alta) só onde a DMPL não tem dado",
+    "DICIONARIOS": "FATO_ATIVO_ANUAL (3.8) e FATO_EMPRESA_ANUAL (3.7 completa); técnicas fora da exportação"
+  },
+  "PENDENCIAS": [
+    {
+      "ITEM": "ativos da amostra sem exercício na grade anual",
+      "QTD": "32",
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "QA incerta (corrigida, imputada, defasada, posterior ou com evento antes do fim)",
+      "QTD": "1034",
+      "DESTINO": "leitura com a flag; Seção 14"
+    },
+    {
+      "ITEM": "QA de FRE entregue depois da DFP (primeiro ano e IPO)",
+      "QTD": "359",
+      "DESTINO": "decisão registrada (opção B)"
+    },
+    {
+      "ITEM": "QA sem FRE na janela",
+      "QTD": "204",
+      "DESTINO": "VPA, VM e B/M nulos; Seção 14"
+    },
+    {
+      "ITEM": "empresa × ano com VM nulo (sem classe, sem preço, sem QA, evento ou atípico)",
+      "QTD": "1033",
+      "DESTINO": "motivo em AUD_MOTIVO_VM_AUSENTE"
+    },
+    {
+      "ITEM": "VM e VPA anulados por VM / ativo atípico",
+      "QTD": "6",
+      "DESTINO": "limitação documentada (QA em escala errada ou empresa sem operação)"
+    },
+    {
+      "ITEM": "múltiplos com salto de preço antes da entrega (flag)",
+      "QTD": "363",
+      "DESTINO": "leitura com a flag"
+    },
+    {
+      "ITEM": "múltiplos anulados por salto de preço uma ordem de grandeza além do limiar",
+      "QTD": "49",
+      "DESTINO": "limitação documentada (grupamento sem FRE posterior)"
+    },
+    {
+      "ITEM": "LPA × preço atípico mantido (NAO_VERIFICADO)",
+      "QTD": "48",
+      "DESTINO": "leitura com a flag"
+    },
+    {
+      "ITEM": "LPA3 com algum LPA sinalizado na média",
+      "QTD": "85",
+      "DESTINO": "leitura com a flag"
+    },
+    {
+      "ITEM": "streak de dividendos censurado",
+      "QTD": "2726",
+      "DESTINO": "Graham G4: limite inferior; série começa em 2011"
+    },
+    {
+      "ITEM": "ativo × ano sem fonte de dividendos",
+      "QTD": "1869",
+      "DESTINO": "trabalho escrito: viés de sobrevivência da fonte"
+    },
+    {
+      "ITEM": "eventos do FRE com tamanho divergente da QA (não entram no índice)",
+      "QTD": "115",
+      "DESTINO": "LPA3 dessas empresas com base possivelmente mista"
+    },
+    {
+      "ITEM": "FATO_EMPRESA_ANUAL republicada com VPA, VM e B/M",
+      "QTD": "4579",
+      "DESTINO": "versão da Seção 10 preservada em df_fato_empresa_anual_final_secao10"
+    }
+  ]
+}

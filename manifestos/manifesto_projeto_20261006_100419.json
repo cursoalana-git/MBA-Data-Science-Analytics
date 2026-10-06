@@ -1,0 +1,42 @@
+{
+  "ID_EXECUCAO": "20261006_100419",
+  "DATA_HORA_UTC_MANIFESTO": "2026-10-06T13:04:45.320572+00:00",
+  "NOME_PROJETO": "Repositório Fundamentalista",
+  "OBJETIVO": "Transformar dados públicos cadastrais, contábeis, societários e de mercado em base point-in-time, auditável e adequada às leituras de Graham e Piotroski.",
+  "DATA_CORTE_EXTRACAO": "2026-09-30",
+  "ANO_INICIO_ANALITICO": 2012,
+  "ANO_FIM_EXTRACAO": 2026,
+  "HASH_PARAMETROS": "907021b0568d9620",
+  "ARQUITETURA_OFICIAL_QTD_TABELAS": 6,
+  "ARQUITETURA_OFICIAL_TABELAS": [
+    "DIM_EMPRESA",
+    "DIM_ATIVO",
+    "FATO_EMPRESA_TRIMESTRAL",
+    "FATO_ATIVO_TRIMESTRAL",
+    "FATO_EMPRESA_ANUAL",
+    "FATO_ATIVO_ANUAL"
+  ],
+  "BASE_CONTABIL_DESEMPATE": "CON",
+  "PIOTROSKI_LUCRO_BASE": "3.09",
+  "PIOTROSKI_DIVIDA_FINANCEIRA_TOTAL": [
+    "2.01.04",
+    "2.02.01"
+  ],
+  "GRAHAM_DIVIDA_LONGO_PRAZO": "2.02.01",
+  "PIOTROSKI_EQ_FONTE_PRINCIPAL": "5.04.01",
+  "PASTAS_PRINCIPAIS": {
+    "RAW_CVM_CAD": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\data\\raw\\cvm_cad",
+    "RAW_CVM_DFP": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\data\\raw\\cvm_dfp",
+    "RAW_CVM_ITR": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\data\\raw\\cvm_itr",
+    "RAW_CVM_FRE": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\data\\raw\\cvm_fre",
+    "RAW_CVM_FCA": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\data\\raw\\cvm_fca",
+    "RAW_B3_COTAHIST": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\data\\raw\\b3_cotahist",
+    "RAW_YAHOO_DIVIDENDOS": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\data\\raw\\yahoo_dividendos",
+    "STAGING": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\data\\staging",
+    "CURATED": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\data\\curated",
+    "AUXILIARES": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\aux",
+    "AUDITORIA": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\outputs\\auditoria",
+    "LOGS": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\logs",
+    "MANIFESTOS": "g:\\Projetos Python\\MBA - Data Science e Analytics\\TCC\\manifestos"
+  }
+}

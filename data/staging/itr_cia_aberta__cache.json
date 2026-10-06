@@ -1,0 +1,1718 @@
+{
+ "CHAVE_CACHE": "db2e5f2a83317c154b165dc6dd2394055cf6cee24b5c94f5f9f2f7eba5f12810",
+ "VERSAO_MECANISMO": "1",
+ "DATA_HORA_UTC": "2026-10-04T16:18:17.938086+00:00",
+ "TABELAS": {
+  "INDICE": {
+   "ARQUIVO": "itr_cia_aberta__indice.parquet",
+   "HASH_CONTEUDO": "e4a57d846a90a0a32b9e3d1d2da4d1e7840805e40385015def366195452051ef",
+   "QTD_LINHAS": 35727,
+   "MB_DISCO": 0.834977
+  },
+  "BPA": {
+   "ARQUIVO": "itr_cia_aberta__bpa.parquet",
+   "HASH_CONTEUDO": "7ea7786574f6968734a6f8d5a6795c7c4def42ec6f68425fe66552757e6001ca",
+   "QTD_LINHAS": 6399407,
+   "MB_DISCO": 41.512209
+  },
+  "BPP": {
+   "ARQUIVO": "itr_cia_aberta__bpp.parquet",
+   "HASH_CONTEUDO": "2b185283ff4bd50c9b8a88bfb4e991004f4d5f56dad9e792269935e7eecd974d",
+   "QTD_LINHAS": 10718108,
+   "MB_DISCO": 66.454941
+  },
+  "DRE": {
+   "ARQUIVO": "itr_cia_aberta__dre.parquet",
+   "HASH_CONTEUDO": "65673b382598223d59c15ef11017891b6fdb3f2fbe6e40e224a3c0a63f8d226c",
+   "QTD_LINHAS": 5423117,
+   "MB_DISCO": 38.073722
+  },
+  "DFC_MD": {
+   "ARQUIVO": "itr_cia_aberta__dfc_md.parquet",
+   "HASH_CONTEUDO": "01653c869018ae3bb8a0703ff6be5206a83a1dc2d4d6dd17ba3453af4b50a28e",
+   "QTD_LINHAS": 50006,
+   "MB_DISCO": 0.295885
+  },
+  "DFC_MI": {
+   "ARQUIVO": "itr_cia_aberta__dfc_mi.parquet",
+   "HASH_CONTEUDO": "9ea27c663b4c7905611b722ce4b481db5a7bad700d66e4734419a4df2c5c6041",
+   "QTD_LINHAS": 3925945,
+   "MB_DISCO": 33.809455
+  },
+  "DMPL": {
+   "ARQUIVO": "itr_cia_aberta__dmpl.parquet",
+   "HASH_CONTEUDO": "f42f3fadc9fab45e8e3c57c2ef40fa08737b193afaa27bd8a165400b71ec91b8",
+   "QTD_LINHAS": 18272624,
+   "MB_DISCO": 50.643906
+  }
+ },
+ "LEITURAS": [
+  {
+   "ANO": 2011,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2011.csv",
+   "QTD_LINHAS": 2510,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2011.csv",
+   "QTD_LINHAS": 135870,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2011.csv",
+   "QTD_LINHAS": 253045,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2011.csv",
+   "QTD_LINHAS": 231544,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2011.csv",
+   "QTD_LINHAS": 411725,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2011.csv",
+   "QTD_LINHAS": 123576,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2011.csv",
+   "QTD_LINHAS": 207180,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2011.csv",
+   "QTD_LINHAS": 1130,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2011.csv",
+   "QTD_LINHAS": 2024,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2011.csv",
+   "QTD_LINHAS": 81094,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2011.csv",
+   "QTD_LINHAS": 115914,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2011.csv",
+   "QTD_LINHAS": 470968,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2011,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2011.csv",
+   "QTD_LINHAS": 631021,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2012.csv",
+   "QTD_LINHAS": 2411,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2012.csv",
+   "QTD_LINHAS": 132416,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2012.csv",
+   "QTD_LINHAS": 254194,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2012.csv",
+   "QTD_LINHAS": 224976,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2012.csv",
+   "QTD_LINHAS": 413586,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2012.csv",
+   "QTD_LINHAS": 119445,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2012.csv",
+   "QTD_LINHAS": 208132,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2012.csv",
+   "QTD_LINHAS": 970,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2012.csv",
+   "QTD_LINHAS": 1428,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2012.csv",
+   "QTD_LINHAS": 80864,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2012.csv",
+   "QTD_LINHAS": 119567,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2012.csv",
+   "QTD_LINHAS": 458552,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2012,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2012.csv",
+   "QTD_LINHAS": 634121,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2013.csv",
+   "QTD_LINHAS": 2321,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2013.csv",
+   "QTD_LINHAS": 130188,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2013.csv",
+   "QTD_LINHAS": 252326,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2013.csv",
+   "QTD_LINHAS": 219866,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2013.csv",
+   "QTD_LINHAS": 408336,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2013.csv",
+   "QTD_LINHAS": 118622,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2013.csv",
+   "QTD_LINHAS": 207372,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2013.csv",
+   "QTD_LINHAS": 1262,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2013.csv",
+   "QTD_LINHAS": 2044,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2013.csv",
+   "QTD_LINHAS": 81144,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2013.csv",
+   "QTD_LINHAS": 121972,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2013.csv",
+   "QTD_LINHAS": 453808,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2013,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2013.csv",
+   "QTD_LINHAS": 630138,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2014.csv",
+   "QTD_LINHAS": 2205,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2014.csv",
+   "QTD_LINHAS": 130971,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2014.csv",
+   "QTD_LINHAS": 248519,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2014.csv",
+   "QTD_LINHAS": 221196,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2014.csv",
+   "QTD_LINHAS": 402281,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2014.csv",
+   "QTD_LINHAS": 119904,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2014.csv",
+   "QTD_LINHAS": 205067,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2014.csv",
+   "QTD_LINHAS": 1334,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2014.csv",
+   "QTD_LINHAS": 1746,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2014.csv",
+   "QTD_LINHAS": 82769,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2014.csv",
+   "QTD_LINHAS": 124778,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2014.csv",
+   "QTD_LINHAS": 458448,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2014,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2014.csv",
+   "QTD_LINHAS": 620473,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2015.csv",
+   "QTD_LINHAS": 2155,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2015.csv",
+   "QTD_LINHAS": 128798,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2015.csv",
+   "QTD_LINHAS": 249281,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2015.csv",
+   "QTD_LINHAS": 216672,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2015.csv",
+   "QTD_LINHAS": 402595,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2015.csv",
+   "QTD_LINHAS": 118866,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2015.csv",
+   "QTD_LINHAS": 205613,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2015.csv",
+   "QTD_LINHAS": 1036,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2015.csv",
+   "QTD_LINHAS": 1558,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2015.csv",
+   "QTD_LINHAS": 83068,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2015.csv",
+   "QTD_LINHAS": 127510,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2015.csv",
+   "QTD_LINHAS": 448944,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2015,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2015.csv",
+   "QTD_LINHAS": 620991,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2016.csv",
+   "QTD_LINHAS": 2110,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2016.csv",
+   "QTD_LINHAS": 126491,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2016.csv",
+   "QTD_LINHAS": 242607,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2016.csv",
+   "QTD_LINHAS": 213179,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2016.csv",
+   "QTD_LINHAS": 392173,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2016.csv",
+   "QTD_LINHAS": 114788,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2016.csv",
+   "QTD_LINHAS": 199138,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2016.csv",
+   "QTD_LINHAS": 912,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2016.csv",
+   "QTD_LINHAS": 1240,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2016.csv",
+   "QTD_LINHAS": 82632,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2016.csv",
+   "QTD_LINHAS": 126680,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2016.csv",
+   "QTD_LINHAS": 440592,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2016,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2016.csv",
+   "QTD_LINHAS": 602754,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2017.csv",
+   "QTD_LINHAS": 2146,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2017.csv",
+   "QTD_LINHAS": 128978,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2017.csv",
+   "QTD_LINHAS": 244681,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2017.csv",
+   "QTD_LINHAS": 217592,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2017.csv",
+   "QTD_LINHAS": 394304,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2017.csv",
+   "QTD_LINHAS": 116638,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2017.csv",
+   "QTD_LINHAS": 199160,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2017.csv",
+   "QTD_LINHAS": 956,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2017.csv",
+   "QTD_LINHAS": 1620,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2017.csv",
+   "QTD_LINHAS": 85008,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2017.csv",
+   "QTD_LINHAS": 129257,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2017.csv",
+   "QTD_LINHAS": 448064,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2017,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2017.csv",
+   "QTD_LINHAS": 601716,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2018.csv",
+   "QTD_LINHAS": 2113,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2018.csv",
+   "QTD_LINHAS": 125196,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2018.csv",
+   "QTD_LINHAS": 237741,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2018.csv",
+   "QTD_LINHAS": 214792,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2018.csv",
+   "QTD_LINHAS": 394692,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2018.csv",
+   "QTD_LINHAS": 115180,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2018.csv",
+   "QTD_LINHAS": 200182,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2018.csv",
+   "QTD_LINHAS": 998,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2018.csv",
+   "QTD_LINHAS": 1620,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2018.csv",
+   "QTD_LINHAS": 85546,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2018.csv",
+   "QTD_LINHAS": 132883,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2018.csv",
+   "QTD_LINHAS": 383720,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2018,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2018.csv",
+   "QTD_LINHAS": 518522,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2019.csv",
+   "QTD_LINHAS": 2106,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2019.csv",
+   "QTD_LINHAS": 126068,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2019.csv",
+   "QTD_LINHAS": 232632,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2019.csv",
+   "QTD_LINHAS": 217079,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2019.csv",
+   "QTD_LINHAS": 389911,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2019.csv",
+   "QTD_LINHAS": 114292,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2019.csv",
+   "QTD_LINHAS": 196743,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2019.csv",
+   "QTD_LINHAS": 919,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2019.csv",
+   "QTD_LINHAS": 1572,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2019.csv",
+   "QTD_LINHAS": 86363,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2019.csv",
+   "QTD_LINHAS": 133055,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2019.csv",
+   "QTD_LINHAS": 451264,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2019,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2019.csv",
+   "QTD_LINHAS": 603283,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2020.csv",
+   "QTD_LINHAS": 2218,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2020.csv",
+   "QTD_LINHAS": 145676,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2020.csv",
+   "QTD_LINHAS": 252402,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2020.csv",
+   "QTD_LINHAS": 251254,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2020.csv",
+   "QTD_LINHAS": 426077,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2020.csv",
+   "QTD_LINHAS": 130668,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2020.csv",
+   "QTD_LINHAS": 213166,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2020.csv",
+   "QTD_LINHAS": 856,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2020.csv",
+   "QTD_LINHAS": 1282,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2020.csv",
+   "QTD_LINHAS": 102028,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2020.csv",
+   "QTD_LINHAS": 149531,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2020.csv",
+   "QTD_LINHAS": 516017,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2020,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2020.csv",
+   "QTD_LINHAS": 655785,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2021.csv",
+   "QTD_LINHAS": 2480,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2021.csv",
+   "QTD_LINHAS": 173012,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2021.csv",
+   "QTD_LINHAS": 285868,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2021.csv",
+   "QTD_LINHAS": 298002,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2021.csv",
+   "QTD_LINHAS": 484382,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2021.csv",
+   "QTD_LINHAS": 152686,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2021.csv",
+   "QTD_LINHAS": 238874,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2021.csv",
+   "QTD_LINHAS": 1482,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2021.csv",
+   "QTD_LINHAS": 2056,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2021.csv",
+   "QTD_LINHAS": 120850,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2021.csv",
+   "QTD_LINHAS": 170692,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2021.csv",
+   "QTD_LINHAS": 605398,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2021,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2021.csv",
+   "QTD_LINHAS": 743784,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2022.csv",
+   "QTD_LINHAS": 2496,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2022.csv",
+   "QTD_LINHAS": 183156,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2022.csv",
+   "QTD_LINHAS": 288524,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2022.csv",
+   "QTD_LINHAS": 313464,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2022.csv",
+   "QTD_LINHAS": 488260,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2022.csv",
+   "QTD_LINHAS": 161578,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2022.csv",
+   "QTD_LINHAS": 238578,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2022.csv",
+   "QTD_LINHAS": 2200,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2022.csv",
+   "QTD_LINHAS": 2366,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2022.csv",
+   "QTD_LINHAS": 131400,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2022.csv",
+   "QTD_LINHAS": 179272,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2022.csv",
+   "QTD_LINHAS": 639464,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2022,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2022.csv",
+   "QTD_LINHAS": 741814,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2023.csv",
+   "QTD_LINHAS": 2412,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2023.csv",
+   "QTD_LINHAS": 186522,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2023.csv",
+   "QTD_LINHAS": 285530,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2023.csv",
+   "QTD_LINHAS": 318798,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2023.csv",
+   "QTD_LINHAS": 482472,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2023.csv",
+   "QTD_LINHAS": 163428,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2023.csv",
+   "QTD_LINHAS": 236786,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2023.csv",
+   "QTD_LINHAS": 2140,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2023.csv",
+   "QTD_LINHAS": 2640,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2023.csv",
+   "QTD_LINHAS": 137794,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2023.csv",
+   "QTD_LINHAS": 186390,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2023.csv",
+   "QTD_LINHAS": 643943,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2023,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2023.csv",
+   "QTD_LINHAS": 727357,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2024.csv",
+   "QTD_LINHAS": 2448,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2024.csv",
+   "QTD_LINHAS": 189576,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2024.csv",
+   "QTD_LINHAS": 288990,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2024.csv",
+   "QTD_LINHAS": 324556,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2024.csv",
+   "QTD_LINHAS": 487974,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2024.csv",
+   "QTD_LINHAS": 164564,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2024.csv",
+   "QTD_LINHAS": 237240,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2024.csv",
+   "QTD_LINHAS": 2332,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2024.csv",
+   "QTD_LINHAS": 3192,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2024.csv",
+   "QTD_LINHAS": 142390,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2024.csv",
+   "QTD_LINHAS": 191200,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2024.csv",
+   "QTD_LINHAS": 651924,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2024,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2024.csv",
+   "QTD_LINHAS": 731777,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2025.csv",
+   "QTD_LINHAS": 2262,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2025.csv",
+   "QTD_LINHAS": 181930,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2025.csv",
+   "QTD_LINHAS": 276451,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2025.csv",
+   "QTD_LINHAS": 310774,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2025.csv",
+   "QTD_LINHAS": 466424,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2025.csv",
+   "QTD_LINHAS": 157164,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2025.csv",
+   "QTD_LINHAS": 226557,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2025.csv",
+   "QTD_LINHAS": 1538,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2025.csv",
+   "QTD_LINHAS": 1795,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2025.csv",
+   "QTD_LINHAS": 139552,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2025.csv",
+   "QTD_LINHAS": 189626,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2025.csv",
+   "QTD_LINHAS": 624679,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2025,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2025.csv",
+   "QTD_LINHAS": 701496,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "INDICE",
+   "NOME_MEMBRO": "itr_cia_aberta_2026.csv",
+   "QTD_LINHAS": 1334,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_con_2026.csv",
+   "QTD_LINHAS": 112020,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "BPA",
+   "NOME_MEMBRO": "itr_cia_aberta_BPA_ind_2026.csv",
+   "QTD_LINHAS": 169748,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_con_2026.csv",
+   "QTD_LINHAS": 191954,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "BPP",
+   "NOME_MEMBRO": "itr_cia_aberta_BPP_ind_2026.csv",
+   "QTD_LINHAS": 287218,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_con_2026.csv",
+   "QTD_LINHAS": 86610,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "DRE",
+   "NOME_MEMBRO": "itr_cia_aberta_DRE_ind_2026.csv",
+   "QTD_LINHAS": 125320,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_con_2026.csv",
+   "QTD_LINHAS": 810,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "DFC_MD",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MD_ind_2026.csv",
+   "QTD_LINHAS": 948,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_con_2026.csv",
+   "QTD_LINHAS": 86662,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "DFC_MI",
+   "NOME_MEMBRO": "itr_cia_aberta_DFC_MI_ind_2026.csv",
+   "QTD_LINHAS": 118454,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_con_2026.csv",
+   "QTD_LINHAS": 383863,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  },
+  {
+   "ANO": 2026,
+   "TABELA": "DMPL",
+   "NOME_MEMBRO": "itr_cia_aberta_DMPL_ind_2026.csv",
+   "QTD_LINHAS": 427944,
+   "ENCODING": "latin-1",
+   "ERRO": null
+  }
+ ],
+ "LAYOUT_DIVERGENTE": [],
+ "COLUNAS_AUSENTES": [],
+ "FLAG_CONTEUDO_PRESERVADO": true
+}

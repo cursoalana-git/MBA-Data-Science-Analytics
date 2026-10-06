@@ -1,0 +1,337 @@
+{
+  "ID_EXECUCAO": "20261005_213028",
+  "SECAO": "7 - Universo de análise",
+  "MANIFESTO_PIT_BASE_CONTABIL": "manifesto_pit_base_contabil_20261005_213028.json",
+  "CELULAS": [
+    {
+      "CELULA": "7.1.1 Diagnóstico do cadastro",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "7.1.2 Cadastro único por empresa",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "7.2.1 Diagnóstico das classificações",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "7.2.2 Diagnóstico do formato",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "7.2.3 Classificação empresa × ano",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "7.3.1 Filtro do universo",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "7.3.2 Auditoria do universo",
+      "REGRAS": "5/5",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS": [
+    {
+      "DATAFRAME": "df_cvm_cad_tratado",
+      "CHAVE": "CD_CVM",
+      "QTD_LINHAS": 2567,
+      "QTD_COLUNAS": 49,
+      "QTD_EMPRESAS": 2567,
+      "HASH": "c2a7d008c53251b90849e817fc33e0b4b247dabd32fd64a73a4d189101487c0f"
+    },
+    {
+      "DATAFRAME": "df_cvm_empresa_ano_tratado",
+      "CHAVE": "CD_CVM + ANO",
+      "QTD_LINHAS": 11194,
+      "QTD_COLUNAS": 33,
+      "QTD_EMPRESAS": 1224,
+      "HASH": "6d7ba4295b4dc21e1aec4d9a1064d8cf81b85d0d23169cb7993ce9a58cdf38dc"
+    },
+    {
+      "DATAFRAME": "df_cvm_documento_formato_tratado",
+      "CHAVE": "FONTE + CD_CVM + DT_REFER",
+      "QTD_LINHAS": 41147,
+      "QTD_COLUNAS": 8,
+      "QTD_EMPRESAS": 1224,
+      "HASH": "a71d5e4e3fe954c7ba1857227c7cc748e085e09223a97e6d7af2041cd7b6abd0"
+    },
+    {
+      "DATAFRAME": "df_cvm_universo_empresa_ano_tratado",
+      "CHAVE": "CD_CVM + ANO",
+      "QTD_LINHAS": 11194,
+      "QTD_COLUNAS": 36,
+      "QTD_EMPRESAS": 1224,
+      "HASH": "1177369f6c89a73c32a1250e334bd053aeff0988ff1658b8c6d795f94967d9a7"
+    },
+    {
+      "DATAFRAME": "df_cvm_universo_tratado",
+      "CHAVE": "CD_CVM + ANO",
+      "QTD_LINHAS": 4904,
+      "QTD_COLUNAS": 14,
+      "QTD_EMPRESAS": 486,
+      "HASH": "4b7e6b2fdcf7580b2f3595ad0dbeb6bb873d0ae1a4554bbd018104aa281b16b7"
+    }
+  ],
+  "CRITERIOS": {
+    "ORDEM_DO_FUNIL": [
+      {
+        "FLAG": "FLAG_BRASILEIRA",
+        "MANTEM_QUANDO": true,
+        "MOTIVO": "ESTRANGEIRA"
+      },
+      {
+        "FLAG": "FLAG_CATEGORIA_A",
+        "MANTEM_QUANDO": true,
+        "MOTIVO": "FORA DA CATEGORIA A"
+      },
+      {
+        "FLAG": "FLAG_BOLSA",
+        "MANTEM_QUANDO": true,
+        "MOTIVO": "FORA DE BOLSA"
+      },
+      {
+        "FLAG": "FLAG_SETOR_EXCLUIDO",
+        "MANTEM_QUANDO": false,
+        "MOTIVO": "SETOR EXCLUIDO (FINANCEIRO OU HOLDINGS)"
+      },
+      {
+        "FLAG": "FLAG_FORMATO_FORA_PLANO",
+        "MANTEM_QUANDO": false,
+        "MOTIVO": "FORMATO FORA DO PLANO COMERCIAL"
+      },
+      {
+        "FLAG": "FLAG_SEM_OPERACAO",
+        "MANTEM_QUANDO": false,
+        "MOTIVO": "SEM OPERACAO NA BASE OFICIAL"
+      },
+      {
+        "FLAG": "FLAG_EXCECAO_EXCLUIR",
+        "MANTEM_QUANDO": false,
+        "MOTIVO": "EXCECAO DO CATALOGO"
+      }
+    ],
+    "CATEGORIA_REGISTRO_VALIDA": "CATEGORIA A",
+    "TIPO_MERCADO_VALIDO": "BOLSA",
+    "PAIS_NACIONAL": "BRASIL",
+    "SETORES_EXCLUIDOS": [
+      "FINANCEIRO",
+      "HOLDINGS"
+    ],
+    "SUBSETORES_SERVICO_PUBLICO": [
+      "ENERGIA ELETRICA",
+      "SANEAMENTO E GAS",
+      "TELECOMUNICACOES"
+    ],
+    "LIMIAR_ADERENCIA_PLANO_COMERCIAL": 0.9,
+    "LIMIAR_RAZAO_EQUIVALENCIA": 0.5
+  },
+  "DECISOES": {
+    "UNIVERSO": "PIT por empresa × ano, pela classificação do FCA da época; canceladas mantidas nos anos ativos",
+    "BUSCA_POR_ANO": "mesmo ano; senão último anterior; senão primeiro posterior (FLAG_*_POSTERIOR)",
+    "MERCADO": "algum valor mobiliário do FCA em TIPO_MERCADO_VALIDO no ano",
+    "PAIS": "valor do domínio de situação de registro no campo país vira nulo; completado pelo mais frequente da empresa",
+    "FORMATO": "documento na base oficial com aderência ao plano comercial abaixo do limiar vira lacuna; o ano segue a DFP",
+    "HOLDING": "critério econômico (razão equivalência / (equivalência + receita) na base oficial); nome não é critério",
+    "EXCECOES_CATALOGO": [
+      {
+        "ID_EXCECAO": "EX007",
+        "IDENTIFICADOR": "21393",
+        "TRATAMENTO": "MARCAR_FLAG"
+      }
+    ]
+  },
+  "FUNIL": [
+    {
+      "ETAPA": "EMPRESA × ANO COM DEMONSTRAÇÃO TRATADA",
+      "QTD_EMPRESA_ANO": 11194,
+      "QTD_EMPRESAS": 1224,
+      "QTD_EMPRESA_ANO_SAI": 0,
+      "PCT_DO_TOTAL": 1.0
+    },
+    {
+      "ETAPA": "SAI: ESTRANGEIRA",
+      "QTD_EMPRESA_ANO": 11060,
+      "QTD_EMPRESAS": 1202,
+      "QTD_EMPRESA_ANO_SAI": 134,
+      "PCT_DO_TOTAL": 0.9880293014114704
+    },
+    {
+      "ETAPA": "SAI: FORA DA CATEGORIA A",
+      "QTD_EMPRESA_ANO": 7589,
+      "QTD_EMPRESAS": 788,
+      "QTD_EMPRESA_ANO_SAI": 3471,
+      "PCT_DO_TOTAL": 0.6779524745399321
+    },
+    {
+      "ETAPA": "SAI: FORA DE BOLSA",
+      "QTD_EMPRESA_ANO": 5677,
+      "QTD_EMPRESAS": 552,
+      "QTD_EMPRESA_ANO_SAI": 1912,
+      "PCT_DO_TOTAL": 0.5071466857244953
+    },
+    {
+      "ETAPA": "SAI: SETOR EXCLUIDO (FINANCEIRO OU HOLDINGS)",
+      "QTD_EMPRESA_ANO": 5083,
+      "QTD_EMPRESAS": 504,
+      "QTD_EMPRESA_ANO_SAI": 594,
+      "PCT_DO_TOTAL": 0.4540825442201179
+    },
+    {
+      "ETAPA": "SAI: FORMATO FORA DO PLANO COMERCIAL",
+      "QTD_EMPRESA_ANO": 5083,
+      "QTD_EMPRESAS": 504,
+      "QTD_EMPRESA_ANO_SAI": 0,
+      "PCT_DO_TOTAL": 0.4540825442201179
+    },
+    {
+      "ETAPA": "SAI: SEM OPERACAO NA BASE OFICIAL",
+      "QTD_EMPRESA_ANO": 4904,
+      "QTD_EMPRESAS": 486,
+      "QTD_EMPRESA_ANO_SAI": 179,
+      "PCT_DO_TOTAL": 0.4380918349115598
+    },
+    {
+      "ETAPA": "SAI: EXCECAO DO CATALOGO",
+      "QTD_EMPRESA_ANO": 4904,
+      "QTD_EMPRESAS": 486,
+      "QTD_EMPRESA_ANO_SAI": 0,
+      "PCT_DO_TOTAL": 0.4380918349115598
+    }
+  ],
+  "UNIVERSO_POR_ANO": [
+    {
+      "ANO": 2011,
+      "QTD_EMPRESAS": 707,
+      "QTD_NO_UNIVERSO": 316
+    },
+    {
+      "ANO": 2012,
+      "QTD_EMPRESAS": 692,
+      "QTD_NO_UNIVERSO": 307
+    },
+    {
+      "ANO": 2013,
+      "QTD_EMPRESAS": 668,
+      "QTD_NO_UNIVERSO": 304
+    },
+    {
+      "ANO": 2014,
+      "QTD_EMPRESAS": 674,
+      "QTD_NO_UNIVERSO": 295
+    },
+    {
+      "ANO": 2015,
+      "QTD_EMPRESAS": 658,
+      "QTD_NO_UNIVERSO": 284
+    },
+    {
+      "ANO": 2016,
+      "QTD_EMPRESAS": 646,
+      "QTD_NO_UNIVERSO": 279
+    },
+    {
+      "ANO": 2017,
+      "QTD_EMPRESAS": 644,
+      "QTD_NO_UNIVERSO": 281
+    },
+    {
+      "ANO": 2018,
+      "QTD_EMPRESAS": 653,
+      "QTD_NO_UNIVERSO": 281
+    },
+    {
+      "ANO": 2019,
+      "QTD_EMPRESAS": 689,
+      "QTD_NO_UNIVERSO": 303
+    },
+    {
+      "ANO": 2020,
+      "QTD_EMPRESAS": 741,
+      "QTD_NO_UNIVERSO": 318
+    },
+    {
+      "ANO": 2021,
+      "QTD_EMPRESAS": 788,
+      "QTD_NO_UNIVERSO": 334
+    },
+    {
+      "ANO": 2022,
+      "QTD_EMPRESAS": 784,
+      "QTD_NO_UNIVERSO": 332
+    },
+    {
+      "ANO": 2023,
+      "QTD_EMPRESAS": 757,
+      "QTD_NO_UNIVERSO": 331
+    },
+    {
+      "ANO": 2024,
+      "QTD_EMPRESAS": 739,
+      "QTD_NO_UNIVERSO": 327
+    },
+    {
+      "ANO": 2025,
+      "QTD_EMPRESAS": 711,
+      "QTD_NO_UNIVERSO": 318
+    },
+    {
+      "ANO": 2026,
+      "QTD_EMPRESAS": 643,
+      "QTD_NO_UNIVERSO": 294
+    }
+  ],
+  "SOBREVIVENCIA": [
+    {
+      "SIT_CAD_HOJE": "ATIVO",
+      "QTD_EMPRESAS_NO_UNIVERSO_EM_ALGUM_ANO": 342
+    },
+    {
+      "SIT_CAD_HOJE": "CANCELADA",
+      "QTD_EMPRESAS_NO_UNIVERSO_EM_ALGUM_ANO": 136
+    },
+    {
+      "SIT_CAD_HOJE": "SUSPENSO(A) - DECISAO ADM",
+      "QTD_EMPRESAS_NO_UNIVERSO_EM_ALGUM_ANO": 6
+    },
+    {
+      "SIT_CAD_HOJE": "SEM CAD",
+      "QTD_EMPRESAS_NO_UNIVERSO_EM_ALGUM_ANO": 2
+    }
+  ],
+  "PENDENCIAS": [
+    {
+      "ITEM": "empresas do universo sem linha no CAD (código CVM fora do padrão)",
+      "QTD": 2,
+      "DESTINO": "Seção 8: confirmar por ticker e COTAHIST"
+    },
+    {
+      "ITEM": "anos fora do universo por mercado entre anos dentro (interrupção)",
+      "QTD": 82,
+      "DESTINO": "Seção 8: confirmar negociação no COTAHIST"
+    },
+    {
+      "ITEM": "documentos fora do plano comercial dentro do universo (lacuna do documento)",
+      "QTD": 2,
+      "DESTINO": "Seções 9/10: não alimentam indicador"
+    },
+    {
+      "ITEM": "empresa × ano do universo sem DFP (só ITR)",
+      "QTD": 397,
+      "DESTINO": "Seções 9/10: indicador trimestral"
+    },
+    {
+      "ITEM": "empresa × ano do universo com classificação de ano posterior (FCA ou mercado)",
+      "QTD": 280,
+      "DESTINO": "Seção 11: limitação documentada"
+    }
+  ]
+}

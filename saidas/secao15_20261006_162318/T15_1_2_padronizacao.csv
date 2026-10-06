@@ -1,0 +1,15 @@
+﻿Dimensão;Item;Colunas;Linhas;Indicador;Antes;Depois
+Chave;CNPJ;26;59589141;Linhas que casam com a referência (%);99,1;99,1
+Chave;CNPJ;26;59589141;Valores distintos que casam com a referência (%);98,0;98,0
+Chave;CNPJ;26;59589141;Formatos na coluna (máximo);1;1
+Chave;Código CVM;17;59488936;Linhas que casam com a referência (%);0,0;99,1
+Chave;Código CVM;17;59488936;Valores distintos que casam com a referência (%);0,0;97,9
+Chave;Código CVM;17;59488936;Formatos na coluna (máximo);1;6
+Chave;Código de negociação;1;12432;Linhas que casam com a referência (%);81,5;91,8
+Chave;Código de negociação;1;12432;Valores distintos que casam com a referência (%);79,1;89,5
+Chave;Código de negociação;1;12432;Formatos na coluna (máximo);31;3
+Data;Todas as colunas de data;75;155925782;Colunas em tipo data;0;75
+Data;Todas as colunas de data;75;155925782;Valores distintos;47395;47392
+Data;Todas as colunas de data;75;155925782;Linhas nulas;47704;47707
+Texto;Colunas de categoria;49;324821611;Valores distintos;923;911
+Texto;Colunas de categoria;49;324821611;Ocorrências de ruído;217980303;0

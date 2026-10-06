@@ -1,0 +1,528 @@
+{
+  "ID_EXECUCAO": "20261006_092459",
+  "SECAO": "5 - Padronização estrutural comum",
+  "MANIFESTO_INGESTAO": "manifesto_ingestao_20261006_092459.json",
+  "CELULAS": [
+    {
+      "CELULA": "5.1.1 Diagnóstico das chaves",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "5.1.2 Padronização das chaves",
+      "REGRAS": "9/9",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "5.1.3 Auditoria das chaves",
+      "REGRAS": "5/5",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "5.2.1 Diagnóstico das datas",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "5.2.2 Conversão das datas",
+      "REGRAS": "9/9",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "5.2.3 Auditoria das datas",
+      "REGRAS": "5/5",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "5.3.1 Diagnóstico dos textos",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "5.3.2 Padronização das categorias",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "5.3.3 Auditoria dos textos",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS": [
+    {
+      "FONTE": "CVM_CAD",
+      "TABELA": "CAD",
+      "DATAFRAME_BASE": "df_cvm_cad_base",
+      "QTD_LINHAS": 2678,
+      "QTD_COLUNAS": 47,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 7,
+      "QTD_CATEGORIAS": 13,
+      "HASH_RAW": "1fc019c77b66d4cc13c73c998b9fe2e9e53bda6cce343090f6af9928f869bcf9",
+      "HASH_BASE": "a8c27b42888a54e25b414f5be7539056f39d51fa0a9e8e4a0de5267603909350"
+    },
+    {
+      "FONTE": "CVM_DFP",
+      "TABELA": "INDICE",
+      "DATAFRAME_BASE": "df_cvm_dfp_indice_base",
+      "QTD_LINHAS": 12898,
+      "QTD_COLUNAS": 10,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "9cd6d2039cc9a7a1ca1e943e0b4e8095175d9707c5521e777647ca1fba30de39",
+      "HASH_BASE": "e8ad3ca4f62d2775cce6f5bf2a1cf0be8f7ba5a9905858146d1b73de86dd304b"
+    },
+    {
+      "FONTE": "CVM_DFP",
+      "TABELA": "BPA",
+      "DATAFRAME_BASE": "df_cvm_dfp_bpa_base",
+      "QTD_LINHAS": 2103876,
+      "QTD_COLUNAS": 15,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "a7034e703a733513c5fb7ab0911c7eaafd7efa45cf3691102668bc5234d66807",
+      "HASH_BASE": "7b2bb6d7d9c6092630e55a70583bb3a58ec8e81e28ff4ef43ba69e92c6f28a63"
+    },
+    {
+      "FONTE": "CVM_DFP",
+      "TABELA": "BPP",
+      "DATAFRAME_BASE": "df_cvm_dfp_bpp_base",
+      "QTD_LINHAS": 3521666,
+      "QTD_COLUNAS": 15,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "2a8c2cfb93bd6baab2a9de2384d457a3f414e6b49786289c08172afc262bcc0f",
+      "HASH_BASE": "b0e46e6510eecfe5806bd11c91a3fa8479320873f8306030cd6a6a6c92baca00"
+    },
+    {
+      "FONTE": "CVM_DFP",
+      "TABELA": "DRE",
+      "DATAFRAME_BASE": "df_cvm_dfp_dre_base",
+      "QTD_LINHAS": 1082690,
+      "QTD_COLUNAS": 16,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "fd21b371265979126c633bf573819a20e3a07f27f29dcaa5c816e89cc44f647a",
+      "HASH_BASE": "9001388332a4c636417ac64e79ed55eb13c48fde7e98d622dec25cf370cbb975"
+    },
+    {
+      "FONTE": "CVM_DFP",
+      "TABELA": "DFC_MD",
+      "DATAFRAME_BASE": "df_cvm_dfp_dfc_md_base",
+      "QTD_LINHAS": 19923,
+      "QTD_COLUNAS": 16,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "adf8ec6e2d74a19d08f7bd87872974224d332f43077777f039c5197b07d0b90b",
+      "HASH_BASE": "8259f01c09518717d6970546434f7f2e97576162b5c3609ac7640be4f4d6541f"
+    },
+    {
+      "FONTE": "CVM_DFP",
+      "TABELA": "DFC_MI",
+      "DATAFRAME_BASE": "df_cvm_dfp_dfc_mi_base",
+      "QTD_LINHAS": 1405805,
+      "QTD_COLUNAS": 16,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "346a3eb83e271108d8742eb535b8b96731bb7cf89905dfa981c77ea944cd45d8",
+      "HASH_BASE": "e88f49e85daf4db3eac905a2b365e47dbecb710d9e32b32e25140c8cc21cf248"
+    },
+    {
+      "FONTE": "CVM_DFP",
+      "TABELA": "DMPL",
+      "DATAFRAME_BASE": "df_cvm_dfp_dmpl_base",
+      "QTD_LINHAS": 6411104,
+      "QTD_COLUNAS": 17,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 6,
+      "HASH_RAW": "9f752ec9c095a2b51f73a46287493e0e92911ac74d6c75d8955ba702fb85633d",
+      "HASH_BASE": "bc59491c2b399c32b4184234150a8f0f4f42f22c84e06bf1613a0062625eba2f"
+    },
+    {
+      "FONTE": "CVM_ITR",
+      "TABELA": "INDICE",
+      "DATAFRAME_BASE": "df_cvm_itr_indice_base",
+      "QTD_LINHAS": 35727,
+      "QTD_COLUNAS": 10,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "e4a57d846a90a0a32b9e3d1d2da4d1e7840805e40385015def366195452051ef",
+      "HASH_BASE": "e1d5baf49949810634e85073a184facacae0de9e87a5d4aae83d286da0ced980"
+    },
+    {
+      "FONTE": "CVM_ITR",
+      "TABELA": "BPA",
+      "DATAFRAME_BASE": "df_cvm_itr_bpa_base",
+      "QTD_LINHAS": 6399407,
+      "QTD_COLUNAS": 15,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "7ea7786574f6968734a6f8d5a6795c7c4def42ec6f68425fe66552757e6001ca",
+      "HASH_BASE": "5b38da84bbf4ed0ec2f0a3efadc629404e0e5e8e43863fa56f35359ea0e62e7b"
+    },
+    {
+      "FONTE": "CVM_ITR",
+      "TABELA": "BPP",
+      "DATAFRAME_BASE": "df_cvm_itr_bpp_base",
+      "QTD_LINHAS": 10718108,
+      "QTD_COLUNAS": 15,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "2b185283ff4bd50c9b8a88bfb4e991004f4d5f56dad9e792269935e7eecd974d",
+      "HASH_BASE": "36f0f793ebd1ac50b6bba2d5ce4fc3d4fd26c3fa884566ea5a26b06d8b52c8ad"
+    },
+    {
+      "FONTE": "CVM_ITR",
+      "TABELA": "DRE",
+      "DATAFRAME_BASE": "df_cvm_itr_dre_base",
+      "QTD_LINHAS": 5423117,
+      "QTD_COLUNAS": 16,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "65673b382598223d59c15ef11017891b6fdb3f2fbe6e40e224a3c0a63f8d226c",
+      "HASH_BASE": "f514e84b9bf94859c95c2ad24c62ba028973f0a614889c2d3f90be49d6fd34c1"
+    },
+    {
+      "FONTE": "CVM_ITR",
+      "TABELA": "DFC_MD",
+      "DATAFRAME_BASE": "df_cvm_itr_dfc_md_base",
+      "QTD_LINHAS": 50006,
+      "QTD_COLUNAS": 16,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "01653c869018ae3bb8a0703ff6be5206a83a1dc2d4d6dd17ba3453af4b50a28e",
+      "HASH_BASE": "b27bb70059add9bb403cc4bb6f5b8dc2ed0f8cc006cc03fe732908e68c40a742"
+    },
+    {
+      "FONTE": "CVM_ITR",
+      "TABELA": "DFC_MI",
+      "DATAFRAME_BASE": "df_cvm_itr_dfc_mi_base",
+      "QTD_LINHAS": 3925945,
+      "QTD_COLUNAS": 16,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 5,
+      "HASH_RAW": "9ea27c663b4c7905611b722ce4b481db5a7bad700d66e4734419a4df2c5c6041",
+      "HASH_BASE": "02f04a0e7a3185991e3bff9e6200243e9b5cde3fe4f40c48485973bbff2beada"
+    },
+    {
+      "FONTE": "CVM_ITR",
+      "TABELA": "DMPL",
+      "DATAFRAME_BASE": "df_cvm_itr_dmpl_base",
+      "QTD_LINHAS": 18272624,
+      "QTD_COLUNAS": 17,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 6,
+      "HASH_RAW": "f42f3fadc9fab45e8e3c57c2ef40fa08737b193afaa27bd8a165400b71ec91b8",
+      "HASH_BASE": "9fa422141dade2b6dd9df40afe3125352b081f5a42d00e60c120623201443b6d"
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "TABELA": "INDICE",
+      "DATAFRAME_BASE": "df_cvm_fre_indice_base",
+      "QTD_LINHAS": 70357,
+      "QTD_COLUNAS": 10,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "05a109a147f2ff7bcbd351b84fe0493087acc424247dfdc2c3fa158d68e86c6c",
+      "HASH_BASE": "2bcc2adb545b78318760b2266aef3d45cd239660439e9264a1b2bb7c35878e95"
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "TABELA": "CAPITAL",
+      "DATAFRAME_BASE": "df_cvm_fre_capital_base",
+      "QTD_LINHAS": 43912,
+      "QTD_COLUNAS": 14,
+      "QTD_CHAVES": 1,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "725b0b77a8cdc4304cd7a689b878e403cd1eb45569e6fc3bfae89dbcc72e4abe",
+      "HASH_BASE": "9d7c6e074efff7ef37c65579082289d848e4968537b4fa7ca0ca68ccf3a26753"
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "TABELA": "CAPITAL_CLASSE",
+      "DATAFRAME_BASE": "df_cvm_fre_capital_classe_base",
+      "QTD_LINHAS": 6533,
+      "QTD_COLUNAS": 9,
+      "QTD_CHAVES": 1,
+      "QTD_DATAS": 1,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "4ad36859e9040c9bd5cd2eb989895fd53f2b85d9046a4c66491ede28eb1e1bcd",
+      "HASH_BASE": "bd878709a61eb476627e1a0a1a4428e02649b2cfa668abfc2610bc39448f3745"
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "TABELA": "DESDOBRAMENTO",
+      "DATAFRAME_BASE": "df_cvm_fre_desdobramento_base",
+      "QTD_LINHAS": 2544,
+      "QTD_COLUNAS": 15,
+      "QTD_CHAVES": 1,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "96602269a5d556bb9f05dbccd3d6e1a84f7c2f3ffd4ef362424f6b42ae7d8def",
+      "HASH_BASE": "a64a38231122e10e5ce1d568eff5ba361ba066da1961c6f8c7a8ae8a2cf5ac2a"
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "TABELA": "DESDOBRAMENTO_CLASSE",
+      "DATAFRAME_BASE": "df_cvm_fre_desdobramento_classe_base",
+      "QTD_LINHAS": 410,
+      "QTD_COLUNAS": 10,
+      "QTD_CHAVES": 1,
+      "QTD_DATAS": 1,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "a8de256a4bea3fc595ae5ccc6cb64e7f54eff14d46d0a785b8731ab34c5029de",
+      "HASH_BASE": "efaa2e00457b38abe6484975fd36a86cbe8f6f80fbc8c03c72c28c80faa06cbf"
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "TABELA": "REDUCAO",
+      "DATAFRAME_BASE": "df_cvm_fre_reducao_base",
+      "QTD_LINHAS": 1764,
+      "QTD_COLUNAS": 17,
+      "QTD_CHAVES": 1,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 0,
+      "HASH_RAW": "e8c77969aefead27c79cb0ac8b3b5e8d185c25781fc7c1b43d079a5de4d1ff78",
+      "HASH_BASE": "18bfdbd50f8856f93d69e8e9e1ca826bba38cf34307f296965c107e95478de4b"
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "TABELA": "REDUCAO_CLASSE",
+      "DATAFRAME_BASE": "df_cvm_fre_reducao_classe_base",
+      "QTD_LINHAS": 95,
+      "QTD_COLUNAS": 9,
+      "QTD_CHAVES": 1,
+      "QTD_DATAS": 1,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "d30fba378098c7f81e22d30c6c5667f8be7efdaf31ec4429e8d7eafa5ae1dbbe",
+      "HASH_BASE": "a7569f8308a2cf7fc3295aef54813ae3b71e1e2b274864c3a16b25c5b71ce8a4"
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "TABELA": "AUMENTO",
+      "DATAFRAME_BASE": "df_cvm_fre_aumento_base",
+      "QTD_LINHAS": 30569,
+      "QTD_COLUNAS": 20,
+      "QTD_CHAVES": 1,
+      "QTD_DATAS": 3,
+      "QTD_CATEGORIAS": 2,
+      "HASH_RAW": "abe31ef8ec759254ef9bef205e0d7ef6d5123c63ddbcb71fa1604f18295a6dca",
+      "HASH_BASE": "9ad6a3b8f3954903bb81ffc3b319a2b71f3d31dea3dc2436d347be6c9bfc593b"
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "TABELA": "AUMENTO_CLASSE",
+      "DATAFRAME_BASE": "df_cvm_fre_aumento_classe_base",
+      "QTD_LINHAS": 1946,
+      "QTD_COLUNAS": 9,
+      "QTD_CHAVES": 1,
+      "QTD_DATAS": 1,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "5effc6ebcc151e0c78bb586435b3b3637312bae57513855eed32cdb96f13dede",
+      "HASH_BASE": "69ed9b1a5599a3bf94b0f5e6ffeb90c5869fad81b9cdb3027c8486939ba739c5"
+    },
+    {
+      "FONTE": "CVM_FCA",
+      "TABELA": "INDICE",
+      "DATAFRAME_BASE": "df_cvm_fca_indice_base",
+      "QTD_LINHAS": 24698,
+      "QTD_COLUNAS": 10,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 2,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "5484a9bcb54a35e9698ba877712fb3e9b34e0f8294724478335e6f89b1e854be",
+      "HASH_BASE": "b98cb484b7e90830b2a1eb89f36ef89df8baef666eefb251cb308cf145a80fca"
+    },
+    {
+      "FONTE": "CVM_FCA",
+      "TABELA": "GERAL",
+      "DATAFRAME_BASE": "df_cvm_fca_geral_base",
+      "QTD_LINHAS": 10985,
+      "QTD_COLUNAS": 27,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 9,
+      "QTD_CATEGORIAS": 7,
+      "HASH_RAW": "1e2fb01cacc7ce75cb28e4fbf2edfa5a44c0c621014a1ac8e59fa1d026848ae0",
+      "HASH_BASE": "d62c43068821d2437a5171b7322732fcfc863bc0f67014120e669c6260ef3a50"
+    },
+    {
+      "FONTE": "CVM_FCA",
+      "TABELA": "VALOR_MOBILIARIO",
+      "DATAFRAME_BASE": "df_cvm_fca_valor_mobiliario_base",
+      "QTD_LINHAS": 12432,
+      "QTD_COLUNAS": 19,
+      "QTD_CHAVES": 2,
+      "QTD_DATAS": 5,
+      "QTD_CATEGORIAS": 7,
+      "HASH_RAW": "babb6bb4e35bd949bc9c666c7331e2a19a699c02bfd90471c69b6c9d1108673d",
+      "HASH_BASE": "db5bab0d02f6f23dde132872a5f5eb0c85cd47792c5de6c9c09c431a18b64fe8"
+    },
+    {
+      "FONTE": "B3_COTAHIST",
+      "TABELA": "COTACOES",
+      "DATAFRAME_BASE": "df_b3_cotahist_base",
+      "QTD_LINHAS": 3007537,
+      "QTD_COLUNAS": 19,
+      "QTD_CHAVES": 1,
+      "QTD_DATAS": 0,
+      "QTD_CATEGORIAS": 1,
+      "HASH_RAW": "fbe4c8aae14e9e41338a5915e928a8805a0adc6a7aaa88fe079caed829a2d224",
+      "HASH_BASE": "dccfe21107bdc602f3720321feebc187ab0069408b7730a41602a2e338f56f3c"
+    }
+  ],
+  "DECISOES": {
+    "FORMATO_DATA": {
+      "9999-99-99": "%Y-%m-%d"
+    },
+    "DATA_COMO_CATEGORIA": true,
+    "DATAS_INVALIDAS_ACEITAS": [
+      [
+        "CVM_FRE",
+        "Data_Autorizacao_Aprovacao",
+        "2994-08-23",
+        "ano digitado errado; CNPJ 00.192.769/0001-59, FRE 2011 v3"
+      ],
+      [
+        "CVM_FRE",
+        "Data_Autorizacao_Aprovacao",
+        "3013-04-24",
+        "ano digitado errado; CNPJ 13.017.462/0001-63, FRE 2013 v6"
+      ],
+      [
+        "CVM_FRE",
+        "Data_Autorizacao_Aprovacao",
+        "2917-09-18",
+        "ano digitado errado; CNPJ 90.400.888/0001-42, FRE 2017 v24"
+      ]
+    ],
+    "LIMITE_DISTINTOS_CATEGORIA": 1000,
+    "CLASSE_FORCADA": [
+      [
+        "CVM_CAD",
+        "CNPJ_AUDITOR",
+        "NUMERO_OU_CODIGO"
+      ],
+      [
+        "B3_COTAHIST",
+        "CODISI",
+        "NUMERO_OU_CODIGO"
+      ],
+      [
+        "CVM_CAD",
+        "BAIRRO",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_CAD",
+        "MUN",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_CAD",
+        "COMPL_RESP",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_CAD",
+        "BAIRRO_RESP",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_CAD",
+        "MUN_RESP",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_CAD",
+        "AUDITOR",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_FRE",
+        "Prazo_Integralizacao",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_FRE",
+        "Forma_Restituicao",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_FRE",
+        "Razao_Reducao",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_FRE",
+        "Orgao_Deliberacao_Aumento",
+        "TEXTO_LIVRE"
+      ],
+      [
+        "CVM_FCA",
+        "Composicao_BDR_Unit",
+        "TEXTO_LIVRE"
+      ]
+    ]
+  },
+  "GANHOS": [
+    {
+      "BLOCO": "CHAVES",
+      "ITEM": "CNPJ: casamento com a referência (linhas)",
+      "ANTES": 0.9911625341268134,
+      "DEPOIS": 0.9911625341268134
+    },
+    {
+      "BLOCO": "CHAVES",
+      "ITEM": "CODIGO_CVM: casamento com a referência (linhas)",
+      "ANTES": 0.0,
+      "DEPOIS": 0.9911141796182067
+    },
+    {
+      "BLOCO": "CHAVES",
+      "ITEM": "TICKER: casamento com a referência (linhas)",
+      "ANTES": 0.8154929577464789,
+      "DEPOIS": 0.9178798908098271
+    },
+    {
+      "BLOCO": "DATAS",
+      "ITEM": "colunas de data como data (fração)",
+      "ANTES": 0.0,
+      "DEPOIS": 1.0
+    },
+    {
+      "BLOCO": "DATAS",
+      "ITEM": "textos de data inválidos aceitos como nulo (linhas)",
+      "ANTES": NaN,
+      "DEPOIS": 3.0
+    },
+    {
+      "BLOCO": "TEXTOS",
+      "ITEM": "ruído nas categorias (indicadores somados)",
+      "ANTES": 217980303.0,
+      "DEPOIS": 0.0
+    },
+    {
+      "BLOCO": "TEXTOS",
+      "ITEM": "valores distintos nas categorias",
+      "ANTES": 923.0,
+      "DEPOIS": 911.0
+    }
+  ]
+}

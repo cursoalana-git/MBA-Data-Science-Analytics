@@ -1,0 +1,155 @@
+{
+  "ID_EXECUCAO": "20261005_213028",
+  "SECAO": "10 - FATO_EMPRESA_ANUAL",
+  "MANIFESTO_SECAO9": "manifesto_secao9_20261005_213028.json",
+  "CELULAS": [
+    {
+      "CELULA": "10.1.1 Grade empresa × ano fiscal",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "10.2.1 Estoques e fluxos anuais",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "10.2.2 Emissão de ações (DMPL)",
+      "REGRAS": "5/5",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "10.3 Indicadores anuais",
+      "REGRAS": "9/9",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "10.4 Montagem da fato",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "10.5 Auditoria da tabela final",
+      "REGRAS": "8/8",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS": [
+    {
+      "DATAFRAME": "df_fato_anual_grade_tratado",
+      "CHAVE": "CODIGO_CVM + ANO_FISCAL",
+      "QTD_LINHAS": 4579,
+      "QTD_COLUNAS": 13,
+      "QTD_EMPRESAS": 421,
+      "HASH": "07b4ffc8a49ca3c68058260ee2987c258d5fd6a674fad7d229f23f7a62c2f4d4"
+    },
+    {
+      "DATAFRAME": "df_fato_anual_contabil_tratado",
+      "CHAVE": "CODIGO_CVM + ANO_FISCAL",
+      "QTD_LINHAS": 4579,
+      "QTD_COLUNAS": 34,
+      "QTD_EMPRESAS": 421,
+      "HASH": "45824ba4a10ef779a21d627a51ab9d1782ee1893dcf947b1f45ebcc70e7662c8"
+    },
+    {
+      "DATAFRAME": "df_fato_anual_emissao_tratado",
+      "CHAVE": "CODIGO_CVM + ANO_FISCAL",
+      "QTD_LINHAS": 4579,
+      "QTD_COLUNAS": 7,
+      "QTD_EMPRESAS": 421,
+      "HASH": "b2ccb26c45b15620099f67a859aa951cb9ef9064a2dbefb723d8286ab1980071"
+    },
+    {
+      "DATAFRAME": "df_fato_anual_indicador_tratado",
+      "CHAVE": "CODIGO_CVM + ANO_FISCAL",
+      "QTD_LINHAS": 4579,
+      "QTD_COLUNAS": 28,
+      "QTD_EMPRESAS": 421,
+      "HASH": "db0d71fbb7bb6d4471e2acdab9a7d5afd5b541c6863b8df8d73738b38d4eda36"
+    },
+    {
+      "DATAFRAME": "df_fato_empresa_anual_final",
+      "CHAVE": "CODIGO_CVM + ANO_FISCAL",
+      "QTD_LINHAS": 4579,
+      "QTD_COLUNAS": 76,
+      "QTD_EMPRESAS": 421,
+      "HASH": "fb5512edc830c007b4267e4c4b5e6412719cd2b6d2e3786c24b560efe383fb18"
+    },
+    {
+      "DATAFRAME": "df_dicionario_fato_empresa_anual",
+      "CHAVE": "CAMPO",
+      "QTD_LINHAS": 76,
+      "QTD_COLUNAS": 32,
+      "QTD_EMPRESAS": null,
+      "HASH": "2aacc8d6b7a064e236ef1e2489b64cf23bc2c3741add516b1a060fd3545e9029"
+    }
+  ],
+  "PARAMETROS": {
+    "DURACAO_EXERCICIO_MIN_DIAS": 360,
+    "DURACAO_EXERCICIO_MAX_DIAS": 370,
+    "QTD_ANOS_JANELA_LONGA": 10
+  },
+  "DECISOES": {
+    "GRAO": "CODIGO_CVM × ANO_FISCAL a partir das DFP de fechamento da FATO_EMPRESA_TRIMESTRAL (PIT e vigência herdados)",
+    "EXERCICIO_DUPLO": "mantém o exercício de 12 meses; o de transição vai para auditoria",
+    "VALORES": "estoques da mesma DFP na fato trimestral (já saneados); fluxos pela linha acumulada da DFP",
+    "PIOTROSKI": "LLoc = 3.09 sem fallback; DFT = 2.01.04 + 2.02.01; AT0 do ano anterior; ATm no LEV; GA com AT0",
+    "AT0_PRIMEIRO_ANO": "comparativo PENÚLTIMO da própria DFP (entregue junto, sem look-ahead)",
+    "DELTAS": "só com ano anterior presente e os dois exercícios de 12 meses",
+    "EMISSAO": "DMPL 5.04.01 na coluna PATRIMONIO LIQUIDO; capitalização de reservas não conta",
+    "LLC_ZERADA": "3.11.01 = 0 com LL ≠ 0: LL sem não controladores; nulo com não controladores",
+    "PENDENTES": "VPA, VM e B/M entram na seção do ativo anual"
+  },
+  "PENDENCIAS": [
+    {
+      "ITEM": "campos da 3.7 pendentes de QA e preço (VALOR_PATRIMONIAL_POR_ACAO, VALOR_MERCADO_EMPRESA, BOOK_TO_MARKET)",
+      "QTD": 3,
+      "DESTINO": "seção do ativo anual: acrescentar e reauditar esta tabela"
+    },
+    {
+      "ITEM": "exercício descartado por haver outro de 12 meses no mesmo ano (Cosan 2013)",
+      "QTD": 1,
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "exercícios diferentes de 12 meses (deltas nulos)",
+      "QTD": 6,
+      "DESTINO": "limitação documentada"
+    },
+    {
+      "ITEM": "primeiro ano sem AT0 (sem comparativo na DFP)",
+      "QTD": 9,
+      "DESTINO": "ROA, CFOA, ACC e GA nulos no ano"
+    },
+    {
+      "ITEM": "janela de 10 anos incompleta (AD10 < 10)",
+      "QTD": 3155,
+      "DESTINO": "Graham: ler AL10 com AD10"
+    },
+    {
+      "ITEM": "capitalizações de reservas (não contam como emissão)",
+      "QTD": 436,
+      "DESTINO": "evidência de que a 5.04.01 inclui capitalizações"
+    },
+    {
+      "ITEM": "LLc com 3.11.01 zerada e não controladores (nulo)",
+      "QTD": 14,
+      "DESTINO": "AL10 conta o ano como indisponível"
+    },
+    {
+      "ITEM": "anos com ativo atípico ou base de ativo instável (valores mantidos)",
+      "QTD": 22,
+      "DESTINO": "leitura cautelosa de ROA, CFOA, ACC, GA e LEV"
+    },
+    {
+      "ITEM": "empresas com PL negativo em algum ano",
+      "QTD": 102,
+      "DESTINO": "Graham e múltiplos com a flag"
+    },
+    {
+      "ITEM": "SEM_DADO na emissão (aguarda evidência do FRE)",
+      "QTD": 0,
+      "DESTINO": "seção de quantidade de ações"
+    }
+  ]
+}

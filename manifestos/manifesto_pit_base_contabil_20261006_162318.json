@@ -1,0 +1,463 @@
+{
+  "ID_EXECUCAO": "20261006_162318",
+  "SECAO": "6 - Histórico documental, PIT e base contábil",
+  "MANIFESTO_PADRONIZACAO": "manifesto_padronizacao_20261006_162318.json",
+  "CELULAS": [
+    {
+      "CELULA": "6.1.1 Diagnóstico do histórico documental",
+      "REGRAS": "5/5",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "6.1.2 Seleção PIT",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "6.1.3 Auditoria PIT",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "6.2.1 Diagnóstico dos valores",
+      "REGRAS": "4/4",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "6.2.2 Conversão dos valores e escala",
+      "REGRAS": "7/7",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "6.3.1 Escolha da base contábil",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    },
+    {
+      "CELULA": "6.3.2 Filtro pela base contábil",
+      "REGRAS": "6/6",
+      "FLAG_APROVADA": true
+    }
+  ],
+  "TABELAS": [
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_DFP",
+      "TABELA": "BPA",
+      "DATAFRAME": "df_cvm_dfp_bpa_tratado",
+      "QTD_LINHAS": 1326176,
+      "QTD_COLUNAS": 21,
+      "QTD_EMPRESAS": 1184,
+      "HASH": "9cd5e90ea2ed2c428444dce6db1382b288c158c28efccf66882c2730bd5ae10e"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_DFP",
+      "TABELA": "BPP",
+      "DATAFRAME": "df_cvm_dfp_bpp_tratado",
+      "QTD_LINHAS": 2215518,
+      "QTD_COLUNAS": 21,
+      "QTD_EMPRESAS": 1184,
+      "HASH": "f952f6672aa5708cc96d3721f588026b05e2f2ff6391674052678e2f1fad1b24"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_DFP",
+      "TABELA": "DRE",
+      "DATAFRAME": "df_cvm_dfp_dre_tratado",
+      "QTD_LINHAS": 688445,
+      "QTD_COLUNAS": 22,
+      "QTD_EMPRESAS": 1183,
+      "HASH": "cb88c27bcb6b5d99fec39b7e0cf322d7e98458de2fc070f5ddeb2004358deb43"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_DFP",
+      "TABELA": "DFC_MD",
+      "DATAFRAME": "df_cvm_dfp_dfc_md_tratado",
+      "QTD_LINHAS": 12602,
+      "QTD_COLUNAS": 22,
+      "QTD_EMPRESAS": 86,
+      "HASH": "f59154b4f8c45778090280d717b60a74223d5d9ab9c79af09a37f1ae13fe6d1c"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_DFP",
+      "TABELA": "DFC_MI",
+      "DATAFRAME": "df_cvm_dfp_dfc_mi_tratado",
+      "QTD_LINHAS": 864110,
+      "QTD_COLUNAS": 22,
+      "QTD_EMPRESAS": 1139,
+      "HASH": "9d5a496a6da62b02a90f8fd1baa58aed26858cf45eee71ef445001c47774deb7"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_DFP",
+      "TABELA": "DMPL",
+      "DATAFRAME": "df_cvm_dfp_dmpl_tratado",
+      "QTD_LINHAS": 4165851,
+      "QTD_COLUNAS": 23,
+      "QTD_EMPRESAS": 1184,
+      "HASH": "e937bab02ab04184f9c759aa42142398da14368fd4acf2eb8315ea2728e3f4bd"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_ITR",
+      "TABELA": "BPA",
+      "DATAFRAME": "df_cvm_itr_bpa_tratado",
+      "QTD_LINHAS": 4056105,
+      "QTD_COLUNAS": 21,
+      "QTD_EMPRESAS": 1219,
+      "HASH": "4089f7784ec654db69cfeb4ab60dd6b76e49f25cdb101ab33c19931f8563a9ae"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_ITR",
+      "TABELA": "BPP",
+      "DATAFRAME": "df_cvm_itr_bpp_tratado",
+      "QTD_LINHAS": 6777207,
+      "QTD_COLUNAS": 21,
+      "QTD_EMPRESAS": 1219,
+      "HASH": "1d6dfdca057054cdb8df4bab7e3161822dec57dbb15a1914ce3b599387fc2eac"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_ITR",
+      "TABELA": "DRE",
+      "DATAFRAME": "df_cvm_itr_dre_tratado",
+      "QTD_LINHAS": 3501568,
+      "QTD_COLUNAS": 22,
+      "QTD_EMPRESAS": 1219,
+      "HASH": "cf4fa9af72b79e03b3f2363b47e2a2c765e1a071c4fecb6910743d73779fd8b9"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_ITR",
+      "TABELA": "DFC_MD",
+      "DATAFRAME": "df_cvm_itr_dfc_md_tratado",
+      "QTD_LINHAS": 32319,
+      "QTD_COLUNAS": 22,
+      "QTD_EMPRESAS": 135,
+      "HASH": "ba63f0baf0d33d34dca09ceb494be3702ff883bcc85f3a936f1a2f5fac053241"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_ITR",
+      "TABELA": "DFC_MI",
+      "DATAFRAME": "df_cvm_itr_dfc_mi_tratado",
+      "QTD_LINHAS": 2454616,
+      "QTD_COLUNAS": 22,
+      "QTD_EMPRESAS": 1187,
+      "HASH": "2daf63f6cd7ba55c36b7d4af64967074bdab73df25cd75a6e1d885c29afcbb99"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM_ITR",
+      "TABELA": "DMPL",
+      "DATAFRAME": "df_cvm_itr_dmpl_tratado",
+      "QTD_LINHAS": 12041671,
+      "QTD_COLUNAS": 23,
+      "QTD_EMPRESAS": 1219,
+      "HASH": "532bac655362799704cf21b5ba57adc53cbfd60ef152add4581755b18b3a5c92"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FRE",
+      "TABELA": "CAPITAL",
+      "DATAFRAME": "df_cvm_fre_capital_pit",
+      "QTD_LINHAS": 43777,
+      "QTD_COLUNAS": 18,
+      "QTD_EMPRESAS": 1214,
+      "HASH": "39c4ddd868184b487e5ed2d3a3553c557dc8e8e44fd4db0b6f5253c9a3bf7714"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FRE",
+      "TABELA": "CAPITAL_CLASSE",
+      "DATAFRAME": "df_cvm_fre_capital_classe_pit",
+      "QTD_LINHAS": 6525,
+      "QTD_COLUNAS": 13,
+      "QTD_EMPRESAS": 187,
+      "HASH": "5dbbbd2b7f64ff97fec48b22d04e53cb86e25e3aa4e62c5fa4677fe6b7b967de"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FRE",
+      "TABELA": "DESDOBRAMENTO",
+      "DATAFRAME": "df_cvm_fre_desdobramento_pit",
+      "QTD_LINHAS": 2542,
+      "QTD_COLUNAS": 19,
+      "QTD_EMPRESAS": 402,
+      "HASH": "b7a7a58aab915de5825666a6c00d706afc482b57c8a793e1293789cceb7e9379"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FRE",
+      "TABELA": "DESDOBRAMENTO_CLASSE",
+      "DATAFRAME": "df_cvm_fre_desdobramento_classe_pit",
+      "QTD_LINHAS": 410,
+      "QTD_COLUNAS": 14,
+      "QTD_EMPRESAS": 48,
+      "HASH": "24e958b9957e99b07a2ef04884006ec415f50a1243bd3d1060ae6e819b70f89f"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FRE",
+      "TABELA": "REDUCAO",
+      "DATAFRAME": "df_cvm_fre_reducao_pit",
+      "QTD_LINHAS": 1764,
+      "QTD_COLUNAS": 21,
+      "QTD_EMPRESAS": 268,
+      "HASH": "b4ebae36b0d1740886e172d44fe3021e3fde52d299d8dfa89a511e4bd3126ff1"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FRE",
+      "TABELA": "REDUCAO_CLASSE",
+      "DATAFRAME": "df_cvm_fre_reducao_classe_pit",
+      "QTD_LINHAS": 95,
+      "QTD_COLUNAS": 13,
+      "QTD_EMPRESAS": 13,
+      "HASH": "98be4a5ca3937901191c8b6981d6040c988b540a1a8e79fe04094ec2bbb4c882"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FRE",
+      "TABELA": "AUMENTO",
+      "DATAFRAME": "df_cvm_fre_aumento_pit",
+      "QTD_LINHAS": 30559,
+      "QTD_COLUNAS": 24,
+      "QTD_EMPRESAS": 788,
+      "HASH": "7ce84605d94f947a358c0e34b35a01ba6e0f4f9a045142c2899fa67f6b3d2310"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FRE",
+      "TABELA": "AUMENTO_CLASSE",
+      "DATAFRAME": "df_cvm_fre_aumento_classe_pit",
+      "QTD_LINHAS": 1946,
+      "QTD_COLUNAS": 13,
+      "QTD_EMPRESAS": 77,
+      "HASH": "005070783c4ac4e3211015fc19e9bb5ca63e8086e3ae5b25a468e7470d8a6c0b"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FCA",
+      "TABELA": "GERAL",
+      "DATAFRAME": "df_cvm_fca_geral_pit",
+      "QTD_LINHAS": 10981,
+      "QTD_COLUNAS": 31,
+      "QTD_EMPRESAS": 1247,
+      "HASH": "5906035c781cd1fb277d2849e2627489c8c5c63d0a2003cc6b08c814f6bd7030"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FCA",
+      "TABELA": "VALOR_MOBILIARIO",
+      "DATAFRAME": "df_cvm_fca_valor_mobiliario_pit",
+      "QTD_LINHAS": 12426,
+      "QTD_COLUNAS": 23,
+      "QTD_EMPRESAS": 1092,
+      "HASH": "b99a2ca2b6857ef0e22003fc8e0c46ea690879acc66e298b3add34ba2e9efb74"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_DFP",
+      "TABELA": "INDICE",
+      "DATAFRAME": "df_cvm_dfp_indice_pit",
+      "QTD_LINHAS": 10197,
+      "QTD_COLUNAS": 9,
+      "QTD_EMPRESAS": 1185,
+      "HASH": "b3eaf564cdf2752c919055711d90b21283093e4e0c36c5bde64149887a01e726"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_ITR",
+      "TABELA": "INDICE",
+      "DATAFRAME": "df_cvm_itr_indice_pit",
+      "QTD_LINHAS": 31321,
+      "QTD_COLUNAS": 9,
+      "QTD_EMPRESAS": 1220,
+      "HASH": "b218937f3eb5153432bcdeea0374c5e7bc323809c76a0994d020a887be756fbc"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FRE",
+      "TABELA": "INDICE",
+      "DATAFRAME": "df_cvm_fre_indice_pit",
+      "QTD_LINHAS": 10735,
+      "QTD_COLUNAS": 9,
+      "QTD_EMPRESAS": 1215,
+      "HASH": "fa4ff49325ad8f8ed8685b60afb58eb705589b3e016c04fd7b3fbffdb4441ac0"
+    },
+    {
+      "CAMADA": "PIT",
+      "FONTE": "CVM_FCA",
+      "TABELA": "INDICE",
+      "DATAFRAME": "df_cvm_fca_indice_pit",
+      "QTD_LINHAS": 10986,
+      "QTD_COLUNAS": 9,
+      "QTD_EMPRESAS": 1247,
+      "HASH": "781dcb3ce8a4371c79fb976512ed8a5711c6ef5ef89ae02d3d77789668e8150e"
+    },
+    {
+      "CAMADA": "TRATADO",
+      "FONTE": "CVM",
+      "TABELA": "BASE_CONTABIL",
+      "DATAFRAME": "df_cvm_base_contabil_empresa_tratado",
+      "QTD_LINHAS": 1224,
+      "QTD_COLUNAS": 16,
+      "QTD_EMPRESAS": 1224,
+      "HASH": "2b27bf09058d60e8a089543b157aacfd7f0bdc95dc742a1046ca42e14cc6d0db"
+    }
+  ],
+  "DECISOES": {
+    "R3_PIT": {
+      "DATA_CORTE_EXTRACAO": "2026-09-30",
+      "REGRA": "maior VERSAO com DT_RECEB <= corte; mesma versão com vários envios: envio mais recente",
+      "LIGACAO_INDICE": {
+        "CVM_DFP": [
+          "DOCUMENTO_VERSAO",
+          [
+            "CD_CVM",
+            "DT_REFER",
+            "VERSAO"
+          ]
+        ],
+        "CVM_ITR": [
+          "DOCUMENTO_VERSAO",
+          [
+            "CD_CVM",
+            "DT_REFER",
+            "VERSAO"
+          ]
+        ],
+        "CVM_FRE": [
+          "ID_DOCUMENTO",
+          [
+            "ID_Documento"
+          ]
+        ],
+        "CVM_FCA": [
+          "ID_DOCUMENTO",
+          [
+            "ID_Documento"
+          ]
+        ]
+      },
+      "DATA_DISPONIBILIDADE": "DATA_ENTREGA_CVM = entrega da versão mantida"
+    },
+    "ESCALA": {
+      "FATOR_PARA_MIL": {
+        "MIL": 1.0,
+        "UNIDADE": 0.001
+      },
+      "CONTA_SEM_ESCALA": "3.99",
+      "CONTAS_SUSPEITA": [
+        "1 Ativo Total",
+        "3.01 Receita"
+      ],
+      "FAIXA_RAZAO_SUSPEITA": [
+        0.5,
+        2.0
+      ]
+    },
+    "R5_BASE_CONTABIL": {
+      "PREFIXO_GRUPO_BASE": {
+        "DF CONSOLIDADO": "CON",
+        "DF INDIVIDUAL": "IND"
+      },
+      "COBERTURA": "documentos DFP+ITR com BPA conta 1 (ULTIMO) diferente de zero",
+      "DESEMPATE": "CON",
+      "ALTERNATIVA_ESCOLHIDA": "A: maior cobertura; exceção IND sem operação -> CON; lacuna sem alternar a base",
+      "LIMIAR_RAZAO_EQUIVALENCIA": 0.5,
+      "QTD_TROCA_IND_SEM_OPERACAO": 38,
+      "EMPRESAS_POR_BASE": {
+        "IND": 631,
+        "CON": 593
+      }
+    }
+  },
+  "FUNIL": [
+    {
+      "FONTE": "CVM_DFP",
+      "QTD_DOCUMENTOS_INDICE": 10197,
+      "QTD_DOCUMENTOS_PIT": 10197,
+      "PCT_REAPRESENTADO": 0.20908110228498578,
+      "QTD_VERSAO_POSTERIOR_AO_CORTE": 1,
+      "QTD_LINHAS_BASE": 14545064,
+      "QTD_LINHAS_PIT": 14543934,
+      "QTD_LINHAS_TRATADO": 9272702,
+      "QTD_LINHAS_UNIDADE_PARA_MIL": 756197,
+      "QTD_DOC_ESCALA_SUSPEITA": 126
+    },
+    {
+      "FONTE": "CVM_ITR",
+      "QTD_DOCUMENTOS_INDICE": 31322,
+      "QTD_DOCUMENTOS_PIT": 31321,
+      "PCT_REAPRESENTADO": 0.11819545991507295,
+      "QTD_VERSAO_POSTERIOR_AO_CORTE": 0,
+      "QTD_LINHAS_BASE": 44789207,
+      "QTD_LINHAS_PIT": 44787085,
+      "QTD_LINHAS_TRATADO": 28863486,
+      "QTD_LINHAS_UNIDADE_PARA_MIL": 2411646,
+      "QTD_DOC_ESCALA_SUSPEITA": 3
+    },
+    {
+      "FONTE": "CVM_FRE",
+      "QTD_DOCUMENTOS_INDICE": 10735,
+      "QTD_DOCUMENTOS_PIT": 10735,
+      "PCT_REAPRESENTADO": 0.8587796925943176,
+      "QTD_VERSAO_POSTERIOR_AO_CORTE": 33,
+      "QTD_LINHAS_BASE": 87773,
+      "QTD_LINHAS_PIT": 87618,
+      "QTD_LINHAS_TRATADO": null,
+      "QTD_LINHAS_UNIDADE_PARA_MIL": null,
+      "QTD_DOC_ESCALA_SUSPEITA": null
+    },
+    {
+      "FONTE": "CVM_FCA",
+      "QTD_DOCUMENTOS_INDICE": 10987,
+      "QTD_DOCUMENTOS_PIT": 10986,
+      "PCT_REAPRESENTADO": 0.6625705443291462,
+      "QTD_VERSAO_POSTERIOR_AO_CORTE": 2,
+      "QTD_LINHAS_BASE": 23417,
+      "QTD_LINHAS_PIT": 23407,
+      "QTD_LINHAS_TRATADO": null,
+      "QTD_LINHAS_UNIDADE_PARA_MIL": null,
+      "QTD_DOC_ESCALA_SUSPEITA": null
+    }
+  ],
+  "PENDENCIAS": [
+    {
+      "ITEM": "documentos com escala suspeita (AUD_FLAG_ESCALA_SUSPEITA)",
+      "QTD": 126,
+      "DESTINO": "Seção 11: âncora LPA × ações"
+    },
+    {
+      "ITEM": "documentos perdidos: só a versão posterior ao corte existe na fonte",
+      "QTD": 36,
+      "DESTINO": "Seção 11: cobertura"
+    },
+    {
+      "ITEM": "documentos DFP/ITR com entrega antes da data de referência",
+      "QTD": 2,
+      "DESTINO": "Seções 9/10: data de disponibilidade"
+    },
+    {
+      "ITEM": "documentos sem a base oficial (lacuna R5)",
+      "QTD": 368,
+      "DESTINO": "Seções 9/10: lacuna"
+    },
+    {
+      "ITEM": "empresas com as duas bases que ficaram em IND (decisão A)",
+      "QTD": 186,
+      "DESTINO": "Seção 11: limitação documentada"
+    },
+    {
+      "ITEM": "empresas sem base oficial (fora das tratadas)",
+      "QTD": 1,
+      "DESTINO": "Seção 7: conferir contra o universo"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "ID_EXECUCAO": "20261005_154346",
+  "SECAO": "3.7 - CADASTRO ISIN DA B3",
+  "FLAG_APROVADO": true,
+  "FONTES": {
+    "EMISSOR.TXT": {
+      "ARQUIVO": "aux\\b3_isin\\EMISSOR.TXT",
+      "HASH_SHA256": "b8fc3e0384db06a25f70da46952243c8bd9185d30633f21001a72e16f99d1e7b",
+      "QTD_BYTES": 7388312,
+      "QTD_LINHAS": 69419
+    },
+    "NUMERACA.TXT": {
+      "ARQUIVO": "aux\\b3_isin\\NUMERACA.TXT",
+      "HASH_SHA256": "0668248bdc56e677bdf5c986cf83a853495bb8aa6d093ef9c8b565d73fc244f4",
+      "QTD_BYTES": 96543060,
+      "QTD_LINHAS": 391289
+    }
+  },
+  "DATA_GERACAO_NUMERACA": [
+    "20261005"
+  ],
+  "TIPOS_ATIVO_RECORTE": [
+    "ACN",
+    "CDA",
+    "UNT"
+  ],
+  "SAIDA": {
+    "ARQUIVO": "aux\\isin_acoes_b3.csv",
+    "HASH_SHA256": "07d2672482cdea29aa18c3220e0b34c1e3e2973ee9b5a0331496d4c5f0f68526",
+    "QTD_LINHAS": 4517,
+    "COLUNAS": [
+      "CODIGO_ISIN",
+      "CODIGO_EMISSOR",
+      "NOME_EMISSOR",
+      "CNPJ_EMISSOR",
+      "STATUS_CNPJ",
+      "TIPO_ATIVO",
+      "CODIGO_ESPECIE",
+      "CLASSE_ISIN",
+      "CODIGO_CFI",
+      "DESCRICAO",
+      "SITUACAO_ISIN",
+      "FLAG_ISIN_ATIVO",
+      "ACAO_INFORMACAO",
+      "DATA_EMISSAO",
+      "DATA_EXPIRACAO",
+      "DATA_GERACAO",
+      "FLAG_DV_ISIN_OK"
+    ],
+    "CHAVE_NEGOCIO": [
+      "CODIGO_ISIN"
+    ]
+  }
+}
